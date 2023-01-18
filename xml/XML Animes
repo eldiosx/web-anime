@@ -5,34 +5,39 @@
 <Libraries> Seinen
 
 <tr>
-    <Library1>
-        <td> <Name category="Seinen"> Death note </Name> </td> <br>
+    <Library0>
+        <td> <Name category="Seinen"> Attack on Titan </Name> </td> <br>
         <td> <Director>  </Director></td> <br>
         <td> <Year > </Year></td> <br>
         <td> <Episodios> </Episodios></td> <br>
-        <td> <Seiyu>  </Seiyu></td> <br>
+    </Library0>
+</tr>
+
+<tr>
+    <Library1>
+        <td> <Name category="Seinen"> Death note </Name> </td> <br>
+        <td> <Director> Tetsurō Araki, Estudio Madhouse </Director></td> <br>
+        <td> <Year> 2007 </Year></td> <br>
+        <td> <Episodios> 37+2 Episodios Especiales </Episodios></td> <br>
     </Library1>
 </tr>
 
 <tr>
     <Library2>
         <td> <Name category="Seinen"> Devilman Crybaby </Name> </td> <br>
-        <td> <Director>  </Director></td> <br>
-        <td> <Year > </Year></td> <br>
-        <td> <Episodios> </Episodios></td> <br>
-        <td> <Seiyu>  </Seiyu></td> <br>
-        
-    <Library2>
+        <td> <Director> Gō Nagai </Director></td> <br>
+        <td> <Year> 2018 </Year></td> <br>
+        <td> <Episodios> 10 </Episodios></td> <br>
+    </Library2>
 </tr>
 
 <tr>
     <Library3>
         <td> <Name category="Seinen"> Monster </Name> </td> <br>
-        <td> <Director>  </Director></td> <br>
-        <td> <Year > </Year></td> <br>
-        <td> <Episodios> </Episodios></td> <br>
-        <td> <Seiyu>  </Seiyu></td> <br>
-    <Library3>
+        <td> <Director> Masayuki Kojima, Estudio Madhouse </Director></td> <br>
+        <td> <Year> 2004 </Year></td> <br>
+        <td> <Episodios> 74 </Episodios></td> <br>
+    </Library3>
 </tr>    
 
 <tr>
@@ -41,7 +46,6 @@
         <td> <Director>  </Director></td> <br>
         <td> <Year > </Year></td> <br>
         <td> <Episodios> </Episodios></td> <br>
-        <td> <Seiyu>  </Seiyu></td> <br>
     </Library4>
 </tr>
 
@@ -51,7 +55,6 @@
         <td> <Director>  </Director></td> <br>
         <td> <Year > </Year></td> <br>
         <td> <Episodios> </Episodios></td> <br>
-        <td> <Seiyu>  </Seiyu></td> <br>
     </Library5>
 </tr>
 
@@ -61,7 +64,6 @@
         <td> <Director>  Yukie Sugawara </Director></td> <br>
         <td> <Year > 2019 </Year></td> <br>
         <td> <Episodios> 12 </Episodios></td> <br>
-        <td> <Seiyu> Aoi Koga, Makoto Furukawa, Konomi Kohara </Seiyu></td> <br>
     </Library6>
 </tr>
 
@@ -72,7 +74,7 @@
         <td> <Year > </Year></td> <br>
         <td> <Episodios>
         <ol>
-            <li> Ghost in the Shell: Stand Alone Complex (2002). 26 capítulos emitida en 2002. </li>
+            <li>Ghost in the Shell: Stand Alone Complex (2002). 26 capítulos emitida en 2002. </li>
             <li>Ghost in the Shell: Stand Alone Complex (2004). 26 capítulos emitida en 2004. </li>
             <li>Ghost in the Shell: Stand Alone Complex – The Laughing Man (2005). Película </li>
             <li>Ghost in the Shell: S.A.C. Solid State Society (2006). OVA </li>
@@ -81,7 +83,6 @@
             <li>Ghost in the Shell: SAC_2045 serie ONA (2020) </li>
         </ol>
         </Episodios></td> <br>
-        <td> <Seiyu>  </Seiyu></td> <br>
     </Library7>
 </tr>
 
@@ -91,7 +92,6 @@
         <td> <Director>  </Director></td> <br>
         <td> <Year > </Year></td> <br>
         <td> <Episodios> </Episodios></td> <br>
-        <td> <Seiyu>  </Seiyu></td> <br>
     </Library8>
 </tr>
 
@@ -101,7 +101,6 @@
         <td> <Director>  </Director></td> <br>
         <td> <Year > </Year></td> <br>
         <td> <Episodios> </Episodios></td> <br>
-        <td> <Seiyu>  </Seiyu></td> <br>
     </Library9>
 </tr>
 
@@ -111,7 +110,6 @@
         <td> <Director>  </Director></td> <br>
         <td> <Year > </Year></td> <br>
         <td> <Episodios> </Episodios></td> <br>
-        <td> <Seiyu>  </Seiyu></td> <br>
     </Library10>
 </tr>
 
