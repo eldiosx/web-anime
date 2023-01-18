@@ -1,13 +1,1 @@
 <?xml version="1.0" encoding="utf-8"?>
-<STUDENTS>
-    <student>
-        <name>Hanzallah</name>
-        <age>20</age>
-        <exp>Everything</exp>
-    </student>
-    <student>
-        <name>Afgan</name>
-        <age>22</age>
-        <exp>Nothing</exp>
-    </student>
-</STUDENTS>
