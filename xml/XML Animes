@@ -2,60 +2,117 @@
 
 <table>
   
-<Libraries> Seisen
-
-:  
-Director
-Año
-Episodios
-Seiyu
-Género: Seinen
+<Libraries> Seinen
 
 <tr>
     <Library1>
-        <td> <Name category="Seinen"> Devilman Crybaby</Name> </td> <br>
+        <td> <Name category="Seinen"> Death note </Name> </td> <br>
         <td> <Director>  </Director></td> <br>
-        <td> <Year > La familia de Pascual Duarte</Year></td> <br>
-        <td> <Seiyu> 9788423307326 </Seiyu></td> <br>
+        <td> <Year > </Year></td> <br>
+        <td> <Episodios> </Episodios></td> <br>
+        <td> <Seiyu>  </Seiyu></td> <br>
     </Library1>
 </tr>
 
 <tr>
     <Library2>
-        <td> <Name>Biblioteca Nacional de Rusia</Name></td> <br>
-        <td> <from>Sanpetesburgo, Rusia</from></td> <br>
-        <td> <Book category="Romanticismo"> Anna Karenina </Book></td> <br>
-        <td> <author> León Tolstói </author></td> <br>
-        <td> <ISBN> 9780198748847 </ISBN></td> <br>
+        <td> <Name category="Seinen"> Devilman Crybaby </Name> </td> <br>
+        <td> <Director>  </Director></td> <br>
+        <td> <Year > </Year></td> <br>
+        <td> <Episodios> </Episodios></td> <br>
+        <td> <Seiyu>  </Seiyu></td> <br>
+        
     <Library2>
 </tr>
 
 <tr>
     <Library3>
-        <td> <Name> Biblioteca de la Universidad de Trinity</Name></td><br>
-        <td> <from> Dublín,Irlanda </from></td><br>
-        <td> <Book category="Ciencia Ficción"> Dune </Book></td><br>
-        <td> <ISBN> 9780575018648 </ISBN></td><br>
+        <td> <Name category="Seinen"> Monster </Name> </td> <br>
+        <td> <Director>  </Director></td> <br>
+        <td> <Year > </Year></td> <br>
+        <td> <Episodios> </Episodios></td> <br>
+        <td> <Seiyu>  </Seiyu></td> <br>
     <Library3>
 </tr>    
 
 <tr>
     <Library4>
-        <td> <Name>  Biblioteca Estatal de Baviera </Name></td><br>
-        <td> <from> Baviera, Alemania </from></td><br>
-        <td> <Book category="Historia">  Carmina Burana </Book></td><br>
-        <td> <author> Abadía de Benediktbeuern </author></td><br>
-        <td> <ISBN> 9780343336257 </ISBN></td><br>
+        <td> <Name category="Seinen"> Psycho-Pass</Name> </td> <br>
+        <td> <Director>  </Director></td> <br>
+        <td> <Year > </Year></td> <br>
+        <td> <Episodios> </Episodios></td> <br>
+        <td> <Seiyu>  </Seiyu></td> <br>
     </Library4>
 </tr>
 
 <tr>
     <Library5>
-        <td> <Name> Biblioteca Británica </Name> </td><br>
-        <td> <from> Londres, Reino Unido </from></td><br>
-        <td> <Book category="Fantasía Épica"> El Hobbit </Book></td><br>
-        <td> <ISBN> 9788482649931 </ISBN></td><br>
+        <td> <Name category="Seinen"> One Punch Man</Name> </td> <br>
+        <td> <Director>  </Director></td> <br>
+        <td> <Year > </Year></td> <br>
+        <td> <Episodios> </Episodios></td> <br>
+        <td> <Seiyu>  </Seiyu></td> <br>
     </Library5>
+</tr>
+
+<tr>
+    <Library6>
+        <td> <Name category="Seinen"> Kaguya-sama wa Kokurasetai: Tensai-tachi no Ren'ai Zunōsen</Name> </td> <br>
+        <td> <Director>  Yukie Sugawara </Director></td> <br>
+        <td> <Year > 2019 </Year></td> <br>
+        <td> <Episodios> 12 </Episodios></td> <br>
+        <td> <Seiyu> Aoi Koga, Makoto Furukawa, Konomi Kohara </Seiyu></td> <br>
+    </Library6>
+</tr>
+
+<tr>
+    <Library7>
+        <td> <Name category="Seinen"> Ghost in the Shell</Name> </td> <br>
+        <td> <Director>  Mamoru Oshii; Kenji Kamiyama; Kazuchika Kise </Director></td> <br>
+        <td> <Year > </Year></td> <br>
+        <td> <Episodios>
+        <ol>
+            <li> Ghost in the Shell: Stand Alone Complex (2002). 26 capítulos emitida en 2002. </li>
+            <li>Ghost in the Shell: Stand Alone Complex (2004). 26 capítulos emitida en 2004. </li>
+            <li>Ghost in the Shell: Stand Alone Complex – The Laughing Man (2005). Película </li>
+            <li>Ghost in the Shell: S.A.C. Solid State Society (2006). OVA </li>
+            <li>Ghost in the Shell: Arise (2013-2014). OVAs </li>
+            <li>Ghost in the Shell: Arise - Alternative Architecture (2015) . 10 Chap </li>
+            <li>Ghost in the Shell: SAC_2045 serie ONA (2020) </li>
+        </ol>
+        </Episodios></td> <br>
+        <td> <Seiyu>  </Seiyu></td> <br>
+    </Library7>
+</tr>
+
+<tr>
+    <Library8>
+        <td> <Name category="Seinen"> Parasyte </Name> </td> <br>
+        <td> <Director>  </Director></td> <br>
+        <td> <Year > </Year></td> <br>
+        <td> <Episodios> </Episodios></td> <br>
+        <td> <Seiyu>  </Seiyu></td> <br>
+    </Library8>
+</tr>
+
+<tr>
+    <Library9>
+        <td> <Name category="Seinen"> Serial Experiments Lain </Name> </td> <br>
+        <td> <Director>  </Director></td> <br>
+        <td> <Year > </Year></td> <br>
+        <td> <Episodios> </Episodios></td> <br>
+        <td> <Seiyu>  </Seiyu></td> <br>
+    </Library9>
+</tr>
+
+<tr>
+    <Library10>
+        <td> <Name category="Seinen">  Tokyo Ghoul</Name> </td> <br>
+        <td> <Director>  </Director></td> <br>
+        <td> <Year > </Year></td> <br>
+        <td> <Episodios> </Episodios></td> <br>
+        <td> <Seiyu>  </Seiyu></td> <br>
+    </Library10>
 </tr>
 
 </Libraries>
