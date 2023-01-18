@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<table>
+  
+<Libraries> Seisen
+
+:  
+Director
+Año
+Episodios
+Seiyu
+Género: Seinen
+
+<tr>
+    <Library1>
+        <td> <Name category="Seinen"> Devilman Crybaby</Name> </td> <br>
+        <td> <Director>  </Director></td> <br>
+        <td> <Year > La familia de Pascual Duarte</Year></td> <br>
+        <td> <Seiyu> 9788423307326 </Seiyu></td> <br>
+    </Library1>
+</tr>
+
+<tr>
+    <Library2>
+        <td> <Name>Biblioteca Nacional de Rusia</Name></td> <br>
+        <td> <from>Sanpetesburgo, Rusia</from></td> <br>
+        <td> <Book category="Romanticismo"> Anna Karenina </Book></td> <br>
+        <td> <author> León Tolstói </author></td> <br>
+        <td> <ISBN> 9780198748847 </ISBN></td> <br>
+    <Library2>
+</tr>
+
+<tr>
+    <Library3>
+        <td> <Name> Biblioteca de la Universidad de Trinity</Name></td><br>
+        <td> <from> Dublín,Irlanda </from></td><br>
+        <td> <Book category="Ciencia Ficción"> Dune </Book></td><br>
+        <td> <ISBN> 9780575018648 </ISBN></td><br>
+    <Library3>
+</tr>    
+
+<tr>
+    <Library4>
+        <td> <Name>  Biblioteca Estatal de Baviera </Name></td><br>
+        <td> <from> Baviera, Alemania </from></td><br>
+        <td> <Book category="Historia">  Carmina Burana </Book></td><br>
+        <td> <author> Abadía de Benediktbeuern </author></td><br>
+        <td> <ISBN> 9780343336257 </ISBN></td><br>
+    </Library4>
+</tr>
+
+<tr>
+    <Library5>
+        <td> <Name> Biblioteca Británica </Name> </td><br>
+        <td> <from> Londres, Reino Unido </from></td><br>
+        <td> <Book category="Fantasía Épica"> El Hobbit </Book></td><br>
+        <td> <ISBN> 9788482649931 </ISBN></td><br>
+    </Library5>
+</tr>
+
+</Libraries>
+
+</table>
