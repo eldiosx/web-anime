@@ -34,10 +34,26 @@
 
       <tr>
         <td>
-
+          <!--#include file="xml/animes.xml" -->
         </td>
         <td rowspan="5" , overflow="scroll">
+          <script>
+            xmlhttp = new XMLHttpRequest();
+            xmlhttp.open("GET", "xml/animes.xml", false);
+            xmlhttp.send();
+            xmlDoc = xmlhttp.responseXML;
 
+            document.write("<table><tr><th>Animes</th><th>Year</th></tr>");
+            var x = xmlDoc.getElementsByTagName("name");
+            for (i = 0; i < x.length; i++) {
+              document.write("<tr><td>");
+              document.write(x[i].getElementsByTagName("director")[0].childNodes[0].nodeValue);
+              document.write("</td><td>");
+              document.write(x[i].getElementsByTagName("year")[0].childNodes[0].nodeValue);
+              document.write("</td></tr>");
+            }
+            document.write("</table>");
+          </script>
         </td>
       </tr>
 

@@ -5,74 +5,74 @@
 <Libraries> Seinen
 
 <tr>
-    <Library0>
-        <td> <Name category="Seinen"> Attack on Titan </Name> </td> <br/>
-        <td> <Director>  </Director></td> <br/>
-        <td> <Year > </Year></td> <br/>
-        <td> <Episodios> </Episodios></td> <br/>
-    </Library0>
+    <library0>
+        <td> <name category="Seinen"> Attack on Titan </name> </td> <br/>
+        <td> <director>  </director></td> <br/>
+        <td> <year> </year></td> <br/>
+        <td> <episodes> </episodes></td> <br/>
+    </library0>
 </tr>
 
 <tr>
-    <Library1>
-        <td> <Name category="Seinen"> Death note </Name> </td> <br/>
-        <td> <Director> Tetsurō Araki, Estudio Madhouse </Director></td> <br/>
-        <td> <Year> 2007 </Year></td> <br/>
-        <td> <Episodios> 37+2 Episodios Especiales </Episodios></td> <br/>
-    </Library1>
+    <library1>
+        <td> <name category="Seinen"> Death note </name> </td> <br/>
+        <td> <director> Tetsurō Araki, Estudio Madhouse </director></td> <br/>
+        <td> <year> 2007 </year></td> <br/>
+        <td> <episodes> 37+2 episodes Especiales </episodes></td> <br/>
+    </library1>
 </tr>
 
 <tr>
-    <Library2>
-        <td> <Name category="Seinen"> Devilman Crybaby </Name> </td> <br/>
-        <td> <Director> Gō Nagai </Director></td> <br/>
-        <td> <Year> 2018 </Year></td> <br/>
-        <td> <Episodios> 10 </Episodios></td> <br/>
-    </Library2>
+    <library2>
+        <td> <name category="Seinen"> Devilman Crybaby </name> </td> <br/>
+        <td> <director> Gō Nagai </director></td> <br/>
+        <td> <year> 2018 </year></td> <br/>
+        <td> <episodes> 10 </episodes></td> <br/>
+    </library2>
 </tr>
 
 <tr>
-    <Library3>
-        <td> <Name category="Seinen"> Monster </Name> </td> <br/>
-        <td> <Director> Masayuki Kojima, Estudio Madhouse </Director></td> <br/>
-        <td> <Year> 2004 </Year></td> <br/>
-        <td> <Episodios> 74 </Episodios></td> <br/>
-    </Library3>
+    <library3>
+        <td> <name category="Seinen"> Monster </name> </td> <br/>
+        <td> <director> Masayuki Kojima, Estudio Madhouse </director></td> <br/>
+        <td> <year> 2004 </year></td> <br/>
+        <td> <episodes> 74 </episodes></td> <br/>
+    </library3>
 </tr>    
 
 <tr>
-    <Library4>
-        <td> <Name category="Seinen"> Psycho-Pass</Name> </td> <br/>
-        <td> <Director> Naoyoshi Shiotani, Katsuyuki Motohiro </Director></td> <br/>
-        <td> <Year> 2012 </Year></td> <br/>
-        <td> <Episodios> 22 </Episodios></td> <br/>
-    </Library4>
+    <library4>
+        <td> <name category="Seinen"> Psycho-Pass</name> </td> <br/>
+        <td> <director> Naoyoshi Shiotani, Katsuyuki Motohiro </director></td> <br/>
+        <td> <year> 2012 </year></td> <br/>
+        <td> <episodes> 22 </episodes></td> <br/>
+    </library4>
 </tr>
 
 <tr>
-    <Library5>
-        <td> <Name category="Seinen"> One Punch Man</Name> </td> <br/>
-        <td> <Director>  </Director></td> <br/>
-        <td> <Year > </Year></td> <br/>
-        <td> <Episodios> </Episodios></td> <br/>
-    </Library5>
+    <library5>
+        <td> <name category="Seinen"> One Punch Man</name> </td> <br/>
+        <td> <director>  </director></td> <br/>
+        <td> <year > </year></td> <br/>
+        <td> <episodes> </episodes></td> <br/>
+    </library5>
 </tr>
 
 <tr>
-    <Library6>
-        <td> <Name category="Seinen"> Kaguya-sama wa Kokurasetai: Tensai-tachi no Ren'ai Zunōsen</Name> </td> <br/>
-        <td> <Director>  Yukie Sugawara </Director></td> <br/>
-        <td> <Year > 2019 </Year></td> <br/>
-        <td> <Episodios> 12 </Episodios></td> <br/>
-    </Library6>
+    <library6>
+        <td> <name category="Seinen"> Kaguya-sama wa Kokurasetai: Tensai-tachi no Ren'ai Zunōsen</name> </td> <br/>
+        <td> <director>  Yukie Sugawara </director></td> <br/>
+        <td> <year > 2019 </year></td> <br/>
+        <td> <episodes> 12 </episodes></td> <br/>
+    </library6>
 </tr>
 
 <tr>
-    <Library7>
-        <td> <Name category="Seinen"> Ghost in the Shell</Name> </td> <br/>
-        <td> <Director>  Mamoru Oshii; Kenji Kamiyama; Kazuchika Kise </Director></td> <br/>
-        <td> <Year > </Year></td> <br/>
-        <td> <Episodios>
+    <library7>
+        <td> <name category="Seinen"> Ghost in the Shell</name> </td> <br/>
+        <td> <director>  Mamoru Oshii; Kenji Kamiyama; Kazuchika Kise </director></td> <br/>
+        <td> <year > </year></td> <br/>
+        <td> <episodes>
         <ol>
             <li>Ghost in the Shell: Stand Alone Complex (2002). 26 capítulos emitida en 2002. </li>
             <li>Ghost in the Shell: Stand Alone Complex (2004). 26 capítulos emitida en 2004. </li>
@@ -82,35 +82,35 @@
             <li>Ghost in the Shell: Arise - Alternative Architecture (2015) . 10 Chap </li>
             <li>Ghost in the Shell: SAC_2045 serie ONA (2020) </li>
         </ol>
-        </Episodios></td> <br/>
-    </Library7>
+        </episodes></td> <br/>
+    </library7>
 </tr>
 
 <tr>
-    <Library8>
-        <td> <Name category="Seinen"> Parasyte </Name> </td> <br/>
-        <td> <Director>  </Director></td> <br/>
-        <td> <Year > </Year></td> <br/>
-        <td> <Episodios> </Episodios></td> <br/>
-    </Library8>
+    <library8>
+        <td> <name category="Seinen"> Parasyte </name> </td> <br/>
+        <td> <director>  </director></td> <br/>
+        <td> <year > </year></td> <br/>
+        <td> <episodes> </episodes></td> <br/>
+    </library8>
 </tr>
 
 <tr>
-    <Library9>
-        <td> <Name category="Seinen"> Serial Experiments Lain </Name> </td> <br/>
-        <td> <Director>  </Director></td> <br/>
-        <td> <Year > </Year></td> <br/>
-        <td> <Episodios> </Episodios></td> <br/>
-    </Library9>
+    <library9>
+        <td> <name category="Seinen"> Serial Experiments Lain </name> </td> <br/>
+        <td> <director>  </director></td> <br/>
+        <td> <year > </year></td> <br/>
+        <td> <episodes> </episodes></td> <br/>
+    </library9>
 </tr>
 
 <tr>
-    <Library10>
-        <td> <Name category="Seinen">  Tokyo Ghoul</Name> </td> <br/>
-        <td> <Director> Shuhei Morita </Director></td> <br/>
-        <td> <Year > 2015 </Year></td> <br/>
-        <td> <Episodios> 12 </Episodios></td> <br/>
-    </Library10>
+    <library10>
+        <td> <name category="Seinen">  Tokyo Ghoul</name> </td> <br/>
+        <td> <director> Shuhei Morita </director></td> <br/>
+        <td> <year > 2015 </year></td> <br/>
+        <td> <episodes> 12 </episodes></td> <br/>
+    </library10>
 </tr>
 
 </Libraries>
