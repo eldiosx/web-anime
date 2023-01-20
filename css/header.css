@@ -22,15 +22,18 @@
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .main-nav li:not(:first-child) {display: none;}
   .main-nav li.iconmenu {
     float: left;
     display: block;
   }
+  .main-header{
+    width: 20%;
+  }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .main-nav.responsive {position: relative;}
   .main-nav.responsive .iconmenu {
     position: absolute;
