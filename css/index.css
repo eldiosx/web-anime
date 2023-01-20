@@ -8,6 +8,9 @@
     z-index: 9999;
     background: url('../img/loading.gif') 50% 50% no-repeat rgb(0, 0, 0, .8);
 }
+body{
+    font-family: sans-serif;
+}
 /*RESPONSIVE*/
 
 @media (max-width: 800px) {
