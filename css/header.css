@@ -25,7 +25,7 @@
 @media screen and (max-width: 600px) {
   .main-nav li:not(:first-child) {display: none;}
   .main-nav li.iconmenu {
-    float: right;
+    float: left;
     display: block;
   }
 }
@@ -34,7 +34,7 @@
   .main-nav.responsive {position: relative;}
   .main-nav.responsive .iconmenu {
     position: absolute;
-    right: 0;
+    left: 0;
     top: 0;
   }
   .main-nav.responsive li {
@@ -44,7 +44,7 @@
   }
 }
 
-.main-heeader {
+.main-header {
   position: fixed;
   top: 0px;
   width: 100%;
@@ -54,7 +54,4 @@
 
 .main-header+.content {
   padding-top: 50px;
-}
-#btn-menu {
-  display: none;
 }

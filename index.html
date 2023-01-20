@@ -23,24 +23,14 @@
   <!--Loader-->
   <img class="loader" src="img/loading.gif" alt="cargando..." id="loader">
   <!--Header-->
-  <header class="main-header" id="main-header">
-    <nav class="main-nav">
-      <li>
-      <input type="checkbox" id="btn-menu">
-      <label for="btn-menu">
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <span class="icon-list">&nbsp;</span>
-        </a>
-        <img src="../img/icons/menu.png" class="iconmenu" alt="">
-      </label>
-    </li>
+  <header class="main-header">
+    <nav class="main-nav" id="main-nav">
       <!--Mobile responsive-->
-      <div class="title_mobile"><a href="../web/"><img class="logo" src="img/logo.png" alt="home"></a></div>
-      <div class="navbar-mobile">
-
-      </div>
       <div class="navbar">
         <ul>
+          <li href="javascript:void(0);" class="iconmenu" onclick="myFunction()">
+            <span class="icon-list">&nbsp;</span>
+          </li>
           <li class="dropdown">
             <ul class="dropdown-menu">
               <a href="../html/.404.html">Animes</a>
@@ -50,7 +40,7 @@
               <li class="last-item"><a href="../html/.404.html">Sex</a></li>
             </ul>
           </li>
-          <li>
+          <li class="dropdown">
             <ul class="dropdown-menu">
               <a href="../html/.404.html">Noticias</a>
               <li class="first-item"><a href="../html/.404.html">Novedades</a></li>
@@ -79,11 +69,11 @@
   </footer>
   <script>
     function myFunction() {
-      var x = document.getElementById("main-header");
-      if (x.className === "main-header") {
+      var x = document.getElementById("main-nav");
+      if (x.className === "main-nav") {
         x.className += " responsive";
       } else {
-        x.className = "main-header";
+        x.className = "main-nav";
       }
     }
   </script>
