@@ -1,3 +1,15 @@
+.main-header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  background: rgba(0, 0, 0, 1);
+  box-shadow: 0px 3px rgba(0, 0, 0, 0.5);
+}
+
+.main-header+.content {
+  padding-top: 50px;
+}
+
 .main-nav {
   overflow: hidden;
   background-color: #333;
@@ -23,38 +35,34 @@
 }
 
 @media screen and (max-width: 800px) {
-  .main-nav li:not(:first-child) {display: none;}
+  .main-nav li:not(:first-child) {
+    display: none;
+  }
+
   .main-nav li.iconmenu {
     float: left;
     display: block;
   }
-  .main-header{
+
+  .main-header {
     width: 20%;
   }
 }
 
 @media screen and (max-width: 800px) {
-  .main-nav.responsive {position: relative;}
+  .main-nav.responsive {
+    position: relative;
+  }
+
   .main-nav.responsive .iconmenu {
     position: absolute;
     left: 0;
     top: 0;
   }
+
   .main-nav.responsive li {
     float: none;
     display: block;
     text-align: left;
   }
-}
-
-.main-header {
-  position: fixed;
-  top: 0px;
-  width: 100%;
-  background: rgba(0, 0, 0, 1);
-  box-shadow: 0px 3px rgba(0, 0, 0, 0.5);
-}
-
-.main-header+.content {
-  padding-top: 50px;
 }
