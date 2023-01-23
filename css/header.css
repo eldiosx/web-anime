@@ -1,8 +1,12 @@
+.main-header{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
 .main-nav {
   text-align: center;
   overflow: hidden;
   background-color: #333;
-
 }
 
 .main-nav li {
@@ -16,7 +20,8 @@
   outline: none;
 }
 
-.main-nav .menubtn {
+.main-nav .menubtn,
+.main-nav .searchbtn {
   display: none;
 }
 
@@ -42,7 +47,7 @@
 }
 
 .main-nav .dropdown:hover,
-.menubtn:hover {
+.menubtn:hover, .searchbtn:hover {
   background-color: #555;
   color: white;
 }
@@ -59,7 +64,9 @@
 
 
 @media screen and (max-width: 800px) {
-
+.searchbtn-big {
+  display: none;
+}
   .main-nav li:not(:first-child),
   .dropdown {
     display: none;
@@ -69,16 +76,24 @@
     margin: 1%;
     float: right;
     display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .main-nav li.searchbtn {
+    float: left;
+    display: block;
+    right: 0;
+    top: 0;
   }
 
   .main-nav.responsive {
     position: relative;
   }
 
-  .main-nav.responsive .menubtn {
-    position: absolute;
-    right: 0;
-    top: 0;
+  .main-nav.responsive .searchbtn {
+    display: none;
   }
 
   .main-nav.responsive li {
