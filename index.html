@@ -24,48 +24,42 @@
   <img class="loader" src="img/loading.gif" alt="cargando..." id="loader">
   <!--Header-->
   <header class="main-header">
-    <nav class="main-nav" id="main-nav">
-      <!--Mobile responsive-->
-      <div class="navbar">
-        <ul>
-          <li href="javascript:void(0);" class="iconmenu" onclick="myFunction()">
-            <span class="icon-list">&nbsp;</span>
-          </li>
-          <li class="dropdown">
-            <ul class="dropdown-menu">
-              <a href="html/.404.html">Animes</a>
-              <li class="first-item"><a href="html/.404.html">Casual</a></li>
-              <li class="item"><a href="html/.404.html">Gore</a></li>
-              <li class="item"><a href="html/.404.html">Hard</a></li>
-              <li class="last-item"><a href="html/.404.html">Sex</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <ul class="dropdown-menu">
-              <a href="html/.404.html">Noticias</a>
-              <li class="first-item"><a href="html/.404.html">Novedades</a></li>
-              <li class="item"><a href="html/.404.html">Destacadas</a></li>
-              <li class="last-item"><a href="html/.404.html">Otras</a></li>
-            </ul>
-          </li>
-          <li>
-            <ul class="dropdown-menu">
-              <a href="html/.404.html">Comunidad</a>
-              <li class="first-item"><a href="html/.404.html">Foro</a></li>
-              <li class="last-item"><a href="html/.404.html">Perfil</a></li>
-            </ul>
-          </li>
-        </ul>
-      </div>
+    <nav class="main-nav" id="myTopnav">
+      <ul>
+        <li class="logo" href="./index.html">*LOGO*</li>
+        <li class="dropdown" href="./index.html">Animes
+          <ul class="dropdown-menu">
+            <li href="#">Casual</li>
+            <li href="#">Gore</li>
+            <li href="#">Hard</li>
+            <li href="#">Sex</li>
+          </ul>
+        </li>
+        <li class="dropdown" href="#news">Noticias
+          <ul class="dropdown-menu">
+            <li href="#">Novedades</li>
+            <li href="#">Destacadas</li>
+            <li href="#">Otras</li>
+          </ul>
+        </li>
+        <li class="dropdown" href="#comunity">Comunidad
+          <ul class="dropdown-menu">
+            <li href="#">Foro</li>
+            <li href="#">Cuenta</li>
+          </ul>
+        </li>
+        <li>
+          <form action="search.php">
+            <input type="text" placeholder="Buscar.." name="search">
+            <button type="submit">B</button>
+          </form>
+        </li>
+        <li class="dropdown" href="#about">Ayuda</li>
+        <li href="javascript:void(0);" class="menubtn" onclick="mainmenu()">&#9776;</li>
+      </ul>
     </nav>
   </header>
-
-  <content>
-
-  </content>
-
   <footer>
-
   </footer>
 </body>
 
