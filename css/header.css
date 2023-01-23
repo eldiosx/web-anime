@@ -66,6 +66,7 @@
 @media screen and (max-width: 800px) {
 .searchbtn-big {
   display: none;
+  position: absolute;
 }
   .main-nav li:not(:first-child),
   .dropdown {
