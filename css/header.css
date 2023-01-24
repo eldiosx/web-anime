@@ -17,13 +17,13 @@
   background-color: #4A4A4A;
   box-shadow: 0px 3px rgba(0, 0, 0, 0.5);
   border-radius: 0px 0px 20px 20px;
+  margin-top: -25px;
 }
 .spacing{
 padding-top: 110px;
 }
 
 .main-nav {
-  margin-top: -25px;
   text-align: center;
   overflow: hidden;
   height: 100px;
@@ -90,11 +90,13 @@ padding-top: 110px;
 
 
 @media screen and (max-width: 800px) {
+  .sticky{
+    margin-top: 0px;
+  }
   .main-nav {
     height: 65px;
     margin-left: 0px;
     margin-right: 0px;
-    margin-top: 0px;
   }
 
   .logoimg {
