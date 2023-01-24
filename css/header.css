@@ -6,10 +6,6 @@
   width: 60px;
 }
 
-.main-header {
-
-}
-
 .sticky {
   position: fixed;
   top: 0px;
@@ -19,8 +15,9 @@
   border-radius: 0px 0px 20px 20px;
   margin-top: -25px;
 }
-.spacing{
-padding-top: 110px;
+
+.spacing {
+  padding-top: 110px;
 }
 
 .main-nav {
@@ -34,7 +31,8 @@ padding-top: 110px;
   height: 50px;
 }
 
-.main-nav li, .searchbtn {
+.main-nav li,
+.searchbtn {
   display: inline-block;
   color: #f2f2f2;
   padding: 14px 16px;
@@ -90,9 +88,14 @@ padding-top: 110px;
 
 
 @media screen and (max-width: 800px) {
-  .sticky{
+  .spacing {
+    padding-top: 90px;
+  }
+
+  .sticky {
     margin-top: 0px;
   }
+
   .main-nav {
     height: 65px;
     margin-left: 0px;

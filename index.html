@@ -80,131 +80,135 @@
   </div><br><br>
   <!--Boceto-->
   <table>
-    <tr>
-      <th>
-        Categorias:
-      </th>
-      <th colspan="5">
-        Contenido:
-      </th>
-    </tr>
-    <tr>
-      <td>
-        Furro
-      </td>
-      <td>
-        1
-      </td>
-      <td>
-        2
-      </td>
-      <td>
-        3
-      </td>
-    </tr>
-    <tr>
-      <td>
-        Lucha
-      </td>
-      <td>
-        4
-      </td>
-      <td>
-        5
-      </td>
-      <td>
-        6
-      </td>
-    </tr>
-    <tr>
-      <td>
-        Conmedia
-      </td>
-      <td>
-        7
-      </td>
-      <td>
-        8
-      </td>
-      <td>
-        9
-      </td>
-    </tr>
-    <tr>
-      <td>
-        Sangre
-      </td>
-      <td>
-        10
-      </td>
-      <td>
-        11
-      </td>
-      <td>
-        12
-      </td>
-    </tr>
-    <tr>
-      <td>
-        Sexo
-      </td>
-    </tr>
-    <tr>
-      <td>
-        Sida
-      </td>
-    </tr>
-    <tr>
-      <td>
-        sdgd
-      </td>
-    </tr>
-    <tr>
-      <td>
-        fghgh
-      </td>
-    </tr>
-    <tr>
-      <td>
-        fghfgh
-      </td>
-    </tr>
-    <tr>
-      <td>
-        fdgdfsgs
-      </td>
-    </tr>
-    <tr>
-      <td>
-        sadgsd
-      </td>
-    </tr>
-    <tr>
-      <td>
-        dgfasg
-      </td>
-    </tr>
+    <thead>
+      <tr>
+        <th scope="col">
+          Categorias:
+        </th>
+        <th scope="col" colspan="5">
+          Contenido:
+        </th>
+      </tr>
+    </thead>
+    <tfoot>
+      <tr>
+        <td>
+          Furro
+        </td>
+        <td>
+          1
+        </td>
+        <td>
+          2
+        </td>
+        <td>
+          3
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Lucha
+        </td>
+        <td>
+          4
+        </td>
+        <td>
+          5
+        </td>
+        <td>
+          6
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Conmedia
+        </td>
+        <td>
+          7
+        </td>
+        <td>
+          8
+        </td>
+        <td>
+          9
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Sangre
+        </td>
+        <td>
+          10
+        </td>
+        <td>
+          11
+        </td>
+        <td>
+          12
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Sexo
+        </td>
+      </tr>
+      <tr>
+        <td>
+          Sida
+        </td>
+      </tr>
+      <tr>
+        <td>
+          sdgd
+        </td>
+      </tr>
+      <tr>
+        <td>
+          fghgh
+        </td>
+      </tr>
+      <tr>
+        <td>
+          fghfgh
+        </td>
+      </tr>
+      <tr>
+        <td>
+          fdgdfsgs
+        </td>
+      </tr>
+      <tr>
+        <td>
+          sadgsd
+        </td>
+      </tr>
+      <tr>
+        <td>
+          dgfasg
+        </td>
+      </tr>
+    </tfoot>
   </table>
   <footer>
   </footer>
   <script>
     //MENU
-    window.onscroll = function() {
-        myFunction()
+    window.onscroll = function () {
+      myFunction()
     };
     var navbar = document.getElementById("main-header");
     var bodycontent = document.getElementById("main-content");
     var sticky = navbar.offsetTop;
 
     function myFunction() {
-        if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky")
-            bodycontent.classList.add("spacing")
-        } else {
-            navbar.classList.remove("sticky");
-            bodycontent.classList.remove("spacing");
-        }
-        document.getElementById("main-header").style.zIndex = "9999";
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+        bodycontent.classList.add("spacing")
+      } else {
+        navbar.classList.remove("sticky");
+        bodycontent.classList.remove("spacing");
+      }
+      document.getElementById("main-header").style.zIndex = "9999";
     }
   </script>
 </body>
