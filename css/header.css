@@ -1,24 +1,30 @@
-.logomobile{
+.logomobile {
   display: none;
   position: absolute;
   z-index: 1;
   margin-left: 45%;
   width: 60px;
 }
-.main-header{
+
+.main-header {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+
 }
+
 .main-nav {
   text-align: center;
   overflow: hidden;
   background-color: #4A4A4A;
+  height: 100px;
 }
-.logoimg{
- width: 50px;
- height: 50px;
+
+.logoimg {
+  width: 50px;
+  height: 50px;
 }
+
 .main-nav li {
   display: inline-block;
   color: #f2f2f2;
@@ -57,7 +63,8 @@
 }
 
 .main-nav .dropdown:hover,
-.menubtn:hover, .searchbtn:hover {
+.menubtn:hover,
+.searchbtn:hover {
   background-color: #555;
   color: white;
 }
@@ -74,13 +81,23 @@
 
 
 @media screen and (max-width: 800px) {
-.searchbtn-big {
-  display: none;
-  position: absolute;
-}
-.logomobile{
-  display: block;
-}
+  .main-nav {
+    height: 65px;
+  }
+
+  .logoimg {
+    display: none;
+  }
+
+  .searchbtn-big {
+    display: none;
+    position: absolute;
+  }
+
+  .logomobile {
+    display: block;
+  }
+
   .main-nav li:not(:first-child),
   .dropdown {
     display: none;
@@ -96,6 +113,7 @@
   }
 
   .main-nav li.searchbtn {
+    margin: 1%;
     float: left;
     display: block;
     right: 0;
@@ -104,9 +122,11 @@
 
   .main-nav.responsive {
     position: relative;
+    height: auto;
   }
 
-  .main-nav.responsive .searchbtn, .main-nav.responsive .logomobile{
+  .main-nav.responsive .searchbtn,
+  .main-nav.responsive .logomobile {
     display: none;
   }
 
