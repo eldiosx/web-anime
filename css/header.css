@@ -25,7 +25,7 @@
   height: 50px;
 }
 
-.main-nav li {
+.main-nav li, .searchbtn {
   display: inline-block;
   color: #f2f2f2;
   padding: 14px 16px;
@@ -112,7 +112,7 @@
     top: 0;
   }
 
-  .main-nav li.searchbtn {
+  .main-nav div.searchbtn {
     margin: 1%;
     float: left;
     display: block;
