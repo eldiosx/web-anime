@@ -23,8 +23,9 @@
   <!--Loader-->
   <img class="loader" src="img/loading.gif" alt="cargando..." id="loader">
   <!--Header-->
-  <header class="main-header">
-    <nav class="main-nav" id="myTopnav">
+  <br>
+  <header class="main-header" id="main-header">
+    <nav class="main-nav" id="main-nav">
       <img class="logomobile" src="./img/logos/logo.png" alt="">
       <div class="searchbtn" href="#search"><span class="icon-search"></span></div>
       <ul>
@@ -63,7 +64,7 @@
   </header>
   <br>
   <!--Body-->
-  <div class="main-content">
+  <div class="main-content" id="main-content">
     <!--Categories-->
     <div class="content">
       <h2>Categorias:</h2>
@@ -76,7 +77,7 @@
       <!--Grid-->
       <div></div>
     </div>
-  </div>
+  </div><br><br>
   <!--Boceto-->
   <table>
     <tr>
@@ -186,6 +187,26 @@
   </table>
   <footer>
   </footer>
+  <script>
+    //MENU
+    window.onscroll = function() {
+        myFunction()
+    };
+    var navbar = document.getElementById("main-header");
+    var bodycontent = document.getElementById("main-content");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+            bodycontent.classList.add("spacing")
+        } else {
+            navbar.classList.remove("sticky");
+            bodycontent.classList.remove("spacing");
+        }
+        document.getElementById("main-header").style.zIndex = "9999";
+    }
+  </script>
 </body>
 
 </html>

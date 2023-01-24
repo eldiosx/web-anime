@@ -3,7 +3,7 @@ window.onload = function(){
 }
 
 function mainmenu() {
-  var x = document.getElementById("myTopnav");
+  var x = document.getElementById("main-nav");
   if (x.className === "main-nav") {
     x.className += " responsive";
   } else {
