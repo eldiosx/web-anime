@@ -16,8 +16,11 @@
 .main-nav {
   text-align: center;
   overflow: hidden;
-  background-color: #4A4A4A;
   height: 100px;
+  background-color: #4A4A4A;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 20px;
 }
 
 .logoimg {
@@ -83,6 +86,8 @@
 @media screen and (max-width: 800px) {
   .main-nav {
     height: 65px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   .logoimg {
