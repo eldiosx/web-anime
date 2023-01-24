@@ -16,6 +16,12 @@
   margin-top: -25px;
 }
 
+.dropdown-menu a {
+  color: black;
+  font-style: normal;
+  text-decoration: none;
+}
+
 .spacing {
   padding-top: 110px;
 }
@@ -72,7 +78,7 @@
 .main-nav .dropdown:hover,
 .menubtn:hover,
 .searchbtn:hover {
-  background-color: #555;
+  background-color: rgba(255, 255, 255, 0.2);
   color: white;
 }
 
