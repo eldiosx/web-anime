@@ -21,14 +21,6 @@ body {
     background-color: rgb(0, 0, 0);
 }
 
-/*RESPONSIVE*/
-
-@media (max-width: 800px) {
-    .loader {
-        background: url('../img/mobileloading.gif') 50% 50% no-repeat rgb(0, 0, 0, .8);
-    }
-}
-
 table,
 th,
 td {
@@ -47,11 +39,39 @@ td {
     display: grid;
     grid-template-columns: auto auto auto;
     background-color: #4A4A4A;
-    ;
 }
 
 .main-content {
     border-radius: 20px;
     height: 1000px;
     display: inline-grid;
+}
+
+/*RESPONSIVE*/
+
+@media (max-width:900px) {
+    .loader {
+        background: url('../img/mobileloading.gif') 50% 50% no-repeat rgb(0, 0, 0, .8);
+    }
+    .main-content {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+    @media (max-width:600px) {
+
+        .main-content {
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+}
+@media (max-width:400px) {
+
+    .main-content {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
