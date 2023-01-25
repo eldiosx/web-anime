@@ -13,7 +13,7 @@
   background-color: #4A4A4A;
   box-shadow: 0px 3px rgba(0, 0, 0, 0.5);
   border-radius: 0px 0px 20px 20px;
-  margin-top: -25px;
+  margin-top: -5px;
 }
 
 .dropdown-menu a {
@@ -29,7 +29,7 @@
 .main-nav {
   text-align: center;
   overflow: hidden;
-  height: 100px;
+  height: 90px;
 }
 
 .logoimg {
