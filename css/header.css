@@ -94,6 +94,11 @@
 
 
 @media screen and (max-width: 900px) {
+  .main-nav .dropdown:hover,
+.menubtn:hover,
+.searchbtn:hover {
+  border-radius: 20px;
+}
   .spacing {
     padding-top: 90px;
   }
