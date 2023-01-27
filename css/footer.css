@@ -1,5 +1,5 @@
 .footer {
-    background-color: #004658;
+    background-color: #393E46;
     color: #fff;
 }
 
@@ -13,8 +13,7 @@
 }
 
 .footer-wave-path {
-    fill: rgb(36, 36, 71);
-    ;
+    fill: #222831;
 }
 
 .footer-content {
@@ -85,7 +84,7 @@
 }
 
 .footer-call-to-action-button {
-    background-color: #027b9a;
+    background-color: #B55400;
     border-radius: 21px;
     color: #fffff2;
     display: inline-block;
@@ -156,7 +155,7 @@
 }
 
 .footer-social-amoeba-path {
-    fill: #027b9a;
+    fill: #B55400;
 }
 
 .footer-social-link {
@@ -214,7 +213,7 @@
 }
 
 .footer-copyright {
-    background-color: #027b9a;
+    background-color: #B55400;
     color: #fff;
     padding: 15px 30px;
     text-align: center;

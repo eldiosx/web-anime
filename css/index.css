@@ -4,7 +4,7 @@
     font-family: sans-serif;
 }
 .background {
-    background-color: rgb(36, 36, 71);
+    background-color: #222831;
 }
 /*LOADER*/
 .loader {
@@ -38,7 +38,7 @@ td {
     text-align: center;
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: #4A4A4A;
+    background-color: #393E46;
     border-radius: 20px;
     height: 1000px;
     display: inline-grid;
@@ -46,8 +46,8 @@ td {
 
 .filterDiv {
     float: left;
-    background-color: #991515;
-    color: #ffffff;
+    background-color: #B55400;
+    color: #EEEEEE;
     width: 150px;
     line-height: 150px;
     text-align: center;
@@ -73,7 +73,7 @@ td {
     border: none;
     outline: none;
     padding: 12px 16px;
-    background-color: #f1f1f1;
+    background-color: #B55400;
     cursor: pointer;
     border-radius: 5px;
   }
