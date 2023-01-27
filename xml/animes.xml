@@ -26,7 +26,7 @@
         <td> <category1> Seinen </category1></td> <br/>
         <td> <category2> Shonen </category2></td> <br/>
         <td> <category3> Terror </category3></td> <br/>
-        <td> <category4> Distopía </category4></td> <br/>
+        <td> <category4> </category4></td> <br/>
     </library1>
 </tr>
 
@@ -38,8 +38,8 @@
         <td> <episodes> 10 </episodes></td> <br/>
         <td> <category1> Seinen </category1></td> <br/>
         <td> <category2> Shonen </category2></td> <br/>
-        <td> <category3> Distopía </category3></td> <br/>
-        <td> <category4> Distopía </category4></td> <br/>
+        <td> <category3>  </category3></td> <br/>
+        <td> <category4>  </category4></td> <br/>
     </library2>
 </tr>
 
@@ -51,8 +51,8 @@
         <td> <episodes> 74 </episodes></td> <br/>
         <td> <category1> Seinen </category1></td> <br/>
         <td> <category2> Shonen </category2></td> <br/>
-        <td> <category3> Distopía </category3></td> <br/>
-        <td> <category4> Distopía </category4></td> <br/>
+        <td> <category3>  </category3></td> <br/>
+        <td> <category4>  </category4></td> <br/>
     </library3>
 </tr>    
 
@@ -65,7 +65,7 @@
         <td> <category1> Seinen </category1></td> <br/>
         <td> <category2> Acción </category2></td> <br/>
         <td> <category3> Distopía </category3></td> <br/>
-        <td> <category4> Distopía </category4></td> <br/>
+        <td> <category4>  </category4></td> <br/>
     </library4>
 </tr>
 
@@ -77,8 +77,8 @@
         <td> <episodes> </episodes></td> <br/>
         <td> <category1> Seinen </category1></td> <br/>
         <td> <category2> Shonen </category2></td> <br/>
-        <td> <category3> Distopía </category3></td> <br/>
-        <td> <category4> Distopía </category4></td> <br/>
+        <td> <category3>  </category3></td> <br/>
+        <td> <category4>  </category4></td> <br/>
     </library5>
 </tr>
 
@@ -89,9 +89,9 @@
         <td> <year > 2019 </year></td> <br/>
         <td> <episodes> 12 </episodes></td> <br/>
         <td> <category1> Seinen </category1></td> <br/>
-        <td> <category2> Shonen </category2></td> <br/>
-        <td> <category3> Distopía </category3></td> <br/>
-        <td> <category4> Distopía </category4></td> <br/>
+        <td> <category2>  </category2></td> <br/>
+        <td> <category3>  </category3></td> <br/>
+        <td> <category4>  </category4></td> <br/>
     </library6>
 </tr>
 
@@ -113,7 +113,7 @@
         </episodes></td> <br/>
         <td> <category1> Seinen </category1></td> <br/>
         <td> <category2> Distopía </category2></td> <br/>
-        <td> <category3>  </category3></td> <br/>
+        <td> <category3> Acción </category3></td> <br/>
         <td> <category4>  </category4></td> <br/>
     </library7>
 </tr>
