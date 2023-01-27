@@ -86,8 +86,8 @@ td {
   }
   .content-categories li {
     margin-bottom: 10px;
-    min-width: 200px;
-    max-width: 200px;
+    min-width: 13vw;
+    max-width: 13vw;
     list-style-type:none;
     padding: 10px;
     background-color: #B55400;
