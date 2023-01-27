@@ -4,12 +4,12 @@
    <xs:element name="library">
    <xs:complexType>
      <xs:sequence>
-        <xs:element name=name type="xs:string" /> 
-        <xs:element name=directortype="xs:string" />
+        <xs:element name=name type="xs:string" required /> 
+        <xs:element name=directortype="xs:string" required />
         <xs:element name=year type="xs:integer" />
-        <xs:element name=episodes type="xs:complexType">
-        <xs:element name=category1 type="xs:string" />
-        <xs:element name=category2 type="xs:string" /> 
+        <xs:element name=episodes type="xs:enumeration">
+        <xs:element name=category1 type="xs:string" required/>
+        <xs:element name=category2 type="xs:string" required /> 
         <xs:element name=category3 type="xs:string" />
         <xs:element name=category4 type="xs:string" />
       </xs:sequence>
