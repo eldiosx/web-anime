@@ -60,7 +60,7 @@ td {
 }
 
 .filterDiv {
-  border: #222831 10px solid;
+  border: #222831 5px solid;
   border-radius: 10px;
     float: left;
     background-color: #B55400;
@@ -71,6 +71,10 @@ td {
     text-align: center;
     margin: 9px;
     display: none;
+  }
+  .filterDiv:hover{
+    border: yellow 5px solid;
+    box-shadow: 8px 8px rgba(231, 231, 231, 0.185);
   }
   
   .show {
