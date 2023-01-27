@@ -12,6 +12,7 @@
     position: relative;
     top: -1px;
     width: 100%;
+    z-index: 0;
 }
 
 .footer-wave-path {
