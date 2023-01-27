@@ -46,11 +46,14 @@ td {
 }
 
 .filterDiv {
+  border: #222831 10px solid;
+  border-radius: 10px;
     float: left;
     background-color: #B55400;
     color: #EEEEEE;
-    width: 150px;
-    line-height: 150px;
+    width: 200px;
+    height: 150px;
+    line-height: 200px;
     text-align: center;
     margin: 9px;
     display: none;
