@@ -6,6 +6,20 @@
 .background {
     background-color: #222831;
 }
+.kawai .background {
+  background-color: pink;
+}
+.sida{
+  display: none;
+}
+.kawai .sida{
+  display: block;
+  position: fixed;
+  top: 20%;
+  right: -100px;
+  width: 30%;
+
+}
 /*LOADER*/
 .loader {
     position: fixed;
@@ -127,3 +141,5 @@ td {
         margin-right: 0;
     }
 }
+
+/*KAWAI*/

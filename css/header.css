@@ -1,6 +1,9 @@
 .main-header{
 margin-top: 0.5px;
 }
+.theme {
+  border-radius: 10px;
+}
 .logomobile {
   display: none;
   position: absolute;
@@ -82,7 +85,7 @@ margin-top: 0.5px;
 
 .main-nav .dropdown:hover,
 .menubtn:hover,
-.searchbtn:hover {
+.searchbtn:hover, .theme:hover {
   background-color: rgba(255, 255, 255, 0.2);
   color: #EEEEEE;
 }

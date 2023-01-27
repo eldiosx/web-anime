@@ -59,6 +59,7 @@
             </form>
           </li>
           <li class="dropdown" href="#about">Ayuda</li>
+          <li class="theme" id="switch" onclick="themeToggle()"><span class="icon-paint-format"></span></li>
           <li href="javascript:void(0);" class="menubtn" onclick="mainmenu()"><span class="icon-menu"></span></li>
         </ul>
       </nav>
@@ -92,6 +93,7 @@
         <div class="filterDiv gore">Anime</div>
       </div>
     </div><br><br>
+    <img class="sida" src="/img/baby-grey-cat.png" alt="">
     <footer class="footer">
       <svg class="footer-wave-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" preserveAspectRatio="none">
         <path class="footer-wave-path"
@@ -257,6 +259,16 @@
         this.className += " active";
       });
     }
+  </script>
+  <script>
+    //THEME (Save on cookie)
+    (function () {
+      let onpageLoad = localStorage.getItem("theme") || "";
+      let element = document.body;
+      element.classList.add(onpageLoad);
+      document.getElementById("theme").textContent =
+        localStorage.getItem("theme") || "cute";
+    })();
   </script>
 </body>
 

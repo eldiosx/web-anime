@@ -34,3 +34,19 @@ function w3RemoveClass(element, name) {
   }
   element.className = arr1.join(" ");
 }
+
+//Theme
+
+function themeToggle() {
+  let element = document.body;
+  element.classList.toggle("kawai");
+
+  let theme = localStorage.getItem("theme");
+  if (theme && theme === "kawai") {
+    localStorage.setItem("theme", "");
+  } else {
+    localStorage.setItem("theme", "kawai");
+  }
+
+  document.getElementById("theme").textContent = localStorage.getItem("theme");
+}
