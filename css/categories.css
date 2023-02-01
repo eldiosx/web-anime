@@ -23,7 +23,7 @@ td {
 }
 
 .filterDiv {
-  border: #222831 5px solid;
+  border: #B55400 5px solid;
   border-radius: 10px;
   float: left;
   background-color: #B55400;
@@ -36,7 +36,7 @@ td {
 }
 
 .filterDiv:hover {
-  border: yellow 5px solid;
+  border: #222831 5px solid;
   box-shadow: 8px 8px rgba(231, 231, 231, 0.185);
 }
 
@@ -127,6 +127,10 @@ td {
   width: 30%;
 }
 
+.kawai .content-categories li:hover{
+background-color: #EEEEEE;
+}
+
 .kawai .btn.active {
   background-color: #E0A39F;
 }
@@ -136,6 +140,7 @@ td {
 }
 .kawai .filterDiv{
   border: #988C80 5px solid;
+  background-color: #988C80;
 }
 .kawai .filterDiv:hover{
   border: #E0A39F 5px solid;
