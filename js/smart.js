@@ -15,24 +15,24 @@ function mainmenu() {
 //Sub-Filter
 
 function w3AddClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) { element.className += " " + arr2[i]; }
+  var i, a1, a2;
+  a1 = element.className.split(" ");
+  a2 = name.split(" ");
+  for (i = 0; i < a2.length; i++) {
+    if (a1.indexOf(a2[i]) == -1) { element.className += " " + a2[i]; }
   }
 }
 
 function w3RemoveClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);
+  var i, a1, a2;
+  a1 = element.className.split(" ");
+  a2 = name.split(" ");
+  for (i = 0; i < a2.length; i++) {
+    while (a1.indexOf(a2[i]) > -1) {
+      a1.splice(a1.indexOf(a2[i]), 1);
     }
   }
-  element.className = arr1.join(" ");
+  element.className = a1.join(" ");
 }
 
 //Theme
