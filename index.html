@@ -8,13 +8,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Aida y Daniel">
   <!--STYLE-->
-  <link rel="stylesheet" type="text/css" href="css/index.css">
   <link rel="stylesheet" type="text/css" href="css/header.css">
   <link rel="stylesheet" type="text/css" href="css/icons.css">
   <link rel="stylesheet" type="text/css" href="css/footer.css">
   <link rel="icon" type="image/logo" href="img/icons/icon.svg">
   <!--SCRIPTS-->
   <script src="js/jquery-3.6.3.js"></script>
+  <script>$(function () {
+      $("#include-body").load("/html/categories.html");
+    });</script>
   <script src="js/smart.js"></script>
   <!--TITTLE-->
   <title>Anime Web</title>
@@ -66,38 +68,9 @@
       </nav>
     </header>
     <img class="cat1" src="./img/babycat.png" alt="">
-    <br>
     <!--Body-->
-    <div class="main-content" id="main-content">
-      <!--Categories-->
-      <ul id="content-categories" class="content-categories">
-        <li class="btn active" onclick="filterSelection('all')">Todo</li>
-        <li class="btn" onclick="filterSelection('seinen')">Seinen</li>
-        <li class="btn" onclick="filterSelection('shonen')">Shonen</li>
-        <li class="btn" onclick="filterSelection('gore')">Gore</li>
-        <li class="btn" onclick="filterSelection('distopic')">Distopía</li>
-        <li class="btn" onclick="filterSelection('future')">Futurista</li>
-        <li class="btn" onclick="filterSelection('accion')"> Acción </li>
-      </ul>
-      <div class="content">
-        <div class="filterDiv gore"><a href="./html/Monster.html"><img src="./img/animes/200x150/Monster.jpg"
-              alt="Monster"></a></div>
-        <div class="filterDiv gore comedy"><a href="./html/One Punch Man.html"><img
-              src="./img/animes/200x150/OnePunchMan.jpg" alt="OnePunchMan"></a></div>
-        <div class="filterDiv seinen"><a href="./html/Parasyte.html"><img src="./img/animes/200x150/Parasyte.jpg"
-              alt="Parasyte"></a></div>
-        <div class="filterDiv gore">Anime</div>
-        <div class="filterDiv gore comedy">Anime</div>
-        <div class="filterDiv gore">Anime</div>
-        <div class="filterDiv distopic">Anime</div>
-        <div class="filterDiv gore">Anime</div>
-        <div class="filterDiv gore">Anime</div>
-        <div class="filterDiv gore comedy">Anime</div>
-        <div class="filterDiv gore">Anime</div>
-        <div class="filterDiv gore">Anime</div>
-        <div class="filterDiv gore">Anime</div>
-      </div>
-    </div><br><br>
+    <div id="include-body"></div>
+    <!--Footer-->
     <footer class="footer">
       <svg class="footer-wave-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" preserveAspectRatio="none">
         <path class="footer-wave-path"
@@ -132,7 +105,7 @@
           </div>
           <!--Legal and use-->
           <div class="footer-menu">
-            <h2 class="footer-menu-title"> Legal</h2>
+            <h2 class="footer-menu-title">Legal</h2>
             <ul id="menu-legal" class="footer-menu-list">
               <li
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-170434">
@@ -147,7 +120,7 @@
         <!--More-->
         <div class="footer-content-column">
           <div class="footer-menu">
-            <h2 class="footer-menu-title"> Enlaces de interes</h2>
+            <h2 class="footer-menu-title">Enlaces de interes</h2>
             <ul id="menu-quick-links" class="footer-menu-list">
               <li class="menu-item menu-item-type-custom menu-item-object-custom">
                 <a target="_blank" rel="noopener noreferrer" href="#">Estado del servidor</a>
@@ -239,29 +212,6 @@
         bodycontent.classList.remove("spacing");
       }
       document.getElementById("main-header").style.zIndex = "9999";
-    }
-  </script>
-  <script>
-    //FILTER
-    filterSelection("all")
-    function filterSelection(c) {
-      var x, i;
-      x = document.getElementsByClassName("filterDiv");
-      if (c == "all") c = "";
-      for (i = 0; i < x.length; i++) {
-        w3RemoveClass(x[i], "show");
-        if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-      }
-    }
-    //Active button
-    var btnContainer = document.getElementById("content-categories");
-    var btns = btnContainer.getElementsByClassName("btn");
-    for (var i = 0; i < btns.length; i++) {
-      btns[i].addEventListener("click", function () {
-        var current = document.getElementsByClassName("active");
-        current[0].className = current[0].className.replace(" active", "");
-        this.className += " active";
-      });
     }
   </script>
   <script>

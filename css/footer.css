@@ -1,13 +1,11 @@
 .footer {
     background-color: #393E46;
-    color: #fff;
 }
 
 .footer-wave-svg {
     background-color: transparent;
     display: block;
     height: 30px;
-    position: relative;
     top: -1px;
     width: 100%;
     z-index: 0;
@@ -311,3 +309,6 @@
 .kawai .footer-wave-path {
     fill: #E0A39F;
   }
+.kawai .footer {
+    background-color: #47484A;
+}
