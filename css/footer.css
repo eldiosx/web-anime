@@ -307,8 +307,21 @@
 }
 /*KAWAI*/
 .kawai .footer-wave-path {
-    fill: #E0A39F;
+    fill: #988C80;
   }
 .kawai .footer {
     background-color: #47484A;
+}
+.kawai .footer-social-amoeba-path {
+    fill: #E0A39F;
+}
+.kawai .footer-copyright {
+    background-color: #E0A39F;
+}
+.kawai .footer-call-to-action-button {
+    background-color: #E0A39F;
+}
+.kawai .footer-call-to-action-button:hover {
+    background-color: #EEEEEE;
+    color: #222831;
 }

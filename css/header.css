@@ -14,10 +14,6 @@ body {
   background-color: #222831;
 }
 
-.cat1 {
-  display: none;
-}
-
 /*LOADER*/
 .loader {
   position: fixed;
@@ -232,7 +228,7 @@ body {
 }
 
 .kawai .background {
-  background-color: #E0A39F;
+  background-color: #988C80;
 }
 
 .kawai .body {
