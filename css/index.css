@@ -137,7 +137,7 @@ td {
   background-color: #E0A39F;
 }
 .kawai .main-content{
-  background-color: #988C80;
+  background-color: #47484A;
 }
 .kawai .cat1{
   display: block;
@@ -148,4 +148,10 @@ td {
 }
 .kawai .body{
   color: #F9EBE1;
+}
+.kawai .btn.active{
+  background-color: #E0A39F;
+}
+.kawai .content-categories li{
+  background-color: #988C80;
 }

@@ -2,9 +2,7 @@
     background-color: #393E46;
     color: #fff;
 }
-.kawai .footer-wave-path {
-    fill: pink;
-  }
+
 .footer-wave-svg {
     background-color: transparent;
     display: block;
@@ -309,3 +307,7 @@
         width: 24.99%;
     }
 }
+/*KAWAI*/
+.kawai .footer-wave-path {
+    fill: #E0A39F;
+  }
