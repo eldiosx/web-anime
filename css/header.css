@@ -1,13 +1,17 @@
 /*MAIN*/
+@font-face { font-family: comicsanshate; src: url('./fonts/comicsanshate.TTF'); } 
+@font-face { font-family: SansSerifFLF; src: url('./fonts/SansSerifFLF.otf'); } 
 * {
   margin: 0%;
   padding: 0%;
-  font-family: sans-serif;
-}
+  font-family: SansSerifFLF;
 
+  
+}
 body {
   background-color: rgb(0, 0, 0);
-  color: #EEEEEE
+  color: #EEEEEE;
+  font-size: 20px;
 }
 
 .background {
@@ -173,7 +177,17 @@ body {
   .dropdown {
     display: none;
   }
-
+  .dropdown{
+    max-width: 50%;
+  }
+  .dropdown-menu li{
+    border-radius: 10px;
+    margin: 5px;
+  }
+  .dropdown-menu li:hover{
+    background-color: #222831;
+    color: #EEEEEE;
+  }
   .main-nav li.menubtn {
     margin: 1%;
     float: right;
@@ -223,6 +237,9 @@ body {
 }
 
 /*KAWAI*/
+.kawai *{
+  font-family: comicsanshate;
+}
 .kawai .sticky {
   background-color: #47484A;
 }
