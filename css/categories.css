@@ -1,6 +1,7 @@
 .cat {
   display: none;
 }
+
 .cutegirl {
   display: none;
 }
@@ -133,6 +134,7 @@ td {
   right: -20%;
   width: 30%;
 }
+
 .kawai .cutegirl {
   display: block;
   position: fixed;
@@ -140,8 +142,9 @@ td {
   left: -10%;
   width: 30%;
 }
-.kawai .content-categories li:hover{
-background-color: #EEEEEE;
+
+.kawai .content-categories li:hover {
+  background-color: #EEEEEE;
 }
 
 .kawai .btn.active {
@@ -151,10 +154,12 @@ background-color: #EEEEEE;
 .kawai .content-categories li {
   background-color: #988C80;
 }
-.kawai .filterDiv{
+
+.kawai .filterDiv {
   border: #988C80 5px solid;
   background-color: #988C80;
 }
-.kawai .filterDiv:hover{
+
+.kawai .filterDiv:hover {
   border: #E0A39F 5px solid;
 }
