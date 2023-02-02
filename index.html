@@ -8,13 +8,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Aida y Daniel">
   <!--STYLE-->
-  <link rel="stylesheet" type="text/css" href="css/index.css">
   <link rel="stylesheet" type="text/css" href="css/header.css">
   <link rel="stylesheet" type="text/css" href="css/icons.css">
   <link rel="stylesheet" type="text/css" href="css/footer.css">
   <link rel="icon" type="image/logo" href="img/icons/icon.svg">
   <!--SCRIPTS-->
   <script src="js/jquery-3.6.3.js"></script>
+  <script>$(function () {
+      $("#include-body").load("html/categories.html");
+    });</script>
   <script src="js/smart.js"></script>
   <!--TITTLE-->
   <title>Anime Web</title>
@@ -27,17 +29,17 @@
     <!--Header-->
     <header class="main-header" id="main-header">
       <nav class="main-nav" id="main-nav">
-        <img class="logomobile" src="./img/logos/logo.png" alt="">
+        <img class="logomobile" src="img/logos/logo.png" alt="">
         <div class="searchbtn" href="#search"><span class="icon-search"></span></div>
         <ul>
-          <li class="logo" href="./index.html"><img class="logoimg" src="./img/logos/logo.png" alt=""></li>
-          <li class="dropdown" href="./index.html">Animes
+          <li class="logo" href="index.html"><img class="logoimg" src="img/logos/logo.png" alt=""></li>
+          <li class="dropdown" href="index.html">Animes
             <ul class="dropdown-menu">
-              <li><a href="./index.html">Inicio</a></li>
-              <li href="#">Casual</li>
-              <li href="#">Gore</li>
-              <li href="#">Hard</li>
-              <li href="#">Sex</li>
+              <li><a href="index.html">Inicio</a></li>
+              <li href="#">Populares</li>
+              <li href="#">Reciente</li>
+              <li href="#">En cartera</li>
+              <li href="#">Mejor valorados</li>
             </ul>
           </li>
           <li class="dropdown" href="#news">Noticias
@@ -60,37 +62,14 @@
             </form>
           </li>
           <li class="dropdown" href="#about">Ayuda</li>
+          <li class="theme" id="switch" onclick="themeToggle()"><span class="icon-paint-format"></span></li>
           <li href="javascript:void(0);" class="menubtn" onclick="mainmenu()"><span class="icon-menu"></span></li>
         </ul>
       </nav>
     </header>
-    <br>
     <!--Body-->
-    <div class="main-content" id="main-content">
-      <!--Categories-->
-      <div id="content-categories" class="content-categories"><br>
-        <a class="btn active" onclick="filterSelection('all')"> Todo</a><br><br><br>
-        <a class="btn" onclick="filterSelection('comedy')"> Comedia</a><br><br><br>
-        <a class="btn" onclick="filterSelection('horror')"> Terror</a><br><br><br>
-        <a class="btn" onclick="filterSelection('gore')"> Sangre</a><br><br><br>
-        <a class="btn" onclick="filterSelection('porn')"> Porno</a>
-      </div>
-      <div class="content">
-        <div class="filterDiv gore">Anime</div>
-        <div class="filterDiv gore comedy">Anime</div>
-        <div class="filterDiv gore">Anime</div>
-        <div class="filterDiv gore">Anime</div>
-        <div class="filterDiv gore comedy">Anime</div>
-        <div class="filterDiv gore">Anime</div>
-        <div class="filterDiv gore">Anime</div>
-        <div class="filterDiv gore">Anime</div>
-        <div class="filterDiv gore">Anime</div>
-        <div class="filterDiv gore comedy">Anime</div>
-        <div class="filterDiv gore">Anime</div>
-        <div class="filterDiv gore">Anime</div>
-        <div class="filterDiv gore">Anime</div>
-      </div>
-    </div><br><br>
+    <div id="include-body"></div>
+    <!--Footer-->
     <footer class="footer">
       <svg class="footer-wave-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" preserveAspectRatio="none">
         <path class="footer-wave-path"
@@ -103,7 +82,7 @@
           <div class="footer-logo">
             <a class="footer-logo-link" href="#">
               <span class="hidden-link-text">LOGO</span>
-              <img src="./img/logos/logo.png" alt="">
+              <img src="img/logos/logo.png" alt="">
             </a>
           </div>
         </div>
@@ -125,7 +104,7 @@
           </div>
           <!--Legal and use-->
           <div class="footer-menu">
-            <h2 class="footer-menu-title"> Legal</h2>
+            <h2 class="footer-menu-title">Legal</h2>
             <ul id="menu-legal" class="footer-menu-list">
               <li
                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-170434">
@@ -140,7 +119,7 @@
         <!--More-->
         <div class="footer-content-column">
           <div class="footer-menu">
-            <h2 class="footer-menu-title"> Enlaces de interes</h2>
+            <h2 class="footer-menu-title">Enlaces de interes</h2>
             <ul id="menu-quick-links" class="footer-menu-list">
               <li class="menu-item menu-item-type-custom menu-item-object-custom">
                 <a target="_blank" rel="noopener noreferrer" href="#">Estado del servidor</a>
@@ -235,17 +214,14 @@
     }
   </script>
   <script>
-    //FILTER
-    filterSelection("all")
-    function filterSelection(c) {
-      var x, i;
-      x = document.getElementsByClassName("filterDiv");
-      if (c == "all") c = "";
-      for (i = 0; i < x.length; i++) {
-        w3RemoveClass(x[i], "show");
-        if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-      }
-    }
+    //THEME (Save on cookie)
+    (function () {
+      let onpageLoad = localStorage.getItem("theme") || "";
+      let element = document.body;
+      element.classList.add(onpageLoad);
+      document.getElementById("theme").textContent =
+        localStorage.getItem("theme") || "cute";
+    })();
   </script>
 </body>
 

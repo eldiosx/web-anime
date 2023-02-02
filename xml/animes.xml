@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
 <table>
   
@@ -7,10 +8,13 @@
 <tr>
     <library0>
         <td> <name category="Seinen"> Attack on Titan </name> </td> <br/>
-        <td> <director> Tetsurō Araki  </director></td> <br/>
+        <td> <director>  </director></td> <br/>
         <td> <year> </year></td> <br/>
         <td> <episodes> </episodes></td> <br/>
-        <td> <link>  </link> </td> <br/>
+        <td> <category1> Seinen </category1></td> <br/>
+        <td> <category2> Shonen </category2></td> <br/>
+        <td> <category3> Distopía </category3></td> <br/>
+        <td> <category4> Acción </category4></td> <br/>
     </library0>
 </tr>
 
@@ -20,7 +24,10 @@
         <td> <director> Tetsurō Araki, Estudio Madhouse </director></td> <br/>
         <td> <year> 2007 </year></td> <br/>
         <td> <episodes> 37+2 episodes Especiales </episodes></td> <br/>
-        <td> <link> </link> </td><br/>
+        <td> <category1> Seinen </category1></td> <br/>
+        <td> <category2> Shonen </category2></td> <br/>
+        <td> <category3> Terror </category3></td> <br/>
+        <td> <category4> </category4></td> <br/>
     </library1>
 </tr>
 
@@ -30,7 +37,10 @@
         <td> <director> Gō Nagai </director></td> <br/>
         <td> <year> 2018 </year></td> <br/>
         <td> <episodes> 10 </episodes></td> <br/>
-        <td> <link> </link> </td><br/>
+        <td> <category1> Seinen </category1></td> <br/>
+        <td> <category2> Shonen </category2></td> <br/>
+        <td> <category3>  </category3></td> <br/>
+        <td> <category4>  </category4></td> <br/>
     </library2>
 </tr>
 
@@ -40,7 +50,10 @@
         <td> <director> Masayuki Kojima, Estudio Madhouse </director></td> <br/>
         <td> <year> 2004 </year></td> <br/>
         <td> <episodes> 74 </episodes></td> <br/>
-        <td> <link> </link> </td><br/>
+        <td> <category1> Seinen </category1></td> <br/>
+        <td> <category2> Shonen </category2></td> <br/>
+        <td> <category3>  </category3></td> <br/>
+        <td> <category4>  </category4></td> <br/>
     </library3>
 </tr>    
 
@@ -50,7 +63,10 @@
         <td> <director> Naoyoshi Shiotani, Katsuyuki Motohiro </director></td> <br/>
         <td> <year> 2012 </year></td> <br/>
         <td> <episodes> 22 </episodes></td> <br/>
-        <td> <link> </link> </td><br/>
+        <td> <category1> Seinen </category1></td> <br/>
+        <td> <category2> Acción </category2></td> <br/>
+        <td> <category3> Distopía </category3></td> <br/>
+        <td> <category4>  </category4></td> <br/>
     </library4>
 </tr>
 
@@ -60,7 +76,10 @@
         <td> <director>  </director></td> <br/>
         <td> <year > </year></td> <br/>
         <td> <episodes> </episodes></td> <br/>
-        <td> <link> </link> </td><br/>
+        <td> <category1> Seinen </category1></td> <br/>
+        <td> <category2> Shonen </category2></td> <br/>
+        <td> <category3>  </category3></td> <br/>
+        <td> <category4>  </category4></td> <br/>
     </library5>
 </tr>
 
@@ -70,7 +89,10 @@
         <td> <director>  Yukie Sugawara </director></td> <br/>
         <td> <year > 2019 </year></td> <br/>
         <td> <episodes> 12 </episodes></td> <br/>
-        <td> <link> </link> </td><br/>
+        <td> <category1> Seinen </category1></td> <br/>
+        <td> <category2>  </category2></td> <br/>
+        <td> <category3>  </category3></td> <br/>
+        <td> <category4>  </category4></td> <br/>
     </library6>
 </tr>
 
@@ -90,7 +112,10 @@
             <li>Ghost in the Shell: SAC_2045 serie ONA (2020) </li>
         </ol>
         </episodes></td> <br/>
-        <td> <link> </link> </td><br/>
+        <td> <category1> Seinen </category1></td> <br/>
+        <td> <category2> Distopía </category2></td> <br/>
+        <td> <category3> Acción </category3></td> <br/>
+        <td> <category4>  </category4></td> <br/>
     </library7>
 </tr>
 
@@ -100,7 +125,10 @@
         <td> <director>  </director></td> <br/>
         <td> <year > </year></td> <br/>
         <td> <episodes> </episodes></td> <br/>
-        <td> <link> </link> </td><br/>
+        <td> <category1> Seinen </category1></td> <br/>
+        <td> <category2> Distopía </category2></td> <br/>
+        <td> <category3>  </category3></td> <br/>
+        <td> <category4>  </category4></td> <br/>
     </library8>
 </tr>
 
@@ -110,17 +138,23 @@
         <td> <director>  </director></td> <br/>
         <td> <year > </year></td> <br/>
         <td> <episodes> </episodes></td> <br/>
-        <td> <link> </link> </td><br/>
+        <td> <category1> Seinen </category1></td> <br/>
+        <td> <category2> Distopía </category2></td> <br/>
+        <td> <category3> Drama </category3></td> <br/>
+        <td> <category4>  </category4></td> <br/>
     </library9>
 </tr>
 
 <tr>
     <library10>
-        <td> <name category="Seinen">  Tokyo Ghoul</name> </td> <br/>
+        <td> <name category="Seinen">  Tokyo Ghoul </name> </td> <br/>
         <td> <director> Shuhei Morita </director></td> <br/>
         <td> <year > 2015 </year></td> <br/>
         <td> <episodes> 12 </episodes></td> <br/>
-        <td> <link> </link> </td><br/>
+        <td> <category1> Seinen </category1></td> <br/>
+        <td> <category2> Distopía </category2></td> <br/>
+        <td> <category3>  </category3></td> <br/>
+        <td> <category4>  </category4></td> <br/>
     </library10>
 </tr>
 

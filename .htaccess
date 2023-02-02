@@ -9,7 +9,7 @@
     RewriteCond %{HTTPS} !=on
     RewriteRule ^/?(.*) https://%{SERVER_NAME}/$1 [R,L]
 
-    ErrorDocument 403 ./html/.403.html
-    ErrorDocument 404 ./html/.404.html
-    ErrorDocument 500 ./html/.500.html
-    ErrorDocument 503 ./html/.503.html
+    ErrorDocument 403 html/.403.html
+    ErrorDocument 404 html/.404.html
+    ErrorDocument 500 html/.500.html
+    ErrorDocument 503 html/.503.html

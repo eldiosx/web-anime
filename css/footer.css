@@ -1,20 +1,18 @@
 .footer {
-    background-color: #004658;
-    color: #fff;
+    background-color: #393E46;
 }
 
 .footer-wave-svg {
     background-color: transparent;
     display: block;
     height: 30px;
-    position: relative;
     top: -1px;
     width: 100%;
+    z-index: 0;
 }
 
 .footer-wave-path {
-    fill: rgb(36, 36, 71);
-    ;
+    fill: #222831;
 }
 
 .footer-content {
@@ -31,11 +29,11 @@
     padding-left: 15px;
     padding-right: 15px;
     width: 100%;
-    color: #fff;
+    color: #EEEEEE;
 }
 
 .footer-content-column ul li a {
-    color: #fff;
+    color: #EEEEEE;
     text-decoration: none;
 }
 
@@ -48,7 +46,7 @@
 }
 
 .footer-menu-title {
-    color: #fffff2;
+    color: #EEEEEE;
     font-size: 15px;
     font-weight: 900;
     letter-spacing: .1em;
@@ -70,14 +68,14 @@
 }
 
 .footer-call-to-action-description {
-    color: #fffff2;
+    color: #EEEEEE;
     margin-top: 10px;
     margin-bottom: 20px;
 }
 
 .footer-call-to-action-button:hover {
-    background-color: #ffffff;
-    color: #00bef0;
+    background-color: #EEEEEE;
+    color: #222831;
 }
 
 .button:last-of-type {
@@ -85,9 +83,9 @@
 }
 
 .footer-call-to-action-button {
-    background-color: #027b9a;
+    background-color: #B55400;
     border-radius: 21px;
-    color: #fffff2;
+    color: #EEEEEE;
     display: inline-block;
     font-size: 11px;
     font-weight: 900;
@@ -107,7 +105,7 @@
 }
 
 .footer-call-to-action-title {
-    color: #fffff2;
+    color: #EEEEEE;
     font-size: 14px;
     font-weight: 900;
     letter-spacing: .1em;
@@ -120,12 +118,12 @@
 .footer-call-to-action-link-wrapper {
     margin-bottom: 0;
     margin-top: 10px;
-    color: #fff;
+    color: #EEEEEE;
     text-decoration: none;
 }
 
 .footer-call-to-action-link-wrapper a {
-    color: #fff;
+    color: #EEEEEE;
     text-decoration: none;
 }
 
@@ -142,7 +140,7 @@
 }
 
 .footer-social-links a {
-    color: #fff;
+    color: #EEEEEE;
     text-decoration: none;
 }
 
@@ -156,7 +154,7 @@
 }
 
 .footer-social-amoeba-path {
-    fill: #027b9a;
+    fill: #B55400;
 }
 
 .footer-social-link {
@@ -184,7 +182,7 @@
 }
 
 .footer-social-icon-path {
-    fill: #fffff2;
+    color: #EEEEEE;
     transition: fill .2s;
 }
 
@@ -214,8 +212,8 @@
 }
 
 .footer-copyright {
-    background-color: #027b9a;
-    color: #fff;
+    background-color: #B55400;
+    color: #EEEEEE;
     padding: 15px 30px;
     text-align: center;
 }
@@ -227,7 +225,7 @@
 }
 
 .footer-copyright-text {
-    color: #fff;
+    color: #EEEEEE;
     font-size: 13px;
     font-weight: 400;
     line-height: 18px;
@@ -236,7 +234,7 @@
 }
 
 .footer-copyright-link {
-    color: #fff;
+    color: #EEEEEE;
     text-decoration: none;
 }
 
@@ -306,4 +304,24 @@
     .footer-content-column {
         width: 24.99%;
     }
+}
+/*KAWAI*/
+.kawai .footer-wave-path {
+    fill: #988C80;
+  }
+.kawai .footer {
+    background-color: #47484A;
+}
+.kawai .footer-social-amoeba-path {
+    fill: #E0A39F;
+}
+.kawai .footer-copyright {
+    background-color: #E0A39F;
+}
+.kawai .footer-call-to-action-button {
+    background-color: #E0A39F;
+}
+.kawai .footer-call-to-action-button:hover {
+    background-color: #EEEEEE;
+    color: #222831;
 }
