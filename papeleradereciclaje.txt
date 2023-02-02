@@ -1,3 +1,5 @@
+  xsd: <xs:element name="name" type="xs:string" required="" /> 
+  
   <table>
     <tbody>
       <tr>

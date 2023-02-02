@@ -90,8 +90,7 @@ body {
   height: 50px;
 }
 
-.main-nav li,
-.searchbtn {
+.main-nav li {
   display: inline-block;
   color: #EEEEEE;
   padding: 14px 16px;
@@ -102,8 +101,7 @@ body {
   outline: none;
 }
 
-.main-nav .menubtn,
-.main-nav .searchbtn {
+.main-nav .menubtn, .searchbtn {
   display: none;
 }
 
@@ -150,8 +148,7 @@ body {
 @media screen and (max-width: 900px) {
 
   .main-nav .dropdown:hover,
-  .menubtn:hover,
-  .searchbtn:hover {
+  .menubtn:hover {
     border-radius: 20px;
   }
 
@@ -210,12 +207,19 @@ body {
     top: 0;
   }
 
-  .main-nav div.searchbtn {
-    margin: 1%;
-    float: left;
+  .searchbtn {
     display: block;
+    border-radius: 20px;
+    float: left;
     right: 0;
+    margin: 1%;
     top: 0;
+    padding: 14px 16px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    background-color: #988C80;
+    color: #EEEEEE;
   }
 
   .main-nav.responsive {
@@ -223,7 +227,6 @@ body {
     height: auto;
   }
 
-  .main-nav.responsive .searchbtn,
   .main-nav.responsive .logomobile {
     display: none;
   }

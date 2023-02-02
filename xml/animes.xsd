@@ -4,6 +4,7 @@
    <xs:element name="library">
    <xs:complexType>
      <xs:sequence>
+  
         <xs:element name=name type="xs:string" required /> 
         <xs:element name=directortype="xs:string" required />
         <xs:element name=year type="xs:integer" />
