@@ -1,9 +1,24 @@
 .animeBody {
-    color: black;
-    background-color: pink;
+    height: 100%;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    background-color: #393E46;
+    border-radius: 20px;
+    padding-bottom: 100px;
+    margin-bottom: 50px;
+    align-items: left;
+    justify-content: left;
 }
 
 .trailer {
-    width: 560px;
-    height: 315px;
+    width: 80%;
+    height: 600px;
+}
+@media (max-width:900px) {
+    .trailer {
+        width: 95%;
+        height: 300px;
+    }
 }

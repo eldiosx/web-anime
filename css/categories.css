@@ -1,7 +1,3 @@
-.cat, .cutegirl, .rainbow {
-  display: none;
-}
-
 table,
 th,
 td {
@@ -90,7 +86,7 @@ td {
 
 @media (max-width:900px) {
   .loader {
-    background: url('../img/mobileloading.gif') 50% 50% no-repeat rgb(0, 0, 0, .8);
+    background: url('../img/mobileloading.gif') 100% 100% no-repeat rgb(0, 0, 0, .8);
   }
 
   .main-content {
@@ -98,6 +94,7 @@ td {
     margin-left: 10%;
     margin-right: 10%;
   }
+
 }
 
 @media (max-width:600px) {
@@ -121,30 +118,6 @@ td {
 /*KAWAI*/
 .kawai .main-content {
   background-color: #47484A;
-}
-
-.kawai .cat {
-  display: block;
-  position: fixed;
-  top: 20%;
-  right: -20%;
-  width: 30%;
-}
-
-.kawai .cutegirl {
-  display: block;
-  position: fixed;
-  bottom: -50px;
-  left: -10%;
-  width: 30%;
-}
-.kawai .rainbow{
-  display: block;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 30%;
-  opacity: 0.5;
 }
 .kawai .content-categories li:hover {
   background-color: #EEEEEE;
