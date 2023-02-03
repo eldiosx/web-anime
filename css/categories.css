@@ -7,19 +7,20 @@ td {
   margin-right: auto;
 }
 
+.center {
+  text-align: center;
+}
+
 .main-content {
-  height: 100%;
-  width: 60%;
-  margin-left: 20%;
-  margin-right: 20%;
+  width: 900px;
+  padding-bottom: 20px;
   text-align: center;
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto;
   background-color: #393E46;
   border-radius: 20px;
-  height: 1000px;
   display: inline-grid;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   align-items: left;
   justify-content: left;
 }
@@ -42,6 +43,11 @@ td {
   box-shadow: 8px 8px rgba(231, 231, 231, 0.185);
 }
 
+.filterDiv img:hover {
+  opacity: 0.1;
+}
+
+
 .show {
   display: block;
 }
@@ -52,8 +58,8 @@ td {
 
 .content-categories li {
   margin-bottom: 10px;
-  min-width: 13vw;
-  max-width: 13vw;
+  min-width: 100px;
+  max-width: 100px;
   list-style-type: none;
   padding: 20px 10px 20px 10px;
   background-color: #222831;
@@ -86,32 +92,25 @@ td {
 
 @media (max-width:900px) {
   .loader {
-    background: url('../img/mobileloading.gif') 100% 100% no-repeat rgb(0, 0, 0, .8);
+    background: url('../img/mobileloading.gif') 50% 50% no-repeat rgb(0, 0, 0, .8);
   }
-
   .main-content {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-
-}
-
-@media (max-width:600px) {
-
-  .main-content {
-    width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: auto;
+    margin: 1%;
   }
 }
 
 @media (max-width:400px) {
 
   .main-content {
+    background-color: #ffffff00;
     width: 100%;
-    margin-left: 0;
-    margin-right: 0;
+  }
+
+  .main-content * {
+    margin: 0;
+    padding: 0;
+    width: 90%;
   }
 }
 
@@ -119,6 +118,7 @@ td {
 .kawai .main-content {
   background-color: #47484A;
 }
+
 .kawai .content-categories li:hover {
   background-color: #EEEEEE;
 }

@@ -14,42 +14,47 @@
 </head>
 
 <body>
-    <div class="main-content" id="main-content">
-        <!--Categories-->
-        <ul id="content-categories" class="content-categories">
-            <li class="btn active" onclick="filterSelection('all')">Todo</li>
-            <li class="btn" onclick="filterSelection('seinen')">Seinen</li>
-            <li class="btn" onclick="filterSelection('shonen')">Shonen</li>
-            <li class="btn" onclick="filterSelection('gore')">Gore</li>
-            <li class="btn" onclick="filterSelection('distopic')">Distopía</li>
-            <li class="btn" onclick="filterSelection('future')">Futurista</li>
-            <li class="btn" onclick="filterSelection('accion')"> Acción </li>
-        </ul>
-        <div class="content-animes">
-            <div class="filterDiv gore" onclick="aot()"><img src="./img/animes/200x150/AttackOnTitan.jpg"
-                    alt="Attack On Titan">
-            </div>
-            <div class="filterDiv gore" onclick="dn()"><img src="./img/animes/200x150/DeathNote.jpg" alt="Death Note">
-            </div>
-            <div class="filterDiv gore" onclick="dcb()"><img src="./img/animes/200x150/DevilmanCrybaby.jpg"
-                    alt="Devilman Crybaby">
-            </div>
-            <div class="filterDiv gore" onclick="ks()"><img src="./img/animes/200x150/KaguyaSama.jpg" alt="Kaguya-Sama">
-            </div>
-            <div class="filterDiv gore" onclick="lain()"><img src="./img/animes/200x150/Lain.jpg" alt="Lain">
-            </div>
-            <div class="filterDiv gore" onclick="monster()"><img src="./img/animes/200x150/Monster.jpg" alt="Monster">
-            </div>
-            <div class="filterDiv gore comedy" onclick="opm()"><img src="./img/animes/200x150/OnePunchMan.jpg"
-                    alt="OnePunchMan"></div>
-            <div class="filterDiv seinen" onclick="parasyte()"><img src="./img/animes/200x150/Parasyte.jpg"
-                    alt="Parasyte"></div>
-            <div class="filterDiv gore" onclick="pp()"><img src="./img/animes/200x150/PsychoPass.jpg" alt="Psycho Pass">
-            </div>
-            <div class="filterDiv gore" onclick="tg()"><img src="./img/animes/200x150/TokyoGhoul.jpg" alt="Tokyo Ghoul">
+        <div class="main-content" id="main-content">
+            <!--Categories-->
+            <ul id="content-categories" class="content-categories">
+                <li class="btn active" onclick="filterSelection('all')">Todo</li>
+                <li class="btn" onclick="filterSelection('seinen')">Seinen</li>
+                <li class="btn" onclick="filterSelection('shonen')">Shonen</li>
+                <li class="btn" onclick="filterSelection('gore')">Gore</li>
+                <li class="btn" onclick="filterSelection('distopic')">Distopía</li>
+                <li class="btn" onclick="filterSelection('future')">Futurista</li>
+                <li class="btn" onclick="filterSelection('accion')"> Acción </li>
+            </ul>
+            <div class="content-animes">
+                <div class="filterDiv gore" onclick="aot()"><img src="./img/animes/200x150/AttackOnTitan.jpg"
+                        alt="Attack On Titan">
+                </div>
+                <div class="filterDiv gore" onclick="dn()"><img src="./img/animes/200x150/DeathNote.jpg"
+                        alt="Death Note">
+                </div>
+                <div class="filterDiv gore" onclick="dcb()"><img src="./img/animes/200x150/DevilmanCrybaby.jpg"
+                        alt="Devilman Crybaby">
+                </div>
+                <div class="filterDiv gore" onclick="ks()"><img src="./img/animes/200x150/KaguyaSama.jpg"
+                        alt="Kaguya-Sama">
+                </div>
+                <div class="filterDiv gore" onclick="lain()"><img src="./img/animes/200x150/Lain.jpg" alt="Lain">
+                </div>
+                <div class="filterDiv gore" onclick="monster()"><img src="./img/animes/200x150/Monster.jpg"
+                        alt="Monster">
+                </div>
+                <div class="filterDiv gore comedy" onclick="opm()"><img src="./img/animes/200x150/OnePunchMan.jpg"
+                        alt="OnePunchMan"></div>
+                <div class="filterDiv seinen" onclick="parasyte()"><img src="./img/animes/200x150/Parasyte.jpg"
+                        alt="Parasyte"></div>
+                <div class="filterDiv gore" onclick="pp()"><img src="./img/animes/200x150/PsychoPass.jpg"
+                        alt="Psycho Pass">
+                </div>
+                <div class="filterDiv gore" onclick="tg()"><img src="./img/animes/200x150/TokyoGhoul.jpg"
+                        alt="Tokyo Ghoul">
+                </div>
             </div>
         </div>
-    </div>
     <script>
         //FILTER
         filterSelection("all")
