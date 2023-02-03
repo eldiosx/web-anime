@@ -1,8 +1,4 @@
-.cat {
-  display: none;
-}
-
-.cutegirl {
+.cat, .cutegirl, .rainbow {
   display: none;
 }
 
@@ -142,7 +138,14 @@ td {
   left: -10%;
   width: 30%;
 }
-
+.kawai .rainbow{
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 30%;
+  opacity: 0.5;
+}
 .kawai .content-categories li:hover {
   background-color: #EEEEEE;
 }

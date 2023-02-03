@@ -26,6 +26,7 @@
   position: fixed;
   left: 5%;
   background-image: url("../img/ad.jpg");
+  text-decoration: none;
 
 }
 
@@ -38,6 +39,7 @@
   position: fixed;
   right: 5%;
   background-image: url("../img/ad.jpg");
+  text-decoration: none;
 }
 
 body {
