@@ -1,50 +1,55 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-<xs:simpleType name="stringtype">
-  <xs:restriction base="xs:string"/>
-</xs:simpleType>
+  <xs:simpleType name="stringtype">
+    <xs:restriction base="xs:string" />
+  </xs:simpleType>
 
-<xs:simpleType name="inttype">
-  <xs:restriction base="xs:positiveInteger"/>
-</xs:simpleType>
+  <xs:simpleType name="inttype">
+    <xs:restriction base="xs:positiveInteger" />
+  </xs:simpleType>
 
-<xs:simpleType name="dectype">
-  <xs:restriction base="xs:decimal"/>
-</xs:simpleType>
+  <xs:simpleType name="dectype">
+    <xs:restriction base="xs:decimal" />
+  </xs:simpleType>
 
-<xs:simpleType name="libraryidtype">
-  <xs:restriction base="xs:string">
-    <xs:pattern value="([a-zA-Z])*"/>
-  </xs:restriction>
-</xs:simpleType>
+  <xs:simpleType name="libraryidtype">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="([a-zA-Z])*" />
+    </xs:restriction>
+  </xs:simpleType>
 
-<xs:complexType name="librarytype">
-  <xs:sequence>
-    <xs:element name="name" type="stringtype"/>
-    <xs:element name="quantity" type="inttype"/>
-    <xs:element name="servercountry" type="stringtype"/>
-  </xs:sequence>
-</xs:complexType>
+  <xs:complexType name="librarytype">
+    <xs:sequence>
+      <xs:element name="name" type="stringtype" />
+      <xs:element name="quantity" type="inttype" />
+      <xs:element name="servercountry" type="stringtype" />
+    </xs:sequence>
+  </xs:complexType>
 
-<xs:complexType name="animetype">
-  <xs:sequence>
-    <xs:element name="title" type="stringtype"/>
-    <xs:element name="category" type="stringtype" minOccurs="0"/>
-    <xs:element name="director" type="stringtype"/>
-    <xs:element name="episodes" type="dectype"/>
-  </xs:sequence>
-</xs:complexType>
+  <xs:complexType name="animetype">
+    <!-- <xs:complexContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="lang" type="xs:string" />
+      </xs:extension>
+    </xs:complexContent> -->
+    <xs:sequence>
+      <xs:element name="title" type="stringtype" />
+      <xs:element name="category" type="stringtype" minOccurs="0" />
+      <xs:element name="director" type="stringtype" />
+      <xs:element name="episodes" type="dectype" />
+    </xs:sequence>
+  </xs:complexType>
 
-<xs:complexType name="animestype">
-  <xs:sequence>
-    <xs:element name="language" type="stringtype"/>
-    <xs:element name="library" type="librarytype"/>
-    <xs:element name="anime" maxOccurs="unbounded" type="animetype"/>
-  </xs:sequence>
-  <xs:attribute name="libraryid" type="libraryidtype" use="required"/>
-</xs:complexType>
+  <xs:complexType name="animestype">
+    <xs:sequence>
+      <xs:element name="language" type="stringtype" />
+      <xs:element name="library" type="librarytype" />
+      <xs:element name="anime" maxOccurs="unbounded" type="animetype" />
+    </xs:sequence>
+    <xs:attribute name="libraryid" type="libraryidtype" use="required" />
+  </xs:complexType>
 
-<xs:element name="animes" type="animestype"/>
+  <xs:element name="animes" type="animestype" />
 
 </xs:schema> 

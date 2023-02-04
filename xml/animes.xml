@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<?xml-stylesheet href="xml.css"
+  title="Modern" media="screen"
+  type="text/css"?>
 <animes libraryid="Default"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="animes.xsd">
