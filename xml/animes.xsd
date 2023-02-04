@@ -38,7 +38,7 @@
 
 <xs:complexType name="animestype">
   <xs:sequence>
-    <xs:element name="orderperson" type="stringtype"/>
+    <xs:element name="language" type="stringtype"/>
     <xs:element name="library" type="librarytype"/>
     <xs:element name="anime" maxOccurs="unbounded" type="animetype"/>
   </xs:sequence>
