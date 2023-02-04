@@ -13,9 +13,6 @@
   <link rel="icon" type="image/logo" href="img/icons/icon.svg">
   <!--SCRIPTS-->
   <script src="js/jquery-3.6.3.js"></script>
-  <script>$(function () {
-      $("#include-body").load("html/categories.html");
-    });</script>
   <script src="js/smart.js"></script>
   <!--TITTLE-->
   <title>Anime Web</title>
@@ -25,15 +22,17 @@
   <div class="background">
     <!--Loader-->
     <img class="loader" src="img/loading.gif" alt="cargando..." id="loader">
-    <!--Header-->
+    <!--HEADER-->
     <header class="main-header" id="main-header">
+      <!--Header mobile-->
       <nav class="main-nav" id="main-nav">
-        <img class="logomobile" src="img/logos/logo.png" alt="">
+        <img href="" class="logomobile" src="img/logos/logo.png" alt="">
         <form action="xml/animes.xsd">
           <button class="searchbtn" type="submit">&nbsp;<span class="icon-search"></span>&nbsp;</button>
         </form>
+        <!--Header normal-->
         <ul>
-          <li class="logo" href="index.html"><img class="logoimg" src="img/logos/logo.png" alt=""></li>
+          <li class="logo" href=""><img class="logoimg" src="img/logos/logo.png" alt=""></li>
           <li class="dropdown">Animes
             <ul class="dropdown-menu">
               <li><a href="">Inicio</a></li>
@@ -56,6 +55,7 @@
               <li><a href="xml/animes.xml">Cuenta</a></li>
             </ul>
           </li>
+          <!--Xml search-->
           <li class="searchbtn-big">
             <form class="searchbtn-big" action="xml/animes.xsd">
               <input class="searchbtn-big" type="text" placeholder="Buscar.." name="search">
@@ -69,23 +69,25 @@
         </ul>
       </nav>
     </header>
-    <!--Body-->
+    <!--CONTENT-->
+    <!--Theme decoration-->
     <img class="rainbow" src="./img/rainbow.png" alt="">
     <img class="cat" src="./img/babycat.png" alt="">
     <img class="cutegirl" src="./img/cutegirl.gif" alt="">
     <a class="ad1" href="https://www.losreplicantes.com/images/articulos/10000/10051/top.jpg">&nbsp;<div class="ad1">
       </div></a>
-    <div id="include-body"></div>
+    <!--This will replace html to a xhtml-->
+    <div id="include-content"></div>
     <a class="ad1" href="https://www.losreplicantes.com/images/articulos/10000/10051/top.jpg">&nbsp;<div class="ad2">
       </div></a>
-    <!--Footer-->
+    <!--FOOTER-->
     <footer class="footer" id="about">
       <svg class="footer-wave-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" preserveAspectRatio="none">
         <path class="footer-wave-path"
           d="M851.8,100c125,0,288.3-45,348.2-64V0H0v44c3.7-1,7.3-1.9,11-2.9C80.7,22,151.7,10.8,223.5,6.3C276.7,2.9,330,4,383,9.8 c52.2,5.7,103.3,16.2,153.4,32.8C623.9,71.3,726.8,100,851.8,100z">
         </path>
       </svg>
-      <!--Footer-Logo-->
+      <!--Footer Logo-->
       <div class="footer-content">
         <div class="footer-content-column">
           <div class="footer-logo">
@@ -203,7 +205,7 @@
     </footer>
   </div>
   <script>
-    //MENU
+    //MENU (Scroll behavior of header)
     window.onscroll = function () {
       myFunction()
     };
@@ -223,7 +225,7 @@
     }
   </script>
   <script>
-    //THEME (Saved on cookie :D)
+    //THEME (Saved on a cookie :D)
     (function () {
       let onpageLoad = localStorage.getanime("theme") || "";
       let element = document.body;
@@ -231,6 +233,12 @@
       document.getElementById("theme").textContent =
         localStorage.getanime("theme") || "cute";
     })();
+  </script>
+  <script>
+    //CONTENT (Load categories by default)
+    $(function () {
+      $("#include-content").load("html/categories.html");
+    });
   </script>
 </body>
 

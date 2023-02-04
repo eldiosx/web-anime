@@ -1,3 +1,4 @@
+/*MAIN*/
 .animeBody {
     width: 900px;
     background-color: #393E46;
@@ -12,6 +13,9 @@
     height: 600px;
     border: 0px;
 }
+
+/*RESPONSIVE*/
+
 @media (max-width:900px) {
     .animeBody{
         width: auto;
