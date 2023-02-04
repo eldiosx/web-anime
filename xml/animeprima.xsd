@@ -4,55 +4,55 @@
   <xs:element name="animes">
     <xs:complexType>
       <xs:choice maxOccurs="unbounded" minOccurs="0">
-        <xs:element ref="animes"/>
-        <xs:element ref="name"/>
-        <xs:element name="br" type="xs:string"/>
-        <xs:element name="director" type="xs:string"/>
-        <xs:element name="year" type="xs:string"/>
-        <xs:element ref="episodes"/>
-        <xs:element ref="category1" type="xs:string"/>
-        <xs:element ref="category2" type="xs:string"/>
-        <xs:element name="category3" type="xs:string"/>
-        <xs:element name="category4" type="xs:string"/>
+        <xs:element ref="animes" />
+        <xs:element ref="name" />
+        <xs:element name="br" type="xs:string" />
+        <xs:element name="director" type="xs:string" />
+        <xs:element name="year" type="xs:string" />
+        <xs:element ref="episodes" />
+        <xs:element ref="category1" type="xs:string" />
+        <xs:element ref="category2" type="xs:string" />
+        <xs:element name="category3" type="xs:string" />
+        <xs:element name="category4" type="xs:string" />
       </xs:choice>
     </xs:complexType>
   </xs:element>
-   
-  
+
+
   <xs:element name="episodes">
     <xs:complexType mixed="true">
       <xs:sequence minOccurs="0">
-        <xs:element name="br" type="xs:string"/>
+        <xs:element name="br" type="xs:string" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-  
-  <xs:element name="category1">
-      <xs:simpleType mixed="true">
-        <xs:attribute name="category1" type="xs:string" use="required"/>
-        <xs:restriction base="xs:string">
-              <xs:enumeration value="Seinen"/>
-              <xs:enumeration value="Shonen"/>
-              <xs:enumeration value="Gore"/>
-              <xs:enumeration value="Distopía"/>
-              <xs:enumeration value="Futurista"/>
-              <xs:enumeration value="Acción"/>
-      </xs:restriction>
-      </xs:simpleType>
-    </xs:element>
 
-      <xs:element name="category2">
-      <xs:simpleType mixed="true">
-        <xs:attribute name="category2" type="xs:string" use="required"/>
-          <xs:restriction base="xs:string">
-              <xs:enumeration value="Seinen"/>
-              <xs:enumeration value="Shonen"/>
-              <xs:enumeration value="Gore"/>
-              <xs:enumeration value="Distopía"/>
-              <xs:enumeration value="Futurista"/>
-              <xs:enumeration value="Acción"/>
-        </xs:restriction>
-      </xs:simpleType>
-    </xs:element>
-    
-  </xs:schema>
+  <xs:element name="category1">
+    <xs:simpleType mixed="true">
+      <xs:attribute name="category1" type="xs:string" use="required" />
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="Seinen" />
+        <xs:enumeration value="Shonen" />
+        <xs:enumeration value="Gore" />
+        <xs:enumeration value="Distopía" />
+        <xs:enumeration value="Futurista" />
+        <xs:enumeration value="Acción" />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+
+  <xs:element name="category2">
+    <xs:simpleType mixed="true">
+      <xs:attribute name="category2" type="xs:string" use="required" />
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="Seinen" />
+        <xs:enumeration value="Shonen" />
+        <xs:enumeration value="Gore" />
+        <xs:enumeration value="Distopía" />
+        <xs:enumeration value="Futurista" />
+        <xs:enumeration value="Acción" />
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+
+</xs:schema>
