@@ -55,34 +55,34 @@ function includeHTML() {
     }
   }
 };
-//Smart-Animes (experimental)
+//Smart-animes (experimental)
 function aot() {
-  $("#include-body").load("html/animes/AttackOnTitan.html");
+  $("#include-body").load("html/xhtml/AttackOnTitan.xhtml");
 };
 function dn() {
-  $("#include-body").load("html/animes/DeathNote.html");
+  $("#include-body").load("html/xhtml/DeathNote.xhtml");
 };
 function dcb() {
-  $("#include-body").load("html/animes/DevilmanCrybaby.html");
+  $("#include-body").load("html/xhtml/DevilmanCrybaby.xhtml");
 };
 function ks() {
-  $("#include-body").load("html/animes/KaguyaSama.html");
+  $("#include-body").load("html/xhtml/KaguyaSama.xhtml");
 };
 function lain() {
-  $("#include-body").load("html/animes/Lain.html");
+  $("#include-body").load("html/xhtml/Lain.xhtml");
 };
 function monster() {
-  $("#include-body").load("html/animes/Monster.html");
+  $("#include-body").load("html/xhtml/Monster.xhtml");
 };
 function opm() {
-  $("#include-body").load("html/animes/OnePunchMan.html");
+  $("#include-body").load("html/xhtml/OnePunchMan.xhtml");
 };
 function parasyte() {
-  $("#include-body").load("html/animes/Parasyte.html");
+  $("#include-body").load("html/xhtml/Parasyte.xhtml");
 };
 function pp() {
-  $("#include-body").load("html/animes/PsychoPass.html");
+  $("#include-body").load("html/xhtml/PsychoPass.xhtml");
 };
 function tg() {
-  $("#include-body").load("html/animes/TokyoGhoul.html");
+  $("#include-body").load("html/xhtml/TokyoGhoul.xhtml");
 };
