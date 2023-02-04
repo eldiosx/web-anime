@@ -18,14 +18,14 @@ function themeToggle() {
   let element = document.body;
   element.classList.toggle("kawai");
 
-  let theme = localStorage.getItem("theme");
+  let theme = localStorage.getanime("theme");
   if (theme && theme === "kawai") {
-    localStorage.setItem("theme", "");
+    localStorage.setanime("theme", "");
   } else {
-    localStorage.setItem("theme", "kawai");
+    localStorage.setanime("theme", "kawai");
   }
 
-  document.getElementById("theme").textContent = localStorage.getItem("theme");
+  document.getElementById("theme").textContent = localStorage.getanime("theme");
 }
 
 function includeHTML() {

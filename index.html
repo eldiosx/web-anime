@@ -29,7 +29,7 @@
     <header class="main-header" id="main-header">
       <nav class="main-nav" id="main-nav">
         <img class="logomobile" src="img/logos/logo.png" alt="">
-        <form action="xml/animeprima.xml">
+        <form action="xml/animes.xsd">
           <button class="searchbtn" type="submit" href="#search">&nbsp;<span class="icon-search"></span>&nbsp;</button>
         </form>
         <ul>
@@ -37,27 +37,27 @@
           <li class="dropdown">Animes
             <ul class="dropdown-menu">
               <li><a href="">Inicio</a></li>
-              <li><a href="xml/animeprima.xml">Populares</a></li>
-              <li><a href="xml/animeprima.xml">Reciente</a></li>
-              <li><a href="xml/animeprima.xml">En cartera</a></li>
-              <li><a href="xml/animeprima.xml">Mejor valorados</a></li>
+              <li><a href="xml/animes.xml">Populares</a></li>
+              <li><a href="xml/animes.xml">Reciente</a></li>
+              <li><a href="xml/animes.xml">En cartera</a></li>
+              <li><a href="xml/animes.xml">Mejor valorados</a></li>
             </ul>
           </li>
           <li class="dropdown" href="#news">Noticias
             <ul class="dropdown-menu">
-              <li><a href="xml/animeprima.xml">Novedades</a></li>
-              <li><a href="xml/animeprima.xml">Destacadas</a></li>
-              <li><a href="xml/animeprima.xml">Otras</a></li>
+              <li><a href="xml/animes.xml">Novedades</a></li>
+              <li><a href="xml/animes.xml">Destacadas</a></li>
+              <li><a href="xml/animes.xml">Otras</a></li>
             </ul>
           </li>
           <li class="dropdown" href="#comunity">Comunidad
             <ul class="dropdown-menu">
-              <li><a href="xml/animeprima.xml">Foro</a></li>
-              <li><a href="xml/animeprima.xml">Cuenta</a></li>
+              <li><a href="xml/animes.xml">Foro</a></li>
+              <li><a href="xml/animes.xml">Cuenta</a></li>
             </ul>
           </li>
           <li class="searchbtn-big">
-            <form class="searchbtn-big" action="xml/animeprima.xml">
+            <form class="searchbtn-big" action="xml/animes.xsd">
               <input class="searchbtn-big" type="text" placeholder="Buscar.." name="search">
               <button class="searchbtn-big" type="submit">&nbsp;<span class="icon-search"></span>&nbsp;</button>
             </form>
@@ -100,13 +100,13 @@
           <div class="footer-menu">
             <h2 class="footer-menu-title">Compañia</h2>
             <ul id="menu-company" class="footer-menu-list">
-              <li class="menu-item menu-item-type-post_type menu-item-object-page">
+              <li class="menu-anime menu-anime-type-post_type menu-anime-object-page">
                 <a href="#">Contactar</a>
               </li>
-              <li class="menu-item menu-item-type-taxonomy menu-item-object-category">
+              <li class="menu-anime menu-anime-type-taxonomy menu-anime-object-category">
                 <a href="#">Noticias</a>
               </li>
-              <li class="menu-item menu-item-type-post_type menu-item-object-page">
+              <li class="menu-anime menu-anime-type-post_type menu-anime-object-page">
                 <a href="#">Información</a>
               </li>
             </ul>
@@ -116,10 +116,10 @@
             <h2 class="footer-menu-title">Legal</h2>
             <ul id="menu-legal" class="footer-menu-list">
               <li
-                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-170434">
+                class="menu-anime menu-anime-type-post_type menu-anime-object-page menu-anime-privacy-policy menu-anime-170434">
                 <a href="#">Privacidad</a>
               </li>
-              <li class="menu-item menu-item-type-post_type menu-item-object-page">
+              <li class="menu-anime menu-anime-type-post_type menu-anime-object-page">
                 <a href="#">Terminos de uso</a>
               </li>
             </ul>
@@ -130,25 +130,25 @@
           <div class="footer-menu">
             <h2 class="footer-menu-title">Enlaces de interes</h2>
             <ul id="menu-quick-links" class="footer-menu-list">
-              <li class="menu-item menu-item-type-custom menu-item-object-custom">
+              <li class="menu-anime menu-anime-type-custom menu-anime-object-custom">
                 <a target="_blank" rel="noopener noreferrer" href="#">Estado del servidor</a>
               </li>
-              <li class="menu-item menu-item-type-custom menu-item-object-custom">
+              <li class="menu-anime menu-anime-type-custom menu-anime-object-custom">
                 <a target="_blank" rel="noopener noreferrer" href="#">Sede central</a>
               </li>
-              <li class="menu-item menu-item-type-post_type menu-item-object-page">
+              <li class="menu-anime menu-anime-type-post_type menu-anime-object-page">
                 <a href="#">Seguridad</a>
               </li>
-              <li class="menu-item menu-item-type-post_type menu-item-object-page">
+              <li class="menu-anime menu-anime-type-post_type menu-anime-object-page">
                 <a href="#">Blog</a>
               </li>
-              <li class="menu-item menu-item-type-post_type_archive menu-item-object-customer">
+              <li class="menu-anime menu-anime-type-post_type_archive menu-anime-object-customer">
                 <a href="#">Clientes</a>
               </li>
-              <li class="menu-item menu-item-type-post_type menu-item-object-page">
+              <li class="menu-anime menu-anime-type-post_type menu-anime-object-page">
                 <a href="#">Reviews</a>
               </li>
-              <li class="menu-item menu-item-type-post_type menu-item-object-page">
+              <li class="menu-anime menu-anime-type-post_type menu-anime-object-page">
                 <a href="#">David &amp; Adrian</a>
               </li>
             </ul>
@@ -225,11 +225,11 @@
   <script>
     //THEME (Saved on cookie :D)
     (function () {
-      let onpageLoad = localStorage.getItem("theme") || "";
+      let onpageLoad = localStorage.getanime("theme") || "";
       let element = document.body;
       element.classList.add(onpageLoad);
       document.getElementById("theme").textContent =
-        localStorage.getItem("theme") || "cute";
+        localStorage.getanime("theme") || "cute";
     })();
   </script>
 </body>
