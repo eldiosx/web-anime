@@ -16,9 +16,11 @@
 
 
 }
-#include-content{
+
+#include-content {
   text-align: center;
 }
+
 .ad1 {
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid rgba(0, 0, 0, 0.8);
@@ -43,10 +45,14 @@
   background-image: url("../img/ad.jpg");
   text-decoration: none;
 }
-.cat, .cutegirl, .rainbow {
+
+.cat,
+.cutegirl,
+.rainbow {
   display: none;
   z-index: 9999;
 }
+
 body {
   background-color: rgb(0, 0, 0);
   color: #EEEEEE;
@@ -56,10 +62,13 @@ body {
 .background {
   background-color: #222831;
 }
+
 /*KAWAI*/
-.kawai .ad1, .kawai .ad2{
-display: none;
+.kawai .ad1,
+.kawai .ad2 {
+  display: none;
 }
+
 .kawai .cat {
   display: block;
   position: fixed;
@@ -75,10 +84,12 @@ display: none;
   left: -10%;
   width: 30%;
 }
-.kawai .rainbow:hover{
+
+.kawai .rainbow:hover {
   display: none;
-  }
-.kawai .rainbow{
+}
+
+.kawai .rainbow {
   display: block;
   position: fixed;
   top: 0;
@@ -89,9 +100,11 @@ display: none;
 }
 
 @media screen and (max-width: 900px) {
-  .ad1, .ad2{
+
+  .ad1,
+  .ad2 {
     display: none;
-    }
+  }
 }
 
 /*LOADER*/
@@ -125,10 +138,12 @@ display: none;
 .dropdown {
   border-radius: 10px;
 }
-.dropdown a{
+
+.dropdown a {
   text-decoration: none;
   color: #EEEEEE;
 }
+
 .sticky {
   position: fixed;
   top: 0px;
@@ -180,11 +195,33 @@ display: none;
   display: none;
   position: absolute;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  padding: 10px 30px 0px 0px;
+  animation: openMenu 300ms ease-in-out;
+  transform-origin: top center
+}
+
+@keyframes openMenu {
+  0% {
+    transform: scaleY(0)
+  }
+
+  80% {
+    transform: scaleY(1.1)
+  }
+
+  100% {
+    transform: scaleY(1)
+  }
+}
+
+.firstItem {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.lastItem {
+  border-radius: 0px 0px 10px 10px;
 }
 
 .dropdown-menu li {
@@ -195,6 +232,13 @@ display: none;
   text-decoration: none;
   display: block;
   text-align: center;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.481);
+}
+
+.dropdown-menu li:hover {
+  background-color: #8f8f8f;
+  color: black;
+  transition: background-color 0.2s;
 }
 
 .main-nav .dropdown:hover,
@@ -203,11 +247,7 @@ display: none;
 .theme:hover {
   background-color: rgba(255, 255, 255, 0.2);
   color: #EEEEEE;
-}
-
-.dropdown-menu li:hover {
-  background-color: #EEEEEE;
-  color: black;
+  transition: background-color 0.2s;
 }
 
 /* Show submenu */
@@ -439,7 +479,7 @@ display: none;
   margin: 0 10px 10px 0;
   text-decoration: none;
   text-transform: uppercase;
-  transition: background-color .2s;
+  transition: background-color 0.2s;
   cursor: pointer;
   position: relative;
 }

@@ -67,6 +67,7 @@ td {
   padding: 20px 10px 20px 10px;
   background-color: #222831;
   border-radius: 5px;
+  transition: background-color 0.5s;
 }
 
 .content-categories li:hover {
