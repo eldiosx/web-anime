@@ -22,7 +22,7 @@ td {
   border-radius: 20px;
   display: inline-grid;
   margin-bottom: 20px;
-  align-animes: left;
+  align-content: left;
   justify-content: left;
 }
 
@@ -37,11 +37,13 @@ td {
   text-align: center;
   margin: 9px;
   display: none;
+  transition: all 0.5s;
 }
 
 .filterDiv:hover {
   border: #B55400 5px solid;
-  box-shadow: 8px 8px rgba(231, 231, 231, 0.185);
+  box-shadow: 8px 8px 8px rgba(231, 231, 231, 0.185);
+  transform: scale(1.1);
 }
 
 .filterDiv img:hover {
@@ -95,6 +97,7 @@ td {
   .loader {
     background: url('../img/mobileloading.gif') 50% 50% no-repeat rgb(0, 0, 0, .8);
   }
+
   .main-content {
     width: auto;
     margin: 1%;
