@@ -98,7 +98,7 @@ body {
   left: 0;
   opacity: 0.5;
   width: 30%;
-  z-index: 0;
+  z-index: 9999;
 }
 
 /*RESPONSIVE*/
@@ -124,6 +124,7 @@ body {
 /*HEADER*/
 .main-header {
   margin-top: 0.5px;
+  z-index: 999;
 }
 
 .theme {
