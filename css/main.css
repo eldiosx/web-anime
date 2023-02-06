@@ -31,6 +31,7 @@
   left: 5%;
   background-image: url("../img/ad.jpg");
   text-decoration: none;
+  z-index: 9999;
 
 }
 
@@ -44,6 +45,7 @@
   right: 5%;
   background-image: url("../img/ad.jpg");
   text-decoration: none;
+  z-index: 9999;
 }
 
 .cat,
