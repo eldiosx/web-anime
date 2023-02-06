@@ -76,6 +76,7 @@ td {
 }
 
 .content-animes {
+  padding-bottom: 15px;
   margin-top: 20px;
   overflow: hidden;
 }
