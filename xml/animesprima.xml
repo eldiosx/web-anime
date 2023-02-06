@@ -4,145 +4,86 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:noNamespaceSchemaLocation="animesprima.xsd">
 
     <animes>
-        <name category="Seinen"> Attack on Titan </name>
-        <br />
+        <name> Attack on Titan </name>
         <director> </director>
-        <br />
         <year> </year>
-        <br />
         <episodes> </episodes>
-        <br />
         <category1> Seinen </category1>
-        <br />
         <category2> Shonen </category2>
-        <br />
         <category3> Distopía </category3>
-        <br />
         <category4> Acción </category4>
-        <br />
     </animes>
-
+<br />
     <animes>
-        <name category="Seinen"> Death note </name>
-        <br />
+        <name> Death note </name>
         <director> Tetsurō Araki, Estudio Madhouse </director>
-        <br />
         <year> 2007 </year>
-        <br />
         <episodes> 37+2 episodes Especiales </episodes>
-        <br />
         <category1> Seinen </category1>
-        <br />
-        <category2> Shonen </category2>
-        <br />
+        <category2> Accion </category2>
         <category3> Terror </category3>
-        <br />
         <category4> </category4>
-        <br />
     </animes>
-
+<br />
     <animes>
-        <name category="Seinen"> Devilman Crybaby </name>
-        <br />
+        <name> Devilman Crybaby </name>
         <director> Gō Nagai </director>
-        <br />
         <year> 2018 </year>
-        <br />
         <episodes> 10 </episodes>
-        <br />
         <category1> Seinen </category1>
-        <br />
         <category2> Shonen </category2>
-        <br />
-        <category3> </category3>
-        <br />
+        <category3> Gore </category3>
         <category4> </category4>
-        <br />
     </animes>
-
+<br />
     <animes>
-        <name category="Seinen"> Monster </name>
-        <br />
+        <name> Monster </name>
         <director> Masayuki Kojima, Estudio Madhouse </director>
-        <br />
         <year> 2004 </year>
-        <br />
         <episodes> 74 </episodes>
-        <br />
         <category1> Seinen </category1>
-        <br />
         <category2> Shonen </category2>
-        <br />
-        <category3> </category3>
-        <br />
+        <category3> Gore </category3>
         <category4> </category4>
-        <br />
     </animes>
-
+<br />
     <animes>
-        <name category="Seinen"> Psycho-Pass</name>
-        <br />
+        <name> Psycho-Pass </name>
         <director> Naoyoshi Shiotani, Katsuyuki Motohiro </director>
-        <br />
         <year> 2012 </year>
-        <br />
         <episodes> 22 </episodes>
-        <br />
         <category1> Seinen </category1>
-        <br />
         <category2> Acción </category2>
-        <br />
         <category3> Distopía </category3>
-        <br />
         <category4> </category4>
-        <br />
     </animes>
-
+<br />
     <animes>
-        <name category="Seinen"> One Punch Man</name>
-        <br />
+        <name> One Punch Man </name>
         <director> </director>
-        <br />
         <year> </year>
-        <br />
         <episodes> </episodes>
-        <br />
         <category1> Seinen </category1>
-        <br />
         <category2> Shonen </category2>
-        <br />
         <category3> </category3>
-        <br />
         <category4> </category4>
-        <br />
     </animes>
-
+<br />
     <animes>
-        <name category="Seinen"> Kaguya-sama wa Kokurasetai: Tensai-tachi no Ren'ai Zunōsen</name>
-        <br />
+        <name> Kaguya-sama wa Kokurasetai: Tensai-tachi no Ren'ai Zunōsen</name>
         <director> Yukie Sugawara </director>
-        <br />
         <year> 2019 </year>
-        <br />
         <episodes> 12 </episodes>
-        <br />
         <category1> Seinen </category1>
-        <br />
-        <category2> </category2>
-        <br />
+        <category2> Drama </category2>
         <category3> </category3>
-        <br />
         <category4> </category4>
-        <br />
     </animes>
-
+<br />
     <animes>
-        <name category="Seinen"> Ghost in the Shell</name>
-        <br />
+        <name> Ghost in the Shell</name>
         <director> Mamoru Oshii; Kenji Kamiyama; Kazuchika Kise </director>
-        <br />
         <year> </year>
-        <br />
         <episodes> Ghost in the Shell: Stand Alone Complex (2002). 26 capítulos emitida en 2002.<br />
             Ghost in the Shell: Stand Alone Complex (2004). 26 capítulos emitida en 2004.<br />
             Ghost in the Shell: Stand Alone Complex – The Laughing Man (2005). Película <br /> Ghost
@@ -150,72 +91,42 @@ xsi:noNamespaceSchemaLocation="animesprima.xsd">
             (2013-2014). OVAs<br /> Ghost in the Shell: Arise - Alternative Architecture (2015) . 10
             Chap <br /> Ghost in the Shell: SAC_2045 serie ONA (2020)<br />
         </episodes>
-        <br />
         <category1> Seinen </category1>
-        <br />
         <category2> Distopía </category2>
-        <br />
         <category3> Acción </category3>
-        <br />
         <category4> </category4>
-        <br />
     </animes>
 
     <animes>
-        <name category="Seinen"> Parasyte </name>
-        <br />
+        <name > Parasyte </name>
         <director> </director>
-        <br />
         <year> </year>
-        <br />
         <episodes> </episodes>
-        <br />
         <category1> Seinen </category1>
-        <br />
         <category2> Distopía </category2>
-        <br />
         <category3> </category3>
-        <br />
         <category4> </category4>
-        <br />
     </animes>
 
     <animes>
-        <name category="Seinen"> Serial Experiments Lain </name>
-        <br />
+        <name> Serial Experiments Lain </name>
         <director> </director>
-        <br />
         <year> </year>
-        <br />
         <episodes> </episodes>
-        <br />
         <category1> Seinen </category1>
-        <br />
         <category2> Distopía </category2>
-        <br />
         <category3> Drama </category3>
-        <br />
         <category4> </category4>
-        <br />
     </animes>
 
     <animes>
-        <name category="Seinen"> Tokyo Ghoul </name>
-        <br />
+        <name> Tokyo Ghoul </name>
         <director> Shuhei Morita </director>
-        <br />
         <year> 2015 </year>
-        <br />
         <episodes> 12 </episodes>
-        <br />
         <category1> Seinen </category1>
-        <br />
         <category2> Distopía </category2>
-        <br />
         <category3> </category3>
-        <br />
-        <category4> </category4>
-        <br />
     </animes>
 
 </animes>

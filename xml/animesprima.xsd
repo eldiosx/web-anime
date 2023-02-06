@@ -30,28 +30,28 @@
   <xs:element name="category1">
     <xs:complexType mixed="true">
       <xs:attribute name="category1" type="xs:string" use="required" />
-      <xs:restriction base="xs:string">
-        <xs:enumeration value="Seinen" />
-        <xs:enumeration value="Shonen" />
-        <xs:enumeration value="Gore" />
-        <xs:enumeration value="Distopía" />
-        <xs:enumeration value="Futurista" />
-        <xs:enumeration value="Acción" />
-      </xs:restriction>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Seinen" />
+          <xs:enumeration value="Shonen" />
+          <xs:enumeration value="Gore" />
+          <xs:enumeration value="Distopía" />
+          <xs:enumeration value="Futurista" />
+          <xs:enumeration value="Acción" />
+        </xs:restriction>
     </xs:complexType>
   </xs:element>
 
   <xs:element name="category2">
     <xs:complexType mixed="true">
       <xs:attribute name="category2" type="xs:string" use="required" />
-      <xs:restriction base="xs:string">
-        <xs:enumeration value="Seinen" />
-        <xs:enumeration value="Shonen" />
-        <xs:enumeration value="Gore" />
-        <xs:enumeration value="Distopía" />
-        <xs:enumeration value="Futurista" />
-        <xs:enumeration value="Acción" />
-      </xs:restriction>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Seinen" />
+          <xs:enumeration value="Shonen" />
+          <xs:enumeration value="Gore" />
+          <xs:enumeration value="Distopía" />
+          <xs:enumeration value="Futurista" />
+          <xs:enumeration value="Acción" />
+        </xs:restriction>
     </xs:complexType>
   </xs:element>
 
