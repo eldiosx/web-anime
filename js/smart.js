@@ -35,6 +35,9 @@ function aot() {
 function dn() {
   $("#include-content").load("html/xhtml/DeathNote.xhtml");
 };
+function gs() {
+  $("#include-content").load("html/xhtml/GhostInTheShell.xhtml");
+};
 function dcb() {
   $("#include-content").load("html/xhtml/DevilmanCrybaby.xhtml");
 };
