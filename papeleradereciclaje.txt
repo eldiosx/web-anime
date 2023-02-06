@@ -1,3 +1,18 @@
+  Paleta PPAL:
+
+Barra:393E46
+Fondo:222831
+H:B55400
+Textos:EEEEEE
+
+
+Paleta Kawaii:
+
+Barra: #47484A
+Fondo: #E0A39F
+H: #988C80
+Textos: #F9EBE1
+  
   xsd: <xs:element name="name" type="xs:string" required="" /> 
   
   <table>
