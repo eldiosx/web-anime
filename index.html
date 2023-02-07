@@ -58,7 +58,7 @@
           <!--Xml search-->
           <li class="searchbtn-big">
             <form class="searchbtn-big" action="xml/animes.xsd">
-              <input class="searchbtn-big" type="text" placeholder="Buscar.." name="search">
+              <input class="searchbtn-big" id="search" type="text" placeholder="Buscar.." name="search">
               <button class="searchbtn-big" type="submit">&nbsp;<span class="icon-search"></span>&nbsp;</button>
             </form>
           </li>
@@ -68,17 +68,22 @@
               class="icon-menu"></span>&nbsp;</li>
         </ul>
       </nav>
-    </header>
+    </header><br><br><br>
+    <p id="output"></p><br><br><br>
     <!--CONTENT-->
     <!--Theme decoration-->
     <img class="rainbow" src="./img/rainbow.png" alt="">
     <img class="cat" src="./img/babycat.png" alt="">
     <img class="cutegirl" src="./img/cutegirl.gif" alt="">
-    <a class="ad1" href="https://www.amazon.com/Slap-Chop-Stainless-Vegetable-Accessory/dp/B01FFYKQ5Y/ref=sr_1_7?keywords=slap+shop&qid=1675726587&sr=8-7">&nbsp;<div class="ad1">
+    <a class="ad1"
+      href="https://www.amazon.com/Slap-Chop-Stainless-Vegetable-Accessory/dp/B01FFYKQ5Y/ref=sr_1_7?keywords=slap+shop&qid=1675726587&sr=8-7">&nbsp;
+      <div class="ad1">
       </div></a>
     <!--This will replace html to a xhtml-->
     <div id="include-content"></div>
-    <a class="ad1" href="https://www.amazon.com/Slap-Chop-Stainless-Vegetable-Accessory/dp/B01FFYKQ5Y/ref=sr_1_7?keywords=slap+shop&qid=1675726587&sr=8-7">&nbsp;<div class="ad2">
+    <a class="ad1"
+      href="https://www.amazon.com/Slap-Chop-Stainless-Vegetable-Accessory/dp/B01FFYKQ5Y/ref=sr_1_7?keywords=slap+shop&qid=1675726587&sr=8-7">&nbsp;
+      <div class="ad2">
       </div></a>
     <!--FOOTER-->
     <footer class="footer" id="about">
@@ -239,6 +244,36 @@
     $(function () {
       $("#include-content").load("html/categories.html");
     });
+  </script>
+  <script>
+    //SEARCH (Test v0.1)
+    $(document).ready(function () {
+      $('#search').on('keyup', function () {
+        $.ajax({
+          type: "GET",
+          url: "xml/animes.xml",
+          dataType: "xml",
+          success: parseXML
+        });
+      });
+    });
+    function parseXML(xml) {
+      var searchFor = $('#search').val();
+      var reg = new RegExp(searchFor, "i");
+      $(xml).find('anime').each(function () {
+        var title = $(this).find('title').text();
+        var titleSearch = title.search(reg);
+        var desc = $(this).find('director').text();
+        var descSearch = desc.search(reg);
+        $('#output').empty();
+        if (titleSearch > -1) {
+          $('#output').append('Found <i>' + searchFor + '<\/i> in title: ' + title.replace(reg, '<b>' + searchFor + '</b>') + '<br \/>');
+        }
+        if (descSearch > -1) {
+          $('#output').append('Found <i>' + searchFor + '<\/i> in description: ' + desc.replace(reg, '<b>' + searchFor + '</b>') + '<br \/>');
+        }
+      });
+    }
   </script>
 </body>
 
