@@ -37,7 +37,8 @@ td {
   text-align: center;
   margin: 9px;
   display: none;
-  transition: all 0.5s;
+  transition: all 0.3s, background-position 1ms;
+  
 }
 
 .filterDiv:hover {
