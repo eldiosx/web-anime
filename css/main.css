@@ -16,7 +16,9 @@
 
 
 }
-
+.searching{
+  color: yellow;
+}
 #include-content {
   text-align: center;
 }

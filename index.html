@@ -68,8 +68,8 @@
               class="icon-menu"></span>&nbsp;</li>
         </ul>
       </nav>
-    </header><br><br><br>
-    <p id="output"></p><br><br><br>
+    </header>
+    <p id="output"></p>
     <!--CONTENT-->
     <!--Theme decoration-->
     <img class="rainbow" src="./img/rainbow.png" alt="">
@@ -78,13 +78,15 @@
     <a class="ad1"
       href="https://www.amazon.com/Slap-Chop-Stainless-Vegetable-Accessory/dp/B01FFYKQ5Y/ref=sr_1_7?keywords=slap+shop&qid=1675726587&sr=8-7">&nbsp;
       <div class="ad1">
-      </div></a>
+      </div>
+    </a>
     <!--This will replace html to a xhtml-->
     <div id="include-content"></div>
     <a class="ad1"
       href="https://www.amazon.com/Slap-Chop-Stainless-Vegetable-Accessory/dp/B01FFYKQ5Y/ref=sr_1_7?keywords=slap+shop&qid=1675726587&sr=8-7">&nbsp;
       <div class="ad2">
-      </div></a>
+      </div>
+    </a>
     <!--FOOTER-->
     <footer class="footer" id="about">
       <svg class="footer-wave-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" preserveAspectRatio="none">
@@ -245,8 +247,8 @@
       $("#include-content").load("html/categories.html");
     });
   </script>
-  <script>
-    //SEARCH (Test v0.1)
+  <script>  
+    //SEARCH (Test v0.3)
     $(document).ready(function () {
       $('#search').on('keyup', function () {
         $.ajax({
@@ -259,18 +261,19 @@
     });
     function parseXML(xml) {
       var searchFor = $('#search').val();
-      var reg = new RegExp(searchFor, "i");
-      $(xml).find('anime').each(function () {
+      var searching = new RegExp(searchFor, "i");
+      $(xml).find('animes').each(function () {
         var title = $(this).find('title').text();
-        var titleSearch = title.search(reg);
-        var desc = $(this).find('director').text();
-        var descSearch = desc.search(reg);
+        var titleSearch = title.search(searching);
+        var director = $(this).find('director').text();
+        var directorSearch = director.search(searching);
+        var category = $(this).find('category').text();
+        var categorySearch = category.search(searching);
+        var episodes = $(this).find('episodes').text();
+        var episodesSearch = episodes.search(searching);
         $('#output').empty();
         if (titleSearch > -1) {
-          $('#output').append('Found <i>' + searchFor + '<\/i> in title: ' + title.replace(reg, '<b>' + searchFor + '</b>') + '<br \/>');
-        }
-        if (descSearch > -1) {
-          $('#output').append('Found <i>' + searchFor + '<\/i> in description: ' + desc.replace(reg, '<b>' + searchFor + '</b>') + '<br \/>');
+          $('#output').append('Animes disponibles: ' + title.replace(searching, '<b class="searching">' + searchFor + '</b>') + '<br \/>');
         }
       });
     }
