@@ -66,7 +66,7 @@ xsi:noNamespaceSchemaLocation="animesprima.xsd">
         <category1> Seinen </category1>
         <category2> Acción </category2>
         <category3> Distopía </category3>
-        <category4> </category4>
+        <category4> Futurista </category4>
     </animes>
 <br />
     <animes>
@@ -105,7 +105,7 @@ xsi:noNamespaceSchemaLocation="animesprima.xsd">
         <category1> Seinen </category1>
         <category2> Distopía </category2>
         <category3> Acción </category3>
-        <category4> </category4>
+        <category4> Futurista </category4>
     </animes>
 
     <animes>
