@@ -36,6 +36,12 @@
         <episodes>500</episodes>
     </anime>
     <anime>
+        <title>Inuyasha</title>
+        <category>Shonen</category>
+        <director>Josuka Toyotaro</director>
+        <episodes>167</episodes>
+    </anime>
+    <anime>
         <title>Kaguya Sama</title>
         <category>Seinen</category>
         <director>Nose</director>

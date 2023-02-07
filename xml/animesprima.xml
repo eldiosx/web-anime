@@ -5,9 +5,9 @@ xsi:noNamespaceSchemaLocation="animesprima.xsd">
 
     <animes>
         <name> Attack on Titan </name>
-        <director> </director>
-        <year> </year>
-        <episodes> </episodes>
+        <director> 	Yūichirō Hayashi </director>
+        <year> 2013 </year>
+        <episodes> 87 </episodes>
         <category1> Seinen </category1>
         <category2> Shonen </category2>
         <category3> Distopía </category3>
@@ -23,6 +23,17 @@ xsi:noNamespaceSchemaLocation="animesprima.xsd">
         <category2> Accion </category2>
         <category3> Terror </category3>
         <category4> </category4>
+    </animes>
+<br />
+      <animes>
+        <name> Inuyasha </name>
+        <director> Josuka Toyotaro </director>
+        <year> 2004 </year>
+        <episodes> 167 </episodes>
+        <category1> Shonen </category1>
+        <category2> Historico </category2>
+        <category3> Accion </category3>
+        <category4> Humor </category4>
     </animes>
 <br />
     <animes>
@@ -60,12 +71,12 @@ xsi:noNamespaceSchemaLocation="animesprima.xsd">
 <br />
     <animes>
         <name> One Punch Man </name>
-        <director> </director>
-        <year> </year>
-        <episodes> </episodes>
-        <category1> Seinen </category1>
+        <director> Shingo Natsume </director>
+        <year> 2012 </year>
+        <episodes> 27 </episodes>
+        <category1> Accion </category1>
         <category2> Shonen </category2>
-        <category3> </category3>
+        <category3> Humor </category3>
         <category4> </category4>
     </animes>
 <br />
@@ -83,7 +94,7 @@ xsi:noNamespaceSchemaLocation="animesprima.xsd">
     <animes>
         <name> Ghost in the Shell</name>
         <director> Mamoru Oshii; Kenji Kamiyama; Kazuchika Kise </director>
-        <year> </year>
+        <year> 1995 </year>
         <episodes> Ghost in the Shell: Stand Alone Complex (2002). 26 capítulos emitida en 2002.<br />
             Ghost in the Shell: Stand Alone Complex (2004). 26 capítulos emitida en 2004.<br />
             Ghost in the Shell: Stand Alone Complex – The Laughing Man (2005). Película <br /> Ghost
@@ -99,9 +110,9 @@ xsi:noNamespaceSchemaLocation="animesprima.xsd">
 
     <animes>
         <name > Parasyte </name>
-        <director> </director>
-        <year> </year>
-        <episodes> </episodes>
+        <director> Kenichi Shimizu </director>
+        <year> 2014 </year>
+        <episodes> 24 </episodes>
         <category1> Seinen </category1>
         <category2> Distopía </category2>
         <category3> </category3>
@@ -110,9 +121,9 @@ xsi:noNamespaceSchemaLocation="animesprima.xsd">
 
     <animes>
         <name> Serial Experiments Lain </name>
-        <director> </director>
-        <year> </year>
-        <episodes> </episodes>
+        <director> 	Ryūtarō Nakamura </director>
+        <year> 1998 </year>
+        <episodes> 13 </episodes>
         <category1> Seinen </category1>
         <category2> Distopía </category2>
         <category3> Drama </category3>
