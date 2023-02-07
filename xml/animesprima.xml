@@ -25,6 +25,17 @@ xsi:noNamespaceSchemaLocation="animesprima.xsd">
         <category4> </category4>
     </animes>
 <br />
+      <animes>
+        <name> Inuyasha </name>
+        <director> Josuka Toyotaro </director>
+        <year> 2004 </year>
+        <episodes> 167 </episodes>
+        <category1> Shonen </category1>
+        <category2> Historico </category2>
+        <category3> Accion </category3>
+        <category4> Humor </category4>
+    </animes>
+<br />
     <animes>
         <name> Devilman Crybaby </name>
         <director> Gō Nagai </director>
@@ -63,9 +74,9 @@ xsi:noNamespaceSchemaLocation="animesprima.xsd">
         <director> </director>
         <year> </year>
         <episodes> </episodes>
-        <category1> Seinen </category1>
+        <category1> Accion </category1>
         <category2> Shonen </category2>
-        <category3> </category3>
+        <category3> Humor </category3>
         <category4> </category4>
     </animes>
 <br />
