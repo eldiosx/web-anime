@@ -38,6 +38,9 @@ function dn() {
 function gs() {
   $("#include-content").load("html/xhtml/GhostInTheShell.xhtml");
 };
+function inuyasha() {
+  $("#include-content").load("html/xhtml/GhostInTheShell.xhtml");
+};
 function dcb() {
   $("#include-content").load("html/xhtml/DevilmanCrybaby.xhtml");
 };
