@@ -35,8 +35,9 @@
     </xs:complexContent> -->
     <xs:sequence>
       <xs:element name="title" type="stringtype" />
-      <xs:element name="category" type="stringtype" minOccurs="0" />
       <xs:element name="director" type="stringtype" />
+      <xs:element name="category" type="stringtype" minOccurs="0" />
+      <xs:element name="subcategory" type="stringtype"/>
       <xs:element name="episodes" type="dectype" />
     </xs:sequence>
   </xs:complexType>

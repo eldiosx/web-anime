@@ -8,79 +8,91 @@
     <language>Spanish</language>
     <library>
         <name>Animes</name>
-        <quantity>11</quantity>
+        <quantity>12</quantity>
         <servercountry>Spain</servercountry>
     </library>
     <anime>
         <title>Attack On Titan</title>
-        <category>Gore</category>
         <director>Nose</director>
+        <category>Gore</category>
+        <subcategory>Seinen</subcategory>
         <episodes>500</episodes>
     </anime>
     <anime>
         <title>Death Note</title>
-        <category>Seinen</category>
         <director>Nose</director>
+        <category>Seinen</category>
+        <subcategory>Seinen</subcategory>
         <episodes>500</episodes>
     </anime>
     <anime>
         <title>Devilman Crybaby</title>
-        <category>Seinen</category>
         <director>Nose</director>
+        <category>Seinen</category>
+        <subcategory>Seinen</subcategory>
         <episodes>500</episodes>
     </anime>
     <anime>
         <title>Ghost In the Shell</title>
-        <category>Seinen</category>
         <director>Nose</director>
+        <category>Seinen</category>
+        <subcategory>Seinen</subcategory>
         <episodes>500</episodes>
     </anime>
     <anime>
         <title>Inuyasha</title>
+        <director>Nose</director>
         <category>Shonen</category>
-        <director>Josuka Toyotaro</director>
+        <subcategory>Seinen</subcategory>
         <episodes>167</episodes>
     </anime>
     <anime>
         <title>Kaguya Sama</title>
-        <category>Seinen</category>
         <director>Nose</director>
+        <category>Seinen</category>
+        <subcategory>Seinen</subcategory>
         <episodes>500</episodes>
     </anime>
     <anime>
         <title>Lain</title>
-        <category>Seinen</category>
         <director>Nose</director>
+        <category>Seinen</category>
+        <subcategory>Seinen</subcategory>
         <episodes>500</episodes>
     </anime>
     <anime>
         <title>Monster</title>
-        <category>Seinen</category>
         <director>Nose</director>
+        <category>Seinen</category>
+        <subcategory></subcategory>
         <episodes>500</episodes>
     </anime>
     <anime>
         <title>One Punch Man</title>
-        <category>Seinen</category>
         <director>Nose</director>
+        <category>Seinen</category>
+        <subcategory>Seinen</subcategory>
         <episodes>500</episodes>
     </anime>
     <anime>
         <title>Parasyte</title>
-        <category>Seinen</category>
         <director>Nose</director>
+        <category>Seinen</category>
+        <subcategory>Seinen</subcategory>
         <episodes>500</episodes>
     </anime>
     <anime>
         <title>Psycho Pass</title>
-        <category>Seinen</category>
         <director>Nose</director>
+        <category>Seinen</category>
+        <subcategory>Seinen</subcategory>
         <episodes>500</episodes>
     </anime>
     <anime>
         <title>Tokyo Ghoul</title>
-        <category>Seinen</category>
         <director>Nose</director>
+        <category>Seinen</category>
+        <subcategory>Seinen</subcategory>
         <episodes>500</episodes>
     </anime>
 </animes> 
