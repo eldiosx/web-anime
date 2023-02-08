@@ -265,12 +265,12 @@
       $(xml).find('animes').each(function () {
         var title = $(this).find('title').text();
         var titleSearch = title.search(searching);
-        var director = $(this).find('director').text();
-        var directorSearch = director.search(searching);
-        var category = $(this).find('category').text();
-        var categorySearch = category.search(searching);
-        var episodes = $(this).find('episodes').text();
-        var episodesSearch = episodes.search(searching);
+        // var director = $(this).find('director').text();
+        // var directorSearch = director.search(searching);
+        // var category = $(this).find('category').text();
+        // var categorySearch = category.search(searching);
+        // var episodes = $(this).find('episodes').text();
+        // var episodesSearch = episodes.search(searching);
         $('#output').empty();
         if (titleSearch > -1) {
           $('#output').append('Animes disponibles: ' + title.replace(searching, '<b class="searching">' + searchFor + '</b>') + '<br \/>');
