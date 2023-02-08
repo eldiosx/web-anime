@@ -7,92 +7,116 @@
     xsi:noNamespaceSchemaLocation="animes.xsd">
     <language>Spanish</language>
     <library>
-        <name> Animes </name>
-        <quantity> 12 </quantity>
-        <servercountry> Spain </servercountry>
+        <name>Animes</name>
+        <quantity>12</quantity>
+        <servercountry>Spain</servercountry>
     </library>
     <anime>
-        <title> Attack On Titan </title>
-        <director> Nose </director>
-        <category> Gore </category>
-        <category> Seinen </category>
-        <episodes> 500 </episodes>
+        <title>Attack On Titan</title>
+        <director>Nose</director>
+        <category>Gore</category>
+        <category>Seinen</category>
+        <view>1889889</view>
+        <popularity>9</popularity>
+        <episodes>500</episodes>
     </anime>
     <anime>
-        <title> Death Note </title>
-        <director> Nose </director>
-        <category> Seinen </category>
-        <category> Seinen </category>
-        <episodes> 500 </episodes>
+        <title>Death Note</title>
+        <director>Nose</director>
+        <category>Seinen</category>
+        <category>Seinen</category>
+        <view>45456</view>
+        <popularity>9</popularity>
+        <episodes>500</episodes>
     </anime>
     <anime>
-        <title> Devilman Crybaby </title>
-        <director> Nose </director>
-        <category> Seinen </category>
-        <category> Seinen </category>
-        <episodes> 500 </episodes>
+        <title>Devilman Crybaby</title>
+        <director>Nose</director>
+        <category>Seinen</category>
+        <category>Seinen</category>
+        <view>5676767</view>
+        <popularity>8</popularity>
+        <episodes>500</episodes>
     </anime>
     <anime>
-        <title> Ghost In the Shell </title>
-        <director> Nose </director>
-        <category> Seinen </category>
-        <category> Seinen </category>
-        <episodes> 500 </episodes>
+        <title>Ghost In the Shell</title>
+        <director>Nose</director>
+        <category>Seinen</category>
+        <category>Seinen</category>
+        <view>5667699</view>
+        <popularity>521345</popularity>
+        <episodes>500</episodes>
     </anime>
     <anime>
-        <title> Inuyasha </title>
-        <director> Nose </director>
-        <category> Shonen </category>
-        <category> Seinen </category>
-        <episodes> 167 </episodes>
+        <title>Inuyasha</title>
+        <director>Nose</director>
+        <category>Shonen</category>
+        <category>Seinen</category>
+        <view>8533323</view>
+        <popularity>6</popularity>
+        <episodes>167</episodes>
     </anime>
     <anime>
-        <title> Kaguya Sama </title>
-        <director> Nose </director>
-        <category> Seinen </category>
-        <category> Seinen </category>
-        <episodes> 500 </episodes>
+        <title>Kaguya Sama</title>
+        <director>Nose</director>
+        <category>Seinen</category>
+        <category>Seinen</category>
+        <view>2557</view>
+        <popularity>5</popularity>
+        <episodes>500</episodes>
     </anime>
     <anime>
-        <title> Lain </title>
-        <director> Nose </director>
-        <category> Seinen </category>
-        <category> Seinen </category>
-        <episodes> 500 </episodes>
+        <title>Lain</title>
+        <director>Nose</director>
+        <category>Seinen</category>
+        <category>Seinen</category>
+        <view>46893</view>
+        <popularity>7</popularity>
+        <episodes>500</episodes>
     </anime>
     <anime>
-        <title> Monster </title>
-        <director> Nose </director>
-        <category> Seinen </category>
-        <category> Seinen </category>
-        <episodes> 500 </episodes>
+        <title>Monster</title>
+        <director>Nose</director>
+        <category>Seinen</category>
+        <category>Seinen</category>
+        <view>889565</view>
+        <popularity>8</popularity>
+        <episodes>500</episodes>
     </anime>
     <anime>
-        <title> One Punch Man </title>
-        <director> Nose </director>
-        <category> Seinen </category>
-        <category> Seinen </category>
-        <episodes> 500 </episodes>
+        <title>One Punch Man</title>
+        <director>Nose</director>
+        <category>Seinen</category>
+        <category>Seinen</category>
+        <view>12667</view>
+        <popularity>7</popularity>
+        <episodes>500</episodes>
     </anime>
     <anime>
-        <title> Parasyte </title>
-        <director> Nose </director>
-        <category> Seinen </category>
-        <category> Seinen </category>
-        <episodes> 500 </episodes>
+        <title>Parasyte</title>
+        <director>Nose</director>
+        <category>Seinen</category>
+        <category>Seinen</category>
+        <view>12667</view>
+        <popularity>8</popularity>
+        <episodes>500</episodes>
     </anime>
     <anime>
-        <title> Psycho Pass </title>
-        <director> Nose </director>
-        <category> Seinen </category>
-        <category> Seinen </category>
-        <episodes> 500 </episodes>
+        <title>Psycho Pass</title>
+        <director>Nose</director>
+        <category>Seinen</category>
+        <category>Seinen</category>
+        <view>103467</view>
+        <popularity>8</popularity>
+        <episodes>500</episodes>
     </anime>
     <anime>
-        <title> Tokyo Ghoul </title>
-        <director> Nose </director>
-        <category> Seinen </category>
-        <category> Seinen </category>
-        <episodes> 500 </episodes>
+        <title>Tokyo Ghoul</title>
+        <director>Nose</director>
+        <category>Seinen</category>
+        <category>Seinen</category>
+        <view>129537</view>
+        <popularity>9</popularity>
+        <episodes>500</episodes>
     </anime>
 </animes> 
