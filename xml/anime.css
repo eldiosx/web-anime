@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    display: block;
+}
+
+language,
+servercountry {
+    display: none;
+}
+
+library {
+    color: red;
+}
+
+animes {
+    background-color: rgb(192, 192, 192);
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+}
+
+anime:hover {
+    background-color: yellow;
+}
+
+anime:before {
+    background-color: rgb(187, 187, 187);
+    content: "Anime: ";
+    color: black;
+}
+
+quantity:before {
+    content: "Cantidad: ";
+}
+
+category:before {
+    content: "Género: ";
+}
+
+director:before {
+    content: "Director: ";
+}
+
+episodes:before {
+    content: "Episodios: ";
+}
+
+anime {
+    background: white;
+    border: solid 1px black;
+}
+
+category {
+    color: blue;
+}

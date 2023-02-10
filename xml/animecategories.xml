@@ -1,4 +1,7 @@
 ﻿﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="anime.css"
+  title="En cartera/Reciente" media="screen"
+  type="text/css"?>
 <webanime xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/Users/MEDAC/Desktop/1 DAM/Lenguaje de Marcas/Trabajo 2 T/XML/XML Web/animecategories.xsd">
 <?xml-stylesheet type="text/xsl" href="file:/C:/Users/MEDAC/Desktop/1 DAM/Lenguaje de Marcas/Trabajo 2 T/XML/XML Web/animecategories.xsl"?>
 
