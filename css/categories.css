@@ -97,9 +97,6 @@ td {
 /*RESPONSIVE*/
 
 @media (max-width:900px) {
-  .loader {
-    background: url('../img/mobileloading.gif') 50% 50% no-repeat rgb(0, 0, 0, .8);
-  }
 
   .main-content {
     width: auto;
