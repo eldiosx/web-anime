@@ -1,0 +1,137 @@
+﻿﻿<?xml version="1.0" encoding="UTF-8"?>
+<webanime xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:/C:/Users/MEDAC/Desktop/1 DAM/Lenguaje de Marcas/Trabajo 2 T/XML/XML Web/animecategories.xsd">
+<?xml-stylesheet type="text/xsl" href="file:/C:/Users/MEDAC/Desktop/1 DAM/Lenguaje de Marcas/Trabajo 2 T/XML/XML Web/animecategories.xsl"?>
+
+  <animes>
+       <name category="Seinen">Attack on Titan</name>
+        <director>Yūichirō Hayashi</director>
+        <year>2013</year>
+        <episodes>87</episodes>
+        <categories>
+        <category1>Seinen</category1>
+        <category2>Shonen</category2>
+        <category3>Distopía</category3>
+        <category4>Acción</category4>
+       </categories>
+  </animes>
+  <animes>
+    <name  category="Seinen">Death note</name>
+        <director> Tetsurō Araki, Estudio Madhouse </director>
+        <year> 2007 </year>
+        <episodes>39</episodes>
+        <categories>
+        <category1>Seinen</category1>
+        <category2>Acción</category2>
+        <category3>Terror</category3>
+        <category4></category4>
+        </categories>
+  </animes>
+    <animes>
+       <name category="Seinen">Inuyasha</name>
+        <director>Josuka Toyotaro</director>
+        <year>2004</year>
+        <episodes>167</episodes>
+        <categories>
+        <category1>Shonen</category1>
+        <category2>Histórico</category2>
+        <category3>Acción</category3>
+        <category4></category4>
+        </categories>
+  </animes>
+    <animes>
+        <name category="Seinen">Devilman Crybaby</name>
+       <director>Gō Nagai</director>
+        <year>2018</year>
+        <episodes>10</episodes>
+       <categories>
+        <category1>Seinen</category1>
+        <category2>Shonen</category2>
+       <category3>Gore</category3>
+        <category4></category4>
+       </categories>
+  </animes>
+    <animes>
+        <name category="Seinen">Monster</name>
+        <director>Masayuki Kojima, Estudio Madhouse</director>
+        <year>2004</year>
+        <episodes>74</episodes>
+        <categories>
+        <category1>Seinen</category1>
+        <category2>Shonen</category2>
+        <category3>Gore</category3>
+        <category4></category4>
+        </categories>
+  </animes>
+    <animes>
+        <name category="Seinen">Psycho-Pass</name>
+        <director>Shingo Natsume</director>
+        <year>2012</year>
+        <episodes>27</episodes>
+        <categories>
+        <category1>Acción</category1>
+        <category2>Shonen</category2>
+        <category3></category3>
+        <category4></category4>
+       </categories>
+  </animes>
+  <animes>
+    <name category="Seinen">Kaguya Sama wa Kokurasetai: Tensai-tachi no Ren'ai Zunōsen</name>
+        <director> Yukie Sugawara </director>
+        <year>2019</year>
+        <episodes>12</episodes>
+        <categories>
+        <category1>Seinen</category1>
+        <category2>Drama</category2>
+        <category3></category3>
+        <category4></category4>
+        </categories>
+  </animes>
+  <animes>
+        <name category="Seinen">Ghost In the Shell</name>
+        <director> Mamoru Oshii; Kenji Kamiyama; Kazuchika Kise </director>
+        <year>1995</year>
+        <episodes>62 chap+1 películas+2OVA</episodes>
+        <categories>
+        <category1>Seinen</category1>
+        <category2>Distopía</category2>
+        <category3>Acción</category3>
+        <category4>Futurista</category4>
+       </categories>
+  </animes>
+  <animes>
+       <name category="Seinen">Parasyte</name>
+        <director>Kenichi Shimizu</director>
+        <year>2014</year>
+        <episodes>24</episodes>
+       <categories>
+        <category1>Seinen</category1>
+        <category2>Distopía</category2>
+        <category3></category3>
+        <category4></category4>
+        </categories>
+  </animes>
+  <animes>
+        <name category="Seinen">Serial Experiments Lain</name>
+        <director> 	Ryūtarō Nakamura </director>
+        <year>1998</year>
+        <episodes>13</episodes>
+        <categories>
+        <category1>Seinen</category1>
+        <category2>Distopía</category2>
+        <category3>Drama</category3>
+        <category4></category4>
+        </categories>
+  </animes>
+  <animes>
+        <name category="Seinen">Tokyo Ghoul</name>
+        <director> Shuhei Morita </director>
+        <year>2015</year>
+        <episodes>12</episodes>
+       <categories>
+       <category1>Seinen</category1>
+        <category2>Distopía</category2>
+        <category3></category3>
+        <category4></category4>
+        </categories>
+  </animes>
+</webanime>

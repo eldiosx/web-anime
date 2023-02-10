@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="webanime">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="animes" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="animes">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="name"/>
+        <xs:element name="director" type="xs:string"/>
+        <xs:element name="year" type="xs:string"/>
+        <xs:element name="episodes" type="xs:string"/>
+        <xs:element ref="categories"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="name">
+    <xs:complexType mixed="true">
+      <xs:attribute name="category" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="categories">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="category1"/>
+        <xs:element ref="category2"/>
+        <xs:element ref="category3"/>
+        <xs:element ref="category4"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="category1">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="Seinen"/>
+        <xs:enumeration value="Shonen"/>
+        <xs:enumeration value="Drama"/>
+        <xs:enumeration value="Gore"/>
+        <xs:enumeration value="Distopía"/>
+        <xs:enumeration value="Histórico"/>
+        <xs:enumeration value="Futurista"/>
+        <xs:enumeration value="Acción"/>
+        <xs:enumeration value="Terror"/>
+        <xs:enumeration value=""/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="category2">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="Seinen"/>
+        <xs:enumeration value="Shonen"/>
+        <xs:enumeration value="Drama"/>
+        <xs:enumeration value="Gore"/>
+        <xs:enumeration value="Distopía"/>
+        <xs:enumeration value="Histórico"/>
+        <xs:enumeration value="Futurista"/>
+        <xs:enumeration value="Acción"/>
+        <xs:enumeration value="Terror"/>
+        <xs:enumeration value=""/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="category3">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="Seinen"/>
+        <xs:enumeration value="Shonen"/>
+        <xs:enumeration value="Drama"/>
+        <xs:enumeration value="Gore"/>
+        <xs:enumeration value="Distopía"/>
+        <xs:enumeration value="Histórico"/>
+        <xs:enumeration value="Futurista"/>
+        <xs:enumeration value="Acción"/>
+        <xs:enumeration value="Terror"/>
+        <xs:enumeration value=""/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="category4">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="Seinen"/>
+        <xs:enumeration value="Shonen"/>
+        <xs:enumeration value="Drama"/>
+        <xs:enumeration value="Gore"/>
+        <xs:enumeration value="Distopía"/>
+        <xs:enumeration value="Histórico"/>
+        <xs:enumeration value="Futurista"/>
+        <xs:enumeration value="Acción"/>
+        <xs:enumeration value="Terror"/>
+        <xs:enumeration value=""/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+</xs:schema>
