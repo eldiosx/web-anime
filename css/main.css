@@ -33,7 +33,7 @@
   height: 300px;
   position: fixed;
   left: 5%;
-  background-image: url("../img/ad.jpg");
+  background-image: url("../img/ads1.jpg");
   text-decoration: none;
   z-index: 9000;
 
@@ -47,7 +47,7 @@
   height: 300px;
   position: fixed;
   right: 5%;
-  background-image: url("../img/ad.jpg");
+  background-image: url("../img/ads2.jpg");
   text-decoration: none;
   z-index: 9000;
 }
