@@ -1,20 +1,18 @@
 /*MAIN*/
 @font-face {
   font-family: comicsanshate;
-  src: url('./fonts/comicsanshate.TTF');
+  src: url("./fonts/comicsanshate.TTF");
 }
 
 @font-face {
   font-family: SansSerifFLF;
-  src: url('./fonts/SansSerifFLF.otf');
+  src: url("./fonts/SansSerifFLF.otf");
 }
 
 * {
   margin: 0%;
   padding: 0%;
   font-family: SansSerifFLF;
-
-
 }
 
 .searching {
@@ -36,7 +34,6 @@
   background-image: url("../img/ads1.jpg");
   text-decoration: none;
   z-index: 9000;
-
 }
 
 .ad2 {
@@ -61,7 +58,7 @@
 
 body {
   background-color: rgb(0, 0, 0);
-  color: #EEEEEE;
+  color: #eeeeee;
   font-size: 20px;
 }
 
@@ -108,7 +105,7 @@ body {
 /*RESPONSIVE*/
 @media screen and (max-width: 1100px) {
   .loader {
-    background: url('../img/mobileloading.gif') 50% 50% no-repeat rgb(0, 0, 0, .8);
+    background: url("../img/mobileloading.gif") 50% 50% no-repeat rgb(0, 0, 0, 0.8);
   }
 
   .ad1,
@@ -125,7 +122,7 @@ body {
   width: 100%;
   height: 100%;
   z-index: 9999;
-  background: url('../img/loading.gif') 50% 50% no-repeat rgb(0, 0, 0, .8);
+  background: url("../img/loading.gif") 50% 50% no-repeat rgb(0, 0, 0, 0.8);
 }
 
 /*HEADER*/
@@ -152,14 +149,14 @@ body {
 
 .dropdown a {
   text-decoration: none;
-  color: #EEEEEE;
+  color: #eeeeee;
 }
 
 .sticky {
   position: fixed;
   top: 0px;
   width: 100%;
-  background-color: #393E46;
+  background-color: #393e46;
   box-shadow: 0px 3px rgba(17, 17, 17, 0.5);
   border-radius: 0px 0px 20px 20px;
   margin-top: -5px;
@@ -188,7 +185,7 @@ body {
 
 .main-nav li {
   display: inline-block;
-  color: #EEEEEE;
+  color: #eeeeee;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -210,44 +207,53 @@ body {
   list-style-type: none;
   padding: 10px 30px 0px 0px;
   animation: openMenu 300ms ease-in-out;
-  transform-origin: top center
+  transform-origin: top center;
 }
 
 /*Animation Dropmenu*/
 @keyframes openMenu {
   0% {
-    transform: scaleY(0)
+    transform: scaleY(0);
   }
 
   80% {
-    transform: scaleY(1.1)
+    transform: scaleY(1.1);
   }
 
   100% {
-    transform: scaleY(1)
+    transform: scaleY(1);
   }
 }
 
-.firstItem {
+.firstItem a {
   border-radius: 10px 10px 0px 0px;
 }
 
-.lastItem {
+.lastItem a {
   border-radius: 0px 0px 10px 10px;
 }
 
 .dropdown-menu li {
   float: none;
   color: black;
-  background-color: #EEEEEE;
-  padding: 12px 16px;
+  padding: 0px;
   text-decoration: none;
   display: block;
   text-align: center;
   box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.481);
 }
 
-.dropdown-menu li:hover {
+.dropdown-menu li a {
+  float: none;
+  color: black;
+  background-color: #eeeeee;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-menu li a:hover {
   background-color: #8f8f8f;
   color: black;
   transition: background-color 0.2s;
@@ -258,7 +264,7 @@ body {
 .searchbtn:hover,
 .theme:hover {
   background-color: rgba(255, 255, 255, 0.2);
-  color: #EEEEEE;
+  color: #eeeeee;
   transition: background-color 0.2s;
 }
 
@@ -268,7 +274,6 @@ body {
 
 /*RESPONSIVE*/
 @media screen and (max-width: 900px) {
-
   .main-nav .dropdown:hover,
   .menubtn:hover {
     border-radius: 20px;
@@ -287,7 +292,9 @@ body {
     margin-left: 0px;
     margin-right: 0px;
   }
-
+  .mobile {
+    margin-top: 30px;
+  }
   .logoimg {
     display: none;
   }
@@ -315,11 +322,6 @@ body {
     margin: 5px;
   }
 
-  .dropdown-menu li:hover {
-    background-color: #222831;
-    color: #EEEEEE;
-  }
-
   .main-nav li.menubtn {
     margin: 1%;
     float: right;
@@ -341,7 +343,7 @@ body {
     border: none;
     outline: none;
     background-color: #ffffff00;
-    color: #EEEEEE;
+    color: #eeeeee;
     z-index: 9999;
   }
 
@@ -381,20 +383,20 @@ body {
 }
 
 .kawai .sticky {
-  background-color: #47484A;
+  background-color: #47484a;
 }
 
 .kawai .background {
-  background-color: #988C80;
+  background-color: #988c80;
 }
 
 .kawai .body {
-  color: #F9EBE1;
+  color: #f9ebe1;
 }
 
 /*FOOTER*/
 .footer {
-  background-color: #393E46;
+  background-color: #393e46;
 }
 
 .footer-wave-svg {
@@ -424,11 +426,11 @@ body {
   padding-left: 15px;
   padding-right: 15px;
   width: 100%;
-  color: #EEEEEE;
+  color: #eeeeee;
 }
 
 .footer-content-column ul li a {
-  color: #EEEEEE;
+  color: #eeeeee;
   text-decoration: none;
 }
 
@@ -441,10 +443,10 @@ body {
 }
 
 .footer-menu-title {
-  color: #EEEEEE;
+  color: #eeeeee;
   font-size: 15px;
   font-weight: 900;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   line-height: 18px;
   margin-bottom: 0;
   margin-top: 0;
@@ -463,13 +465,13 @@ body {
 }
 
 .footer-call-to-action-description {
-  color: #EEEEEE;
+  color: #eeeeee;
   margin-top: 10px;
   margin-bottom: 20px;
 }
 
 .footer-call-to-action-button:hover {
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   color: #222831;
 }
 
@@ -478,13 +480,13 @@ body {
 }
 
 .footer-call-to-action-button {
-  background-color: #B55400;
+  background-color: #b55400;
   border-radius: 21px;
-  color: #EEEEEE;
+  color: #eeeeee;
   display: inline-block;
   font-size: 11px;
   font-weight: 900;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   line-height: 18px;
   padding: 12px 30px;
   margin: 0 10px 10px 0;
@@ -500,10 +502,10 @@ body {
 }
 
 .footer-call-to-action-title {
-  color: #EEEEEE;
+  color: #eeeeee;
   font-size: 14px;
   font-weight: 900;
-  letter-spacing: .1em;
+  letter-spacing: 0.1em;
   line-height: 18px;
   margin-bottom: 0;
   margin-top: 0;
@@ -513,15 +515,14 @@ body {
 .footer-call-to-action-link-wrapper {
   margin-bottom: 0;
   margin-top: 10px;
-  color: #EEEEEE;
+  color: #eeeeee;
   text-decoration: none;
 }
 
 .footer-call-to-action-link-wrapper a {
-  color: #EEEEEE;
+  color: #eeeeee;
   text-decoration: none;
 }
-
 
 /*Social networks*/
 .footer-social-links {
@@ -533,7 +534,7 @@ body {
 }
 
 .footer-social-links a {
-  color: #EEEEEE;
+  color: #eeeeee;
   text-decoration: none;
 }
 
@@ -547,7 +548,7 @@ body {
 }
 
 .footer-social-amoeba-path {
-  fill: #B55400;
+  fill: #b55400;
 }
 
 .footer-social-link {
@@ -575,8 +576,8 @@ body {
 }
 
 .footer-social-icon-path {
-  color: #EEEEEE;
-  transition: fill .2s;
+  color: #eeeeee;
+  transition: fill 0.2s;
 }
 
 .footer-social-link.instagram {
@@ -584,7 +585,6 @@ body {
   top: 13px;
   font-size: 20px;
 }
-
 
 .footer-social-link.github {
   left: 56px;
@@ -605,8 +605,8 @@ body {
 }
 
 .footer-copyright {
-  background-color: #B55400;
-  color: #EEEEEE;
+  background-color: #b55400;
+  color: #eeeeee;
   padding: 15px 30px;
   text-align: center;
 }
@@ -618,7 +618,7 @@ body {
 }
 
 .footer-copyright-text {
-  color: #EEEEEE;
+  color: #eeeeee;
   font-size: 13px;
   font-weight: 400;
   line-height: 18px;
@@ -627,12 +627,12 @@ body {
 }
 
 .footer-copyright-link {
-  color: #EEEEEE;
+  color: #eeeeee;
   text-decoration: none;
 }
 
 /*RESPONSIVE*/
-@media (min-width:200px) and (max-width:479px) {
+@media (min-width: 200px) and (max-width: 479px) {
   .footer-content {
     margin-left: auto;
     margin-right: auto;
@@ -646,7 +646,7 @@ body {
   }
 }
 
-@media (min-width:480px) and (max-width:599px) {
+@media (min-width: 480px) and (max-width: 599px) {
   .footer-content {
     margin-left: auto;
     margin-right: auto;
@@ -660,7 +660,7 @@ body {
   }
 }
 
-@media (min-width:600px) and (max-width: 799px) {
+@media (min-width: 600px) and (max-width: 799px) {
   .footer-content {
     margin-left: auto;
     margin-right: auto;
@@ -675,14 +675,12 @@ body {
   }
 }
 
-@media (min-width:800px) and (max-width: 900px) {
-
+@media (min-width: 800px) and (max-width: 900px) {
   .footer-logo-link img {
     margin-top: 50px;
     height: 150px;
   }
 }
-
 
 @media (min-width: 760px) {
   .footer-content {
@@ -704,26 +702,26 @@ body {
 
 /*KAWAI*/
 .kawai .footer-wave-path {
-  fill: #988C80;
+  fill: #988c80;
 }
 
 .kawai .footer {
-  background-color: #47484A;
+  background-color: #47484a;
 }
 
 .kawai .footer-social-amoeba-path {
-  fill: #E0A39F;
+  fill: #e0a39f;
 }
 
 .kawai .footer-copyright {
-  background-color: #E0A39F;
+  background-color: #e0a39f;
 }
 
 .kawai .footer-call-to-action-button {
-  background-color: #E0A39F;
+  background-color: #e0a39f;
 }
 
 .kawai .footer-call-to-action-button:hover {
-  background-color: #EEEEEE;
+  background-color: #eeeeee;
   color: #222831;
 }
