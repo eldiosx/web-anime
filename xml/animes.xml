@@ -5,12 +5,14 @@
 <animes libraryid="Default"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="animes.xsd">
+    <!-- main -->
     <language>Spanish</language>
     <library>
         <name>Animes</name>
         <quantity>12</quantity>
         <servercountry>Spain</servercountry>
     </library>
+    <!-- animes -->
     <anime>
         <title>Attack On Titan</title>
         <director>Nose</director>

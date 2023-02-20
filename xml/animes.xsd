@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
+<!-- Definir variables -->
   <xs:simpleType name="stringtype">
     <xs:restriction base="xs:string" />
   </xs:simpleType>
@@ -26,7 +27,7 @@
       <xs:element name="servercountry" type="stringtype" />
     </xs:sequence>
   </xs:complexType>
-
+<!-- END Definir variables -->
   <xs:complexType name="animetype">
     <!-- <xs:complexContent>
       <xs:extension base="xs:string">
