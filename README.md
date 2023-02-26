@@ -8,8 +8,8 @@
 
 ## Live demo: [Preview](https://eldiosx.github.io/animeweb/)
 
-Server built and tested on Firefox any problem please switch to said browser.
+Server built and tested in browsers based on Firefox. Any problem, please switch to said browser.
 
 - [x] htaccess
-- [x] firefox support
-- [ ] chromium support
+- [x] firefox based support
+- [ ] chromium based support
