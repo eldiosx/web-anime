@@ -6,7 +6,7 @@
 
 </div>
 
-## Live demo: [Preview](https://eldiosx.github.io/animeweb/)
+## Live demo: [Preview](https://eldiosx.github.io/anime-web/)
 
 Server built and tested in browsers based on Firefox. Any problem, please switch to said browser.
 
