@@ -1,4 +1,4 @@
-<h1 align="center">Anime Web</h1>
+<h1 align="center">Web Anime</h1>
 
 <div align="center">
 
