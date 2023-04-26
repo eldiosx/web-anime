@@ -52,14 +52,14 @@ function themeToggle() {
   let element = document.body;
   element.classList.toggle("kawai");
 
-  let theme = localStorage.getanime("theme");
+  let theme = localStorage.getItem("theme");
   if (theme && theme === "kawai") {
-    localStorage.setanime("theme", "");
+    localStorage.setItem("theme", "");
   } else {
-    localStorage.setanime("theme", "kawai");
+    localStorage.setItem("theme", "kawai");
   }
 
-  document.getElementById("theme").textContent = localStorage.getanime("theme");
+  document.getElementById("theme").textContent = localStorage.getItem("theme");
 }
 
 //Smart-animes (experimental)

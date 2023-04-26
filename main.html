@@ -244,11 +244,11 @@
   <script>
     //THEME (Saved on a cookie :D)
     (function () {
-      let onpageLoad = localStorage.getanime("theme") || "";
+      let onpageLoad = localStorage.getItem("theme") || "";
       let element = document.body;
       element.classList.add(onpageLoad);
       document.getElementById("theme").textContent =
-        localStorage.getanime("theme") || "cute";
+        localStorage.getItem("theme") || "cute";
     })();
   </script>
   <script>
