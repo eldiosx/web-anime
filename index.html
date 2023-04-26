@@ -21,17 +21,17 @@
 	<h1>Bienvenido&nbsp;</h1><!--Un majo texto con &nbsp; para insertar un espacio de forma efectiva.-->
 	<form>
 		<label><b>Ingresa tu edad:</b></label>
-		<input type="number" id="edad" name="edad">
-		<button type="submit" id="enviar">Enviar</button>
+		<input type="number" id="age" name="age">
+		<button type="submit" id="send">Enviar</button>
 	</form>
 	<script>
-		document.getElementById("enviar").addEventListener("click", function (event) {
+		document.getElementById("send").addEventListener("click", function (event) {
 			event.preventDefault(); // Evitamos que el formulario se envíe automáticamente
 
-			var edad = document.getElementById("edad").value; // Obtenemos el valor del campo de entrada
+			var age = document.getElementById("age").value; // Obtenemos el valor del campo de entrada
 
-			if (edad < 18) { // Validamos si el usuario es menor de edad
-				alert("Lo siento, eres menor de edad y no puedes ingresar."); // Mostramos un mensaje de alerta
+			if (age < 18) { // Validamos si el usuario es mayor de edad
+				alert("Lo siento, debes ser mayor de edad para ingresar."); // Mostramos un mensaje de alerta
 			} else {
 				window.location.href = "main.html"; // Redireccionamos al usuario a la página de mayores de edad
 			}
