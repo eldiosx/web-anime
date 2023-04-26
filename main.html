@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!--META-->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Aida y Daniel">
+  <!--STYLE-->
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" href="css/icons.css">
+  <link rel="icon" type="image/logo" href="img/icons/icon.svg">
+  <!--SCRIPTS-->
+  <script src="js/jquery-3.6.3.js"></script>
+  <script src="js/smart.js"></script>
+  <!--TITTLE-->
+  <title>Anime Web</title>
+</head>
+
+<body>
+  <div class="background">
+    <!--Loader-->
+    <img class="loader" src="img/loading.gif" alt="cargando..." id="loader">
+    <!--HEADER-->
+    <header class="main-header" id="main-header">
+      <!--Header mobile-->
+      <nav class="main-nav" id="main-nav">
+        <a href=""><img class="logomobile" src="img/logos/logo.png" alt="home"></a>
+        <form action="xml/animes.xsd">
+          <button class="searchbtn" type="submit">&nbsp;<span class="icon-search"></span>&nbsp;</button>
+        </form>
+        <!--Header normal-->
+        <ul class="mobile">
+          <li class="logo"><a href=""><img class="logoimg" src="img/logos/logo.png" alt="home"></a></li>
+          <li class="dropdown">Animes
+            <ul class="dropdown-menu">
+              <li class="firstItem"><a href="">Inicio</a></li>
+              <li><a href="xml/animes.xml">Populares</a></li>
+              <li><a href="xml/animecategories.xml">Reciente</a></li>
+              <li><a href="xml/animecategories.xml">En cartera</a></li>
+              <li class="lastItem"><a href="xml/animes.xml">Mejor valorados</a></li>
+            </ul>
+          </li>
+          <li class="dropdown" href="#news">Noticias
+            <ul class="dropdown-menu">
+              <li class="firstItem"><a href="xml/animes.xml">Novedades</a></li>
+              <li><a href="xml/animes.xml">Destacadas</a></li>
+              <li class="lastItem"><a href="xml/animes.xml">Otras</a></li>
+            </ul>
+          </li>
+          <li class="dropdown" href="#comunity">Comunidad
+            <ul class="dropdown-menu">
+              <li class="firstItem"><a href="xml/animes.xml">Foro</a></li>
+              <li class="lastItem"><a href="xml/animes.xml">Cuenta</a></li>
+            </ul>
+          </li>
+          <!--Xml search-->
+          <li class="searchbtn-big">
+            <form class="searchbtn-big" action="xml/animes.xsd">
+              <input class="searchbtn-big" id="search" type="text" placeholder="Buscar.." name="search">
+              <button class="searchbtn-big" type="submit">&nbsp;<span class="icon-search"></span>&nbsp;</button>
+            </form>
+          </li>
+          <li class="dropdown"><a href="#about">Ayuda</a></li>
+          <li class="theme" id="switch" onclick="themeToggle()"><span class="icon-paint-format"></span></li>
+          <li href="javascript:void(0);" class="menubtn" onclick="mainmenu()">&nbsp;<span
+              class="icon-menu"></span>&nbsp;</li>
+        </ul>
+      </nav>
+    </header>
+    <p id="output"></p>
+    <!--CONTENT-->
+    <!--Theme decoration-->
+    <img class="rainbow" src="./img/rainbow.png" alt="">
+    <img class="cat" src="./img/babycat.png" alt="">
+    <img class="cutegirl" src="./img/cutegirl.gif" alt="">
+    <a class="ad1"
+      href="https://www.amazon.com/Slap-Chop-Stainless-Vegetable-Accessory/dp/B01FFYKQ5Y/ref=sr_1_7?keywords=slap+shop&qid=1675726587&sr=8-7">&nbsp;
+      <div class="ad1">
+      </div>
+    </a>
+    <!--This will replace html to a xhtml-->
+    <div id="include-content"></div>
+    <a class="ad2"
+      href="https://www.reddit.com/r/Piracy/comments/s9nhre/is_there_a_site_where_you_can_watch_disney_plus/">&nbsp;
+      <div class="ad2">
+      </div>
+    </a>
+    <!--FOOTER-->
+    <footer class="footer" id="about">
+      <svg class="footer-wave-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 100" preserveAspectRatio="none">
+        <path class="footer-wave-path"
+          d="M851.8,100c125,0,288.3-45,348.2-64V0H0v44c3.7-1,7.3-1.9,11-2.9C80.7,22,151.7,10.8,223.5,6.3C276.7,2.9,330,4,383,9.8 c52.2,5.7,103.3,16.2,153.4,32.8C623.9,71.3,726.8,100,851.8,100z">
+        </path>
+      </svg>
+      <!--Footer Logo-->
+      <div class="footer-content">
+        <div class="footer-content-column">
+          <div class="footer-logo">
+            <a class="footer-logo-link" href="#">
+              <span class="hidden-link-text">LOGO</span>
+              <img src="img/logos/logo.png" alt="">
+            </a>
+          </div>
+        </div>
+        <!--Info-->
+        <div class="footer-content-column">
+          <div class="footer-menu">
+            <h2 class="footer-menu-title">Compañia</h2>
+            <ul id="menu-company" class="footer-menu-list">
+              <li class="menu-anime menu-anime-type-post_type menu-anime-object-page">
+                <a href="#">Contactar</a>
+              </li>
+              <li class="menu-anime menu-anime-type-taxonomy menu-anime-object-category">
+                <a href="#">Noticias</a>
+              </li>
+              <li class="menu-anime menu-anime-type-post_type menu-anime-object-page">
+                <a href="#">Información</a>
+              </li>
+            </ul>
+          </div>
+          <!--Legal and use-->
+          <div class="footer-menu">
+            <h2 class="footer-menu-title">Legal</h2>
+            <ul id="menu-legal" class="footer-menu-list">
+              <li
+                class="menu-anime menu-anime-type-post_type menu-anime-object-page menu-anime-privacy-policy menu-anime-170434">
+                <a href="#">Privacidad</a>
+              </li>
+              <li class="menu-anime menu-anime-type-post_type menu-anime-object-page">
+                <a href="#">Terminos de uso</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--More-->
+        <div class="footer-content-column">
+          <div class="footer-menu">
+            <h2 class="footer-menu-title">Enlaces de interes</h2>
+            <ul id="menu-quick-links" class="footer-menu-list">
+              <li class="menu-anime menu-anime-type-custom menu-anime-object-custom">
+                <a target="_blank" rel="noopener noreferrer" href="#">Estado del servidor</a>
+              </li>
+              <li class="menu-anime menu-anime-type-custom menu-anime-object-custom">
+                <a target="_blank" rel="noopener noreferrer" href="#">Sede central</a>
+              </li>
+              <li class="menu-anime menu-anime-type-post_type menu-anime-object-page">
+                <a href="#">Seguridad</a>
+              </li>
+              <li class="menu-anime menu-anime-type-post_type menu-anime-object-page">
+                <a href="#">Blog</a>
+              </li>
+              <li class="menu-anime menu-anime-type-post_type_archive menu-anime-object-customer">
+                <a href="#">Clientes</a>
+              </li>
+              <li class="menu-anime menu-anime-type-post_type menu-anime-object-page">
+                <a href="#">Reviews</a>
+              </li>
+              <li class="menu-anime menu-anime-type-post_type menu-anime-object-page">
+                <a href="#">David &amp; Adrian</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--Support-->
+        <div class="footer-content-column">
+          <div class="footer-call-to-action">
+            <h2 class="footer-call-to-action-title"> Soporte</h2>
+            <p class="footer-call-to-action-description"> ¿Necesitas ayuda?</p>
+            <a class="footer-call-to-action-button button" href="#" target="_self"> Enviar un correo </a>
+          </div>
+          <div class="footer-call-to-action">
+            <h2 class="footer-call-to-action-title"> o Llamanos al</h2>
+            <p class="footer-call-to-action-link-wrapper"> <a class="footer-call-to-action-link" href="tel:0124-64XXXX"
+                target="_self">+34&nbsp;666&nbsp;666&nbsp;666</a></p>
+          </div>
+        </div>
+        <!--Social networks-->
+        <div class="footer-social-links"> <svg class="footer-social-amoeba-svg" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 236 54">
+            <path class="footer-social-amoeba-path"
+              d="M223.06,43.32c-.77-7.2,1.87-28.47-20-32.53C187.78,8,180.41,18,178.32,20.7s-5.63,10.1-4.07,16.7-.13,15.23-4.06,15.91-8.75-2.9-6.89-7S167.41,36,167.15,33a18.93,18.93,0,0,0-2.64-8.53c-3.44-5.5-8-11.19-19.12-11.19a21.64,21.64,0,0,0-18.31,9.18c-2.08,2.7-5.66,9.6-4.07,16.69s.64,14.32-6.11,13.9S108.35,46.5,112,36.54s-1.89-21.24-4-23.94S96.34,0,85.23,0,57.46,8.84,56.49,24.56s6.92,20.79,7,24.59c.07,2.75-6.43,4.16-12.92,2.38s-4-10.75-3.46-12.38c1.85-6.6-2-14-4.08-16.69a21.62,21.62,0,0,0-18.3-9.18C13.62,13.28,9.06,19,5.62,24.47A18.81,18.81,0,0,0,3,33a21.85,21.85,0,0,0,1.58,9.08,16.58,16.58,0,0,1,1.06,5A6.75,6.75,0,0,1,0,54H236C235.47,54,223.83,50.52,223.06,43.32Z">
+            </path>
+          </svg>
+          <a class="footer-social-link instagram" href="#" target="_blank">
+            <span class="hidden-link-text">Instagram</span>
+            <span class="icon-instagram"></span>
+          </a>
+          <a class="footer-social-link github" href="https://github.com/eldiosx/animeweb" target="_blank">
+            <span class="hidden-link-text">Github</span>
+            <span class="icon-github"></span>
+          </a>
+          <a class="footer-social-link vscodium" href="#" target="_blank">
+            <span class="hidden-link-text">Youtube</span>
+            <span class="icon-embed2"></span>
+          </a>
+          <a class="footer-social-link twitter" href="#" target="_blank">
+            <span class="hidden-link-text">Twitter</span>
+            <span class="icon-twitter"></span>
+          </a>
+        </div>
+      </div>
+      <div class="footer-copyright">
+        <div class="footer-copyright-wrapper">
+          <p class="footer-copyright-text">
+            <a class="footer-copyright-link" href="#" target="_self">Diseñado por: Aida &amp; Daniel | All rights
+              reserved ©2023</a>
+          </p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script>
+    //MENU (Scroll behavior of header)
+    window.onscroll = function () {
+      myFunction()
+    };
+    var navbar = document.getElementById("main-header");
+    var bodycontent = document.getElementById("main-content");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+        bodycontent.classList.add("spacing")
+      } else {
+        navbar.classList.remove("sticky");
+        bodycontent.classList.remove("spacing");
+      }
+      document.getElementById("main-header").style.zIndex = "9999";
+    }
+  </script>
+  <script>
+    //THEME (Saved on a cookie :D)
+    (function () {
+      let onpageLoad = localStorage.getanime("theme") || "";
+      let element = document.body;
+      element.classList.add(onpageLoad);
+      document.getElementById("theme").textContent =
+        localStorage.getanime("theme") || "cute";
+    })();
+  </script>
+  <script>
+    //CONTENT (Load categories by default)
+    $(function () {
+      $("#include-content").load("html/categories.html");
+    });
+  </script>
+  <script>
+    //SEARCH (Test v0.3)
+    $(document).ready(function () {
+      $('#search').on('keyup', function () {
+        $.ajax({
+          type: "GET",
+          url: "xml/animes.xml",
+          dataType: "xml",
+          success: parseXML
+        });
+      });
+    });
+    function parseXML(xml) {
+      var searchFor = $('#search').val();
+      var searching = new RegExp(searchFor, "i");
+      $(xml).find('animes').each(function () {
+        var title = $(this).find('title').text();
+        var titleSearch = title.search(searching);
+        // var director = $(this).find('director').text();
+        // var directorSearch = director.search(searching);
+        // var category = $(this).find('category').text();
+        // var categorySearch = category.search(searching);
+        // var episodes = $(this).find('episodes').text();
+        // var episodesSearch = episodes.search(searching);
+        $('#output').empty();
+        if (titleSearch > -1) {
+          $('#output').append('Animes disponibles: ' + title.replace(searching, '<b class="searching">' + searchFor + '</b>') + '<br \/>');
+        }
+      });
+    }
+  </script>
+</body>
+
+</html>
