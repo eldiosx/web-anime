@@ -19,7 +19,7 @@
       buscan devorarlos. Sin embargo, tras la aparición de un Titán colosal que destruye el muro alrededor de su aldea,
       Eren Jaeger jura venganza en contra de los
       monstruos que devoraron a su madre. Para lograr su objetivo decide enlistarse en el ejército en compañía de Mikasa
-      y  Armin, sus mejores amigos.
+      y Armin, sus mejores amigos.
 
     <div class="cube-container">
       <div class="photo-cube">
@@ -28,7 +28,7 @@
         <div class="back">
           <h3>Attack on Titan</h3><br><br>
           <p>Link a la base de datos.</p><br><br>
-          <a href="xml/animecategories.xml" class="button">Descargar</a>
+          <a href="xml/animecategories.xml" class="btn-download">Descargar</a>
         </div>
         <img class="left" src="img/animes/attack-titan_98.webp" alt="">
         <img class="right" src="img/animes/Armored-Titan.jpg" alt="">
@@ -36,12 +36,18 @@
       </div>
     </div>
     <!-- LEER MÁS-->
-    No obstante, hay una antigua conspiración detrás del origen de los muros y los Titanes, así como oscuros secretos
-    que podrían cambiarlo todo. Aclamada por su historia,
-    animación y elenco, Attack on Titan es considerada como una de las mejores series de anime de la década. No
-    obstante, no podemos dejar de mencionar el nivel de
-    violencia que caracteriza la serie, donde cualquier personaje puede morir repentina y brutalmente. Es por eso que
-    también se consolida como uno de los mejores anime seinen.
+    <button id="btn-knowmore">Saber más</button>
+    <div id="text-knowmore" style="display: none;">
+      <p>No obstante, hay una antigua conspiración detrás del origen de los muros y los Titanes, así como oscuros
+        secretos
+        que podrían cambiarlo todo. Aclamada por su historia,
+        animación y elenco, Attack on Titan es considerada como una de las mejores series de anime de la década.</p>
+      <p>No obstante, no podemos dejar de mencionar el nivel de
+        violencia que caracteriza la serie, donde cualquier personaje puede morir repentina y brutalmente. Es por eso
+        que
+        también se consolida como uno de los mejores anime seinen.</p>
+    </div>
+
     </p>
     <br>
 
@@ -51,5 +57,19 @@
       allowfullscreen></iframe>
   </div>
 </body>
+<script>
+const btnSaberMas = document.getElementById("btn-knowmore");
+const textoAdicional = document.getElementById("text-knowmore");
+
+btnSaberMas.addEventListener("click", function() {
+    if (textoAdicional.style.display === "none") {
+        textoAdicional.style.display = "block";
+        btnSaberMas.innerHTML = "Ocultar";
+    } else {
+        textoAdicional.style.display = "none";
+        btnSaberMas.innerHTML = "Saber más";
+    }
+});
+</script>
 
 </html>

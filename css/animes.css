@@ -46,7 +46,7 @@
     margin-left: 35%;
 }
 
-.button {
+.btn-download {
     font-size: 0.8em;
     color: #fff;
     width: 90%;
@@ -61,7 +61,7 @@
     margin: auto;
 }
 
-.button:hover {
+.btn-download:hover {
     background: rgb(241, 96, 96);
 }
 

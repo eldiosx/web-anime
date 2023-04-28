@@ -658,6 +658,25 @@ body {
   text-decoration: none;
 }
 
+#btn-knowmore {
+  background-color: #b55400;
+  margin-bottom: 10px;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#text-knowmore {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
 /*RESPONSIVE*/
 @media (min-width: 200px) and (max-width: 479px) {
   .footer-content {
@@ -728,6 +747,13 @@ body {
 }
 
 /*KAWAI*/
+
+.kawai #btn-knowmore {
+  background-color: #e0a39f;
+  color: #fff;
+}
+
+
 .kawai .footer-wave-path {
   fill: #988c80;
 }
