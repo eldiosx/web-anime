@@ -20,7 +20,7 @@ animes {
 }
 
 anime:hover {
-    background-color: yellow;
+    background-color: 533483;
 }
 
 anime:before {
@@ -46,10 +46,10 @@ episodes:before {
 }
 
 anime {
-    background: white;
-    border: solid 1px black;
+    background: 16213E;
+    border: solid 2px black;
 }
 
 category {
-    color: blue;
+    color: E94560;
 }
