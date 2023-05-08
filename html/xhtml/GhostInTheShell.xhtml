@@ -19,34 +19,39 @@
             liderado por la Mayor Motoko Kusanagi. Su misión: combatir contra criminales, ciber terroristas y hackers
             que buscan irrumpir el orden. Si bien en primera instancia
             parece un relato de acción y espionaje, a lo largo de su narrativa se presentan temas mucho más complejos
-            como la ética detrás de los avances tecnológicos, si  realmente hay algo que hace a un ser humano diferente a una máquina y el futuro de la inteligencia
+            como la ética detrás de los avances tecnológicos, si realmente hay algo que hace a un ser humano diferente a
+            una máquina y el futuro de la inteligencia
             artificial aplicada en nuestras vidas.
         </p>
         <div class="cube-container">
             <div class="photo-cube">
-      
-              <img class="front" src="img/animes/Ghostintheshell2.jpg" alt="">
-              <div class="back">
-                <h3>Ghost in the Shell</h3><br><br>
-                <p>Link a la base de datos.</p><br><br>
-                <a href="xml/animecategories.xml" class="btn-download">Descargar</a>
-              </div>
-              <img class="left" src="img/animes/Ghostintheshell.jpg" alt="">
-              <img class="right" src="img/animes/Armored-Titan.jpg" alt="">
-      
+
+                <img class="front" src="img/animes/Ghostintheshell2.jpg" alt="">
+                <div class="back">
+                    <h3>Ghost in the Shell</h3><br><br>
+                    <p>Link a la base de datos.</p><br><br>
+                    <a href="xml/animecategories.xml" class="btn-download">Descargar</a>
+                </div>
+                <img class="left" src="img/animes/Ghostintheshell.jpg" alt="">
+                <img class="right" src="img/animes/Armored-Titan.jpg" alt="">
+
             </div>
-          </div>
-         <!-- LEER MÁS-->
-         <button id="btn-knowmore">Saber más</button>
-         <div id="text-knowmore" style="display: none;">
-        <p>
-            La vigencia de esta serie ahora que las IA están en pleno desarrollo y acercamiento a la sociedad es innegable. Si bien su ambiente puede 
-            asemejarse a la estética y trasfondo de Blade Runner es innegable que Ghost in the Shell se aleja notablemente de toda idea sentimental y 
-            romantizada de los replicantes y nos introduce a ese mundo de carácter virtual, violento y voluble  que pone en peligro no solo nuestra 
-            identidad como seres humanos, sino como individuos únicos e irrepetibles, planteando un interesante debate sobre la existencia, la conciencia y
-            lo que en definitiva es la vida como tal.
-        </p>
-         </div>
+        </div>
+        <!-- LEER MÁS-->
+        <button id="btn-knowmore">Saber más</button>
+        <div id="text-knowmore" style="display: none;">
+            <p>
+                La vigencia de esta serie ahora que las IA están en pleno desarrollo y acercamiento a la sociedad es
+                innegable. Si bien su ambiente puede
+                asemejarse a la estética y trasfondo de Blade Runner es innegable que Ghost in the Shell se aleja
+                notablemente de toda idea sentimental y
+                romantizada de los replicantes y nos introduce a ese mundo de carácter virtual, violento y voluble que
+                pone en peligro no solo nuestra
+                identidad como seres humanos, sino como individuos únicos e irrepetibles, planteando un interesante
+                debate sobre la existencia, la conciencia y
+                lo que en definitiva es la vida como tal.
+            </p>
+        </div>
         <h3>TRAILER</h3>
         <br>
         <iframe class="trailer" src="https://www.youtube-nocookie.com/embed/0H-8OI4ZJRk?controls=0" title="Trailer"
@@ -54,5 +59,19 @@
             allowfullscreen></iframe>
     </div>
 </body>
+<script>
+    const btnSaberMas = document.getElementById("btn-knowmore");
+    const textoAdicional = document.getElementById("text-knowmore");
+
+    btnSaberMas.addEventListener("click", function () {
+        if (textoAdicional.style.display === "none") {
+            textoAdicional.style.display = "block";
+            btnSaberMas.innerHTML = "Ocultar";
+        } else {
+            textoAdicional.style.display = "none";
+            btnSaberMas.innerHTML = "Saber más";
+        }
+    });
+</script>
 
 </html>

@@ -3,52 +3,67 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="css/animes.css">
-    <title>Kaguya Sama</title>
+  <link rel="stylesheet" type="text/css" href="css/animes.css">
+  <title>Kaguya Sama</title>
 </head>
 
 <body>
-    <div class="animeBody">
-        <h1> Kaguya Sama. Love is war</h1>
-        <br>
-        <h3>SINOPSIS</h3>
-        <br>
-        <p>
-            Basado en el manga Kaguya-sama: Love Is War, este anime homónimo se centra en dos jóvenes estudiantes Miyuki
-            Shirogane y Kaguya Shinomiya, el presidente y la vicepresidente del consejo estudiantil respectivamente. Él
-            es uno de los mejores estudiantes de su país
-            al tener las mejores calificaciones y ella es
-            hija de una rica familia. Su entorno muchas veces les considera como la pareja perfecta aunque no tienen
-            ningún tipo de relación romántica.
-            <div class="cube-container">
-                <div class="photo-cube">
-          
-                  <img class="front" src="img/animes/AttackonTitans.png" alt="">
-                  <div class="back">
-                    <h3>Kaguya Sama</h3><br><br>
-                    <p>Link a la base de datos.</p><br><br>
-                    <a href="xml/animecategories.xml" class="btn-download">Descargar</a>
-                  </div>
-                  <img class="left" src="img/animes/attack-titan_98.webp" alt="">
-                  <img class="right" src="img/animes/Armored-Titan.jpg" alt="">
-          
-                </div>
-              </div>
-        <!--LEER MÁS-->
-        <button id="btn-knowmore">Saber más</button>
-        <div id="text-knowmore" style="display: none;">
-          <p>
-            Sin embargo, los dos jóvenes pasan tanto tiempo juntos que al final han desarrollado un vínculo especial
-            entre ellos, historia que se desarrolla en la segunda temporada, en la que cada uno de ellos inicia un duelo individual por no
-            ser ninguno de ellos el que se declare al otro, iniciando un duelo de poder velado para el resto de personajes. 
-          </p>
-        <br>
-        <h3>TRAILER</h3>
-        <br>
-        <iframe class="trailer" src="https://www.youtube-nocookie.com/embed/M6_tCYJA34Y?controls=0" title="Trailer"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen></iframe>
+  <div class="animeBody">
+    <h1> Kaguya Sama. Love is war</h1>
+    <br>
+    <h3>SINOPSIS</h3>
+    <br>
+    <p>
+      Basado en el manga Kaguya-sama: Love Is War, este anime homónimo se centra en dos jóvenes estudiantes Miyuki
+      Shirogane y Kaguya Shinomiya, el presidente y la vicepresidente del consejo estudiantil respectivamente. Él
+      es uno de los mejores estudiantes de su país
+      al tener las mejores calificaciones y ella es
+      hija de una rica familia. Su entorno muchas veces les considera como la pareja perfecta aunque no tienen
+      ningún tipo de relación romántica.
+    <div class="cube-container">
+      <div class="photo-cube">
+
+        <img class="front" src="img/animes/AttackonTitans.png" alt="">
+        <div class="back">
+          <h3>Kaguya Sama</h3><br><br>
+          <p>Link a la base de datos.</p><br><br>
+          <a href="xml/animecategories.xml" class="btn-download">Descargar</a>
+        </div>
+        <img class="left" src="img/animes/attack-titan_98.webp" alt="">
+        <img class="right" src="img/animes/Armored-Titan.jpg" alt="">
+
+      </div>
+    </div>
+    <!--LEER MÁS-->
+    <button id="btn-knowmore">Saber más</button>
+    <div id="text-knowmore" style="display: none;">
+      <p>
+        Sin embargo, los dos jóvenes pasan tanto tiempo juntos que al final han desarrollado un vínculo especial
+        entre ellos, historia que se desarrolla en la segunda temporada, en la que cada uno de ellos inicia un duelo
+        individual por no
+        ser ninguno de ellos el que se declare al otro, iniciando un duelo de poder velado para el resto de personajes.
+      </p>
+      <br>
+      <h3>TRAILER</h3>
+      <br>
+      <iframe class="trailer" src="https://www.youtube-nocookie.com/embed/M6_tCYJA34Y?controls=0" title="Trailer"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
     </div>
 </body>
+<script>
+  const btnSaberMas = document.getElementById("btn-knowmore");
+  const textoAdicional = document.getElementById("text-knowmore");
+
+  btnSaberMas.addEventListener("click", function () {
+    if (textoAdicional.style.display === "none") {
+      textoAdicional.style.display = "block";
+      btnSaberMas.innerHTML = "Ocultar";
+    } else {
+      textoAdicional.style.display = "none";
+      btnSaberMas.innerHTML = "Saber más";
+    }
+  });
+</script>
 
 </html>

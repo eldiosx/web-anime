@@ -46,18 +46,19 @@
 
       </div>
     </div>
-     <!-- LEER MÁS-->
-     <button id="btn-knowmore">Saber más</button>
-     <div id="text-knowmore" style="display: none;">
-    <p>
-      Después de darse cuenta de que la libreta funciona, Light desarrolla una nueva ambición: Crear un nuevo mundo
-    donde el crimen no exista y qué a su vez la
-    gente lo adore como un autentico dios, mientras que a su vez cinco días después de esos hechos, conoció en el
-    proceso a Ryuk, el Shinigami poseedor de aquella
-    libreta el cual le dice a Light que dejó caer la libreta en el mundo de los humanos pues estaba aburrido, a lo que
-    Light le cuenta de su objetivo que Ryuk
-    considera como algo interesante de observar.
-    </p>
+    <!-- LEER MÁS-->
+    <button id="btn-knowmore">Saber más</button>
+    <div id="text-knowmore" style="display: none;">
+      <p>
+        Después de darse cuenta de que la libreta funciona, Light desarrolla una nueva ambición: Crear un nuevo mundo
+        donde el crimen no exista y qué a su vez la
+        gente lo adore como un autentico dios, mientras que a su vez cinco días después de esos hechos, conoció en el
+        proceso a Ryuk, el Shinigami poseedor de aquella
+        libreta el cual le dice a Light que dejó caer la libreta en el mundo de los humanos pues estaba aburrido, a lo
+        que
+        Light le cuenta de su objetivo que Ryuk
+        considera como algo interesante de observar.
+      </p>
     </div>
     <br>
     <h3>TRAILER</h3>
@@ -67,5 +68,19 @@
       allowfullscreen></iframe>
   </div>
 </body>
+<script>
+  const btnSaberMas = document.getElementById("btn-knowmore");
+  const textoAdicional = document.getElementById("text-knowmore");
+
+  btnSaberMas.addEventListener("click", function () {
+    if (textoAdicional.style.display === "none") {
+      textoAdicional.style.display = "block";
+      btnSaberMas.innerHTML = "Ocultar";
+    } else {
+      textoAdicional.style.display = "none";
+      btnSaberMas.innerHTML = "Saber más";
+    }
+  });
+</script>
 
 </html>
