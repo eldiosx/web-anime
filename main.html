@@ -26,7 +26,7 @@
     <div id="cookie-consent">
       <p>Utilizamos cookies propias y de terceros para mejorar nuestros servicios y mostrarte publicidad relacionada con
         tus preferencias. Si continúas navegando, consideramos que aceptas su uso. Puedes obtener más información en
-        nuestra <a href="https://www.pornhub.com/information/privacy">Política de Cookies</a>.</p>
+        nuestra <a href="https://www.pornhub.com/information/privacy">Política de Cookies</a>.</p><br>
       <div>
         <button type="button" id="accept-cookies">Aceptar</button>
         <button type="button" id="reject-cookies">Rechazar</button>
@@ -221,6 +221,7 @@
       </div>
     </footer>
   </div>
+
   <script>
     //MENU (Scroll behavior of header)
     window.onscroll = function () {
@@ -242,14 +243,47 @@
     }
   </script>
   <script>
-    //THEME (Saved on a cookie :D)
-    (function () {
+    //Cookies
+    const cookieConsent = document.getElementById("cookie-consent");
+    const acceptCookiesButton = document.getElementById("accept-cookies");
+    const rejectCookiesButton = document.getElementById("reject-cookies");
+
+    function setCookie(name, value, days) {
+      const date = new Date();
+      date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+      const expires = "expires=" + date.toUTCString();
+      document.cookie = name + "=" + value + ";" + expires + ";path=/";
+    }
+
+    function acceptCookies() {
+      setCookie("cookies_accepted", "true", 365);
+      cookieConsent.style.display = "none";
+      activateTheme();
+    }
+
+    function rejectCookies() {
+      setCookie("cookies_accepted", "false", 365);
+      cookieConsent.style.display = "none";
+    }
+
+    acceptCookiesButton.addEventListener("click", acceptCookies);
+    rejectCookiesButton.addEventListener("click", rejectCookies);
+
+    function activateTheme() {
+      //THEME (Saved on a cookie :D)
       let onpageLoad = localStorage.getItem("theme") || "";
       let element = document.body;
       element.classList.add(onpageLoad);
       document.getElementById("theme").textContent =
         localStorage.getItem("theme") || "cute";
-    })();
+    }
+
+    if (document.cookie.indexOf("cookies_accepted=true") === -1) {
+      cookieConsent.style.display = "block";
+    } else {
+      cookieConsent.style.display = "none";
+      activateTheme();
+    }
   </script>
   <script>
     //CONTENT (Load categories by default)

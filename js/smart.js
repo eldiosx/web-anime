@@ -3,38 +3,6 @@ window.onload = function () {
   $('#loader').fadeOut();
 }
 
-//Cookies
-const cookieConsent = document.getElementById("cookie-consent");
-const acceptCookiesButton = document.getElementById("accept-cookies");
-const rejectCookiesButton = document.getElementById("reject-cookies");
-
-function setCookie(name, value, days) {
-  const date = new Date();
-  date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
-  const expires = "expires=" + date.toUTCString();
-  document.cookie = name + "=" + value + ";" + expires + ";path=/";
-}
-
-function acceptCookies() {
-  setCookie("cookies_accepted", "true", 365);
-  cookieConsent.style.display = "none";
-}
-
-function rejectCookies() {
-  setCookie("cookies_accepted", "false", 365);
-  cookieConsent.style.display = "none";
-}
-
-acceptCookiesButton.addEventListener("click", acceptCookies);
-rejectCookiesButton.addEventListener("click", rejectCookies);
-
-if (document.cookie.indexOf("cookies_accepted") === -1) {
-  cookieConsent.style.display = "block";
-} else {
-  cookieConsent.style.display = "none";
-}
-
-
 //Header-menu
 function mainmenu() {
   var x = document.getElementById("main-nav");

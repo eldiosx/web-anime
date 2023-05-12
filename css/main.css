@@ -24,7 +24,7 @@
   color: #fff;
   padding: 10px;
   font-size: 14px;
-  z-index: 9000;
+  z-index: 9900;
 }
 
 #cookie-consent a {
@@ -40,6 +40,10 @@
   margin: 0 5px;
   border-radius: 3px;
   cursor: pointer;
+}
+
+#cookie-consent button:hover {
+  background-color: #858585;
 }
 
 .searching {
@@ -301,6 +305,7 @@ body {
 
 /*RESPONSIVE*/
 @media screen and (max-width: 900px) {
+
   .main-nav .dropdown:hover,
   .menubtn:hover {
     border-radius: 20px;
@@ -319,9 +324,11 @@ body {
     margin-left: 0px;
     margin-right: 0px;
   }
+
   .mobile {
     margin-top: 30px;
   }
+
   .logoimg {
     display: none;
   }
