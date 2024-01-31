@@ -4,7 +4,6 @@
 <head>
   <!--META-->
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Aida y Daniel">
   <!--STYLE-->
@@ -21,12 +20,14 @@
 <body>
   <div class="background">
     <!--Loader-->
-    <img class="loader" src="img/loading.gif" alt="cargando..." id="loader">
+    <div id="loader">
+      <img src="img/loading.gif" alt="loading...">
+    </div>
     <!--Cookies-->
     <div id="cookie-consent">
       <p>Utilizamos cookies propias y de terceros para mejorar nuestros servicios y mostrarte publicidad relacionada con
         tus preferencias. Si continúas navegando, consideramos que aceptas su uso. Puedes obtener más información en
-        nuestra <a href="https://www.pornhub.com/information/privacy">Política de Cookies</a>.</p><br>
+        nuestra <a href="https://www.pornhub.com/information/privacy">Privacity Policy</a>.</p><br>
       <div>
         <button type="button" id="accept-cookies">Aceptar</button>
         <button type="button" id="reject-cookies">Rechazar</button>
@@ -85,8 +86,7 @@
     <img class="rainbow" src="./img/rainbow.webp" alt="">
     <img class="cat" src="./img/babycat.webp" alt="">
     <img class="cutegirl" src="./img/cutegirl.gif" alt="">
-    <a class="ad1"
-      href="https://duckduckgo.com/?q=slap+shop+commercial&t=ffab&ia=web">&nbsp;
+    <a class="ad1" href="https://duckduckgo.com/?q=slap+shop+commercial&t=ffab&ia=web">&nbsp;
       <div class="ad1">
       </div>
     </a>
@@ -206,27 +206,6 @@
       </div>
     </footer>
   </div>
-
-  <script>
-    //MENU (Scroll behavior of header)
-    window.onscroll = function () {
-      myFunction()
-    };
-    var navbar = document.getElementById("main-header");
-    var bodycontent = document.getElementById("main-content");
-    var sticky = navbar.offsetTop;
-
-    function myFunction() {
-      if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
-        bodycontent.classList.add("spacing")
-      } else {
-        navbar.classList.remove("sticky");
-        bodycontent.classList.remove("spacing");
-      }
-      document.getElementById("main-header").style.zIndex = "9999";
-    }
-  </script>
   <script>
     //Cookies
     const cookieConsent = document.getElementById("cookie-consent");
@@ -269,12 +248,6 @@
       cookieConsent.style.display = "none";
       activateTheme();
     }
-  </script>
-  <script>
-    //CONTENT (Load categories by default)
-    $(function () {
-      $("#include-content").load("html/categories.html");
-    });
   </script>
   <script>
     //SEARCH (Test v0.3)

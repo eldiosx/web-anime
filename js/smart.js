@@ -1,8 +1,3 @@
-//Loader
-window.onload = function () {
-  $('#loader').fadeOut();
-}
-
 //Header-menu
 function mainmenu() {
   var x = document.getElementById("main-nav");
@@ -12,6 +7,7 @@ function mainmenu() {
     x.className = "main-nav";
   }
 }
+
 
 //Theme
 
@@ -28,6 +24,11 @@ function themeToggle() {
 
   document.getElementById("theme").textContent = localStorage.getItem("theme");
 }
+
+//Load Default Page
+$(function () {
+  $("#include-content").load("html/categories.html");
+});
 
 //Smart-animes (experimental)
 function aot() {
@@ -66,3 +67,9 @@ function pp() {
 function tg() {
   $("#include-content").load("html/xhtml/TokyoGhoul.xhtml");
 };
+
+//Loader
+window.addEventListener('load', function () {
+  var loader = document.getElementById('loader');
+  loader.style.display = 'none';
+});
