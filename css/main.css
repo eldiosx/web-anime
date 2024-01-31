@@ -62,7 +62,7 @@
   height: 300px;
   position: fixed;
   left: 5%;
-  background-image: url("../img/ads1.jpg");
+  background-image: url("../img/ads1.webp");
   text-decoration: none;
   z-index: 9000;
 }
@@ -75,7 +75,7 @@
   height: 300px;
   position: fixed;
   right: 5%;
-  background-image: url("../img/ads2.jpg");
+  background-image: url("../img/ads2.webp");
   text-decoration: none;
   z-index: 9000;
 }
