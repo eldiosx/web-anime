@@ -18,11 +18,11 @@
 </head>
 
 <body>
-	<h1>Bienvenido&nbsp;</h1><!--Un majo texto con &nbsp; para insertar un espacio de forma efectiva.-->
+	<h1>Welcome&nbsp;</h1><!--Un majo texto con &nbsp; para insertar un espacio de forma efectiva.-->
 	<form>
-		<label><b>Ingresa tu edad:</b></label>
+		<label><b>Your age:</b></label>
 		<input type="number" id="age" name="age">
-		<button type="submit" id="send">Enviar</button>
+		<button type="submit" id="send">Go!</button>
 	</form>
 	<script>
 		document.getElementById("send").addEventListener("click", function (event) {
@@ -31,7 +31,7 @@
 			var age = document.getElementById("age").value; // Obtenemos el valor del campo de entrada
 
 			if (age < 18) { // Validamos si el usuario es mayor de edad
-				alert("Lo siento, debes ser mayor de edad para ingresar."); // Mostramos un mensaje de alerta
+				alert("Sorry, too young."); // Mostramos un mensaje de alerta
 			} else {
 				window.location.href = "main.html"; // Redireccionamos al usuario a la página de mayores de edad
 			}

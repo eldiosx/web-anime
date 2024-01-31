@@ -40,10 +40,10 @@
         <xs:enumeration value="Shonen"/>
         <xs:enumeration value="Drama"/>
         <xs:enumeration value="Gore"/>
-        <xs:enumeration value="Distopía"/>
-        <xs:enumeration value="Histórico"/>
+        <xs:enumeration value="Distopic"/>
+        <xs:enumeration value="Historic"/>
         <xs:enumeration value="Futurista"/>
-        <xs:enumeration value="Acción"/>
+        <xs:enumeration value="Accion"/>
         <xs:enumeration value="Terror"/>
         <xs:enumeration value=""/>
       </xs:restriction>
@@ -56,10 +56,10 @@
         <xs:enumeration value="Shonen"/>
         <xs:enumeration value="Drama"/>
         <xs:enumeration value="Gore"/>
-        <xs:enumeration value="Distopía"/>
-        <xs:enumeration value="Histórico"/>
+        <xs:enumeration value="Distopic"/>
+        <xs:enumeration value="Historic"/>
         <xs:enumeration value="Futurista"/>
-        <xs:enumeration value="Acción"/>
+        <xs:enumeration value="Accion"/>
         <xs:enumeration value="Terror"/>
         <xs:enumeration value=""/>
       </xs:restriction>
@@ -72,10 +72,10 @@
         <xs:enumeration value="Shonen"/>
         <xs:enumeration value="Drama"/>
         <xs:enumeration value="Gore"/>
-        <xs:enumeration value="Distopía"/>
-        <xs:enumeration value="Histórico"/>
+        <xs:enumeration value="Distopic"/>
+        <xs:enumeration value="Historic"/>
         <xs:enumeration value="Futurista"/>
-        <xs:enumeration value="Acción"/>
+        <xs:enumeration value="Accion"/>
         <xs:enumeration value="Terror"/>
         <xs:enumeration value=""/>
       </xs:restriction>
@@ -88,10 +88,10 @@
         <xs:enumeration value="Shonen"/>
         <xs:enumeration value="Drama"/>
         <xs:enumeration value="Gore"/>
-        <xs:enumeration value="Distopía"/>
-        <xs:enumeration value="Histórico"/>
+        <xs:enumeration value="Distopic"/>
+        <xs:enumeration value="Historic"/>
         <xs:enumeration value="Futurista"/>
-        <xs:enumeration value="Acción"/>
+        <xs:enumeration value="Accion"/>
         <xs:enumeration value="Terror"/>
         <xs:enumeration value=""/>
       </xs:restriction>

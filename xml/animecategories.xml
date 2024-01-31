@@ -13,8 +13,8 @@
         <categories>
         <category1>Seinen</category1>
         <category2>Shonen</category2>
-        <category3>Distopía</category3>
-        <category4>Acción</category4>
+        <category3>Distopic</category3>
+        <category4>Accion</category4>
        </categories>
   </animes>
   <animes>
@@ -24,7 +24,7 @@
         <episodes>39</episodes>
         <categories>
         <category1>Seinen</category1>
-        <category2>Acción</category2>
+        <category2>Accion</category2>
         <category3>Terror</category3>
         <category4></category4>
         </categories>
@@ -36,8 +36,8 @@
         <episodes>167</episodes>
         <categories>
         <category1>Shonen</category1>
-        <category2>Histórico</category2>
-        <category3>Acción</category3>
+        <category2>Historic</category2>
+        <category3>Accion</category3>
         <category4></category4>
         </categories>
   </animes>
@@ -71,7 +71,7 @@
         <year>2012</year>
         <episodes>27</episodes>
         <categories>
-        <category1>Acción</category1>
+        <category1>Accion</category1>
         <category2>Shonen</category2>
         <category3></category3>
         <category4></category4>
@@ -96,8 +96,8 @@
         <episodes>62 chap+1 películas+2OVA</episodes>
         <categories>
         <category1>Seinen</category1>
-        <category2>Distopía</category2>
-        <category3>Acción</category3>
+        <category2>Distopic</category2>
+        <category3>Accion</category3>
         <category4>Futurista</category4>
        </categories>
   </animes>
@@ -108,7 +108,7 @@
         <episodes>24</episodes>
        <categories>
         <category1>Seinen</category1>
-        <category2>Distopía</category2>
+        <category2>Distopic</category2>
         <category3></category3>
         <category4></category4>
         </categories>
@@ -120,7 +120,7 @@
         <episodes>13</episodes>
         <categories>
         <category1>Seinen</category1>
-        <category2>Distopía</category2>
+        <category2>Distopic</category2>
         <category3>Drama</category3>
         <category4></category4>
         </categories>
@@ -132,7 +132,7 @@
         <episodes>12</episodes>
        <categories>
        <category1>Seinen</category1>
-        <category2>Distopía</category2>
+        <category2>Distopic</category2>
         <category3></category3>
         <category4></category4>
         </categories>
