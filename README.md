@@ -8,8 +8,13 @@
 
 ## Live demo: [Preview](https://eldiosx.github.io/web-anime/)
 
-Server built and tested in browsers based on Firefox. Any problem, please switch to said browser.
+Support:
 
-- [x] htaccess
-- [x] firefox based support
-- [ ] chromium based support
+- [x] firefox support
+- [X] chromium support
+
+Standars:
+
+Audio: .opus, .ogg
+Image: .webp .gif
+Video: .webm
