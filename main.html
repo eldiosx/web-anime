@@ -10,7 +10,7 @@
   <!--STYLE-->
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <link rel="stylesheet" href="css/icons.css">
-  <link rel="icon" type="image/logo" href="img/icons/icon.svg">
+  <link rel="icon" type="image/logo" href="img/icon.webp">
   <!--SCRIPTS-->
   <script src="js/jquery-3.6.3.js"></script>
   <script src="js/smart.js"></script>
@@ -36,33 +36,33 @@
     <header class="main-header" id="main-header">
       <!--Header mobile-->
       <nav class="main-nav" id="main-nav">
-        <a href=""><img class="logomobile" src="img/logos/logo.webp" alt="home"></a>
+        <a href=""><img class="logomobile" src="img/icon.webp" alt="home"></a>
         <form action="xml/animes.xsd">
           <button class="searchbtn" type="submit">&nbsp;<span class="icon-search"></span>&nbsp;</button>
         </form>
         <!--Header normal-->
         <ul class="mobile">
-          <li class="logo"><a href=""><img class="logoimg" src="img/logos/logo.webp" alt="home"></a></li>
+          <li class="logo"><a href=""><img class="logoimg" src="img/icon.webp" alt="home"></a></li>
           <li class="dropdown">Animes
             <ul class="dropdown-menu">
-              <li class="firstItem"><a href="">Inicio</a></li>
+              <li class="firstItem"><a href="">Home</a></li>
               <li><a href="xml/animes.xml">Populares</a></li>
               <li><a href="xml/animecategories.xml">Reciente</a></li>
               <li><a href="xml/animecategories.xml">En cartera</a></li>
               <li class="lastItem"><a href="xml/animes.xml">Mejor valorados</a></li>
             </ul>
           </li>
-          <li class="dropdown" href="#news">Noticias
+          <li class="dropdown" href="#news">News
             <ul class="dropdown-menu">
-              <li class="firstItem"><a href="xml/animes.xml">Novedades</a></li>
+              <li class="firstItem"><a href="xml/animes.xml">Last news</a></li>
               <li><a href="xml/animes.xml">Destacadas</a></li>
-              <li class="lastItem"><a href="xml/animes.xml">Otras</a></li>
+              <li class="lastItem"><a href="xml/animes.xml">Others</a></li>
             </ul>
           </li>
-          <li class="dropdown" href="#comunity">Comunidad
+          <li class="dropdown" href="#comunity">Community
             <ul class="dropdown-menu">
-              <li class="firstItem"><a href="xml/animes.xml">Foro</a></li>
-              <li class="lastItem"><a href="xml/animes.xml">Cuenta</a></li>
+              <li class="firstItem"><a href="xml/animes.xml">Forum</a></li>
+              <li class="lastItem"><a href="xml/animes.xml">Account</a></li>
             </ul>
           </li>
           <!--Xml search-->
@@ -72,7 +72,7 @@
               <button class="searchbtn-big" type="submit">&nbsp;<span class="icon-search"></span>&nbsp;</button>
             </form>
           </li>
-          <li class="dropdown"><a href="#about">Ayuda</a></li>
+          <li class="dropdown"><a href="#about">Help</a></li>
           <li class="theme" id="switch" onclick="themeToggle()"><span class="icon-paint-format"></span></li>
           <li href="javascript:void(0);" class="menubtn" onclick="mainmenu()">&nbsp;<span
               class="icon-menu"></span>&nbsp;</li>
@@ -86,7 +86,7 @@
     <img class="cat" src="./img/babycat.webp" alt="">
     <img class="cutegirl" src="./img/cutegirl.gif" alt="">
     <a class="ad1"
-      href="https://www.amazon.com/Slap-Chop-Stainless-Vegetable-Accessory/dp/B01FFYKQ5Y/ref=sr_1_7?keywords=slap+shop&qid=1675726587&sr=8-7">&nbsp;
+      href="https://duckduckgo.com/?q=slap+shop+commercial&t=ffab&ia=web">&nbsp;
       <div class="ad1">
       </div>
     </a>
@@ -109,24 +109,20 @@
         <div class="footer-content-column">
           <div class="footer-logo">
             <a class="footer-logo-link" href="#">
-              <span class="hidden-link-text">LOGO</span>
-              <img src="img/logos/logo.webp" alt="">
+              <img src="img/icon.webp" alt="LOGO">
             </a>
           </div>
         </div>
         <!--Info-->
         <div class="footer-content-column">
           <div class="footer-menu">
-            <h2 class="footer-menu-title">Compañia</h2>
+            <h2 class="footer-menu-title">Company</h2>
             <ul id="menu-company" class="footer-menu-list">
-              <li class="menu-anime menu-anime-type-post_type menu-anime-object-page">
-                <a href="#">Contactar</a>
-              </li>
               <li class="menu-anime menu-anime-type-taxonomy menu-anime-object-category">
-                <a href="#">Noticias</a>
+                <a href="#">News</a>
               </li>
               <li class="menu-anime menu-anime-type-post_type menu-anime-object-page">
-                <a href="#">Información</a>
+                <a href="#">Information</a>
               </li>
             </ul>
           </div>
@@ -136,10 +132,10 @@
             <ul id="menu-legal" class="footer-menu-list">
               <li
                 class="menu-anime menu-anime-type-post_type menu-anime-object-page menu-anime-privacy-policy menu-anime-170434">
-                <a href="#">Privacidad</a>
+                <a href="#">Privacity</a>
               </li>
               <li class="menu-anime menu-anime-type-post_type menu-anime-object-page">
-                <a href="#">Terminos de uso</a>
+                <a href="#">Policy</a>
               </li>
             </ul>
           </div>
@@ -147,28 +143,22 @@
         <!--More-->
         <div class="footer-content-column">
           <div class="footer-menu">
-            <h2 class="footer-menu-title">Enlaces de interes</h2>
+            <h2 class="footer-menu-title">More info</h2>
             <ul id="menu-quick-links" class="footer-menu-list">
               <li class="menu-anime menu-anime-type-custom menu-anime-object-custom">
-                <a target="_blank" rel="noopener noreferrer" href="#">Estado del servidor</a>
-              </li>
-              <li class="menu-anime menu-anime-type-custom menu-anime-object-custom">
-                <a target="_blank" rel="noopener noreferrer" href="#">Sede central</a>
+                <a target="_blank" rel="noopener noreferrer" href="#">Server Status</a>
               </li>
               <li class="menu-anime menu-anime-type-post_type menu-anime-object-page">
-                <a href="#">Seguridad</a>
+                <a href="#">Security</a>
               </li>
               <li class="menu-anime menu-anime-type-post_type menu-anime-object-page">
                 <a href="#">Blog</a>
               </li>
               <li class="menu-anime menu-anime-type-post_type_archive menu-anime-object-customer">
-                <a href="#">Clientes</a>
+                <a href="#">Customer</a>
               </li>
               <li class="menu-anime menu-anime-type-post_type menu-anime-object-page">
                 <a href="#">Reviews</a>
-              </li>
-              <li class="menu-anime menu-anime-type-post_type menu-anime-object-page">
-                <a href="#">David &amp; Adrian</a>
               </li>
             </ul>
           </div>
@@ -176,12 +166,12 @@
         <!--Support-->
         <div class="footer-content-column">
           <div class="footer-call-to-action">
-            <h2 class="footer-call-to-action-title"> Soporte</h2>
-            <p class="footer-call-to-action-description"> ¿Necesitas ayuda?</p>
-            <a class="footer-call-to-action-button button" href="#" target="_self"> Enviar un correo </a>
+            <h2 class="footer-call-to-action-title"> Support</h2>
+            <p class="footer-call-to-action-description"> Need help?</p>
+            <a class="footer-call-to-action-button button" href="#" target="_self"> Send email </a>
           </div>
           <div class="footer-call-to-action">
-            <h2 class="footer-call-to-action-title"> o Llamanos al</h2>
+            <h2 class="footer-call-to-action-title"> or call at:</h2>
             <p class="footer-call-to-action-link-wrapper"> <a class="footer-call-to-action-link" href="tel:0124-64XXXX"
                 target="_self">+34&nbsp;666&nbsp;666&nbsp;666</a></p>
           </div>
@@ -214,8 +204,8 @@
       <div class="footer-copyright">
         <div class="footer-copyright-wrapper">
           <p class="footer-copyright-text">
-            <a class="footer-copyright-link" href="#" target="_self">Diseñado por: Aida &amp; Daniel | All rights
-              reserved ©2023</a>
+            <a class="footer-copyright-link" href="#" target="_self">Develop by: Aida &amp; Daniel | All rights
+              reserved ©2024</a>
           </p>
         </div>
       </div>
