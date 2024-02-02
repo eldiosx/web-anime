@@ -30,7 +30,7 @@ td {
   border: #222831 5px solid;
   border-radius: 10px;
   float: left;
-  background-color: #222831;
+  background-color: var(--background);
   width: 200px;
   height: 150px;
   line-height: 200px;
@@ -38,7 +38,7 @@ td {
   margin: 9px;
   display: none;
   transition: all 0.3s, background-position 1ms;
-  
+
 }
 
 .filterDiv:hover {
@@ -66,7 +66,7 @@ td {
   max-width: 100px;
   list-style-type: none;
   padding: 20px 10px 20px 10px;
-  background-color: #222831;
+  background-color: var(--background);
   border-radius: 5px;
   transition: background-color 0.5s;
 }

@@ -48,7 +48,7 @@
 
 .btn-download {
     font-size: 0.8em;
-    color: #fff;
+    color: var(--text);
     width: 90%;
     line-height: 1.15;
     font-weight: 700;
@@ -94,7 +94,7 @@
     transform: translateZ(-110px) rotateY(270deg);
     transform-origin: center left;
     font-size: 0.85em;
-    color: #fff;
+    color: var(--text);
     padding: 1.1em 1em 0;
     background: #000000;
 }
