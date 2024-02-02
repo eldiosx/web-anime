@@ -40,43 +40,35 @@
 
       </div>
     </div>
-    <button id="btn-knowmore">Saber más</button>
-    <div id="text-knowmore" style="display: none;">
-      En sus aventuras se encuentra con nuevos amigos, enemigos y su propio discípulo, el poderoso cíborg Genos, y
-      se
-      une a la Asociación de Héroes para ganar fama por todas
-      sus acciones y para prevenir el mal. A pesar de derrotar a muchos más enemigos poderosos que los principales
-      héroes, incluso los de la Asociación de Héroes, Saitama es
-      incapaz de conseguir el reconocimiento de sus acciones en general. La mayoría de la gente lo discrimina por
-      su
-      apariencia física normal y algunos lo acusan de ser un
-      héroe falso; así mismo los guerreros más fuertes lo discriminan basados en la falta de reconocimientos por
-      la
-      asociación de héroes sin tener idea que es más fuerte que todos.
-      Solo un pequeño número de individuos conocen su increíble talento y humildad hacia los demás.
-    </div>
-    </p>
-    <br>
-    <h3>TRAILER</h3>
-    <br>
-    <iframe class="trailer" src="https://www.youtube-nocookie.com/embed/gkpOGxJ1BUs?controls=0" title="Trailer"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen></iframe>
+    <!--Knowmore-->
+    <details>
+      <summary class="btn-knowmore">
+        <h3>Know more</h3>
+      </summary>
+      <div class="text-knowmore">
+        En sus aventuras se encuentra con nuevos amigos, enemigos y su propio discípulo, el poderoso cíborg Genos, y
+        se
+        une a la Asociación de Héroes para ganar fama por todas
+        sus acciones y para prevenir el mal. A pesar de derrotar a muchos más enemigos poderosos que los principales
+        héroes, incluso los de la Asociación de Héroes, Saitama es
+        incapaz de conseguir el reconocimiento de sus acciones en general. La mayoría de la gente lo discrimina por
+        su
+        apariencia física normal y algunos lo acusan de ser un
+        héroe falso; así mismo los guerreros más fuertes lo discriminan basados en la falta de reconocimientos por
+        la
+        asociación de héroes sin tener idea que es más fuerte que todos.
+        Solo un pequeño número de individuos conocen su increíble talento y humildad hacia los demás.
+      </div>
+      </p>
+      <br>
+      <h3>TRAILER</h3>
+      <br>
+      <iframe class="trailer" src="https://www.youtube-nocookie.com/embed/gkpOGxJ1BUs?controls=0" title="Trailer"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
   </div>
+  </details>
 </body>
-<script>
-  const btnSaberMas = document.getElementById("btn-knowmore");
-  const textoAdicional = document.getElementById("text-knowmore");
 
-  btnSaberMas.addEventListener("click", function () {
-    if (textoAdicional.style.display === "none") {
-      textoAdicional.style.display = "block";
-      btnSaberMas.innerHTML = "Ocultar";
-    } else {
-      textoAdicional.style.display = "none";
-      btnSaberMas.innerHTML = "Saber más";
-    }
-  });
-</script>
 
 </html>

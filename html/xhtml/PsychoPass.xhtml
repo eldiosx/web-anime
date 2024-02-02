@@ -48,39 +48,31 @@
 
       </div>
     </div>
-    <button id="btn-knowmore">Saber más</button>
-    <div id="text-knowmore" style="display: none;">
-      La historia sigue a una Unidad de la División de la Oficina de Seguridad Pública e Investigación Criminal,
-      el
-      equivalente a la policía del tiempo actual,
-      directamente responsable y administradora del trabajo de Inspectores y Ejecutores.
+    <!--Knowmore-->
+    <details>
+      <summary class="btn-knowmore">
+        <h3>Know more</h3>
+      </summary>
+      <div class="text-knowmore">
+        La historia sigue a una Unidad de la División de la Oficina de Seguridad Pública e Investigación Criminal,
+        el
+        equivalente a la policía del tiempo actual,
+        directamente responsable y administradora del trabajo de Inspectores y Ejecutores.
+        <br>
+        En Psycho-Pass se da a tratar el tema filosófico muy a menudo, desde la perspectiva del principal
+        antagonista
+        como desde el mismo sistema que rige la sociedad.
+      </div>
+      </p>
       <br>
-      En Psycho-Pass se da a tratar el tema filosófico muy a menudo, desde la perspectiva del principal
-      antagonista
-      como desde el mismo sistema que rige la sociedad.
-    </div>
-    </p>
-    <br>
-    <h3>TRAILER</h3>
-    <br>
-    <iframe class="trailer" src="https://www.youtube-nocookie.com/embed/YzuJnyebc40?controls=0" title="Trailer"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen></iframe>
+      <h3>TRAILER</h3>
+      <br>
+      <iframe class="trailer" src="https://www.youtube-nocookie.com/embed/YzuJnyebc40?controls=0" title="Trailer"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
   </div>
+  </details>
 </body>
-<script>
-  const btnSaberMas = document.getElementById("btn-knowmore");
-  const textoAdicional = document.getElementById("text-knowmore");
 
-  btnSaberMas.addEventListener("click", function () {
-    if (textoAdicional.style.display === "none") {
-      textoAdicional.style.display = "block";
-      btnSaberMas.innerHTML = "Ocultar";
-    } else {
-      textoAdicional.style.display = "none";
-      btnSaberMas.innerHTML = "Saber más";
-    }
-  });
-</script>
 
 </html>

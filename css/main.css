@@ -662,7 +662,7 @@ body {
   text-decoration: none;
 }
 
-#btn-knowmore {
+.btn-knowmore {
   background-color: #b55400;
   margin-bottom: 10px;
   color: #fff;
@@ -672,7 +672,7 @@ body {
   cursor: pointer;
 }
 
-#text-knowmore {
+.text-knowmore {
   margin-top: 10px;
   margin-bottom: 20px;
   padding: 10px;

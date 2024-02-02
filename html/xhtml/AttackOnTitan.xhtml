@@ -35,41 +35,32 @@
 
       </div>
     </div>
-    <!-- LEER MÁS-->
-    <button id="btn-knowmore">Saber más</button>
-    <div id="text-knowmore" style="display: none;">
-      <p>No obstante, hay una antigua conspiración detrás del origen de los muros y los Titanes, así como oscuros
-        secretos
-        que podrían cambiarlo todo. Aclamada por su historia,
-        animación y elenco, Attack on Titan es considerada como una de las mejores series de anime de la década.</p>
-      <p>No obstante, no podemos dejar de mencionar el nivel de
-        violencia que caracteriza la serie, donde cualquier personaje puede morir repentina y brutalmente. Es por eso
-        que
-        también se consolida como uno de los mejores anime seinen.</p>
-    </div>
+    <!--Knowmore-->
+    <details>
+      <summary class="btn-knowmore">
+        <h3>Know more</h3>
+      </summary>
+      <div class="text-knowmore">
+        <p>No obstante, hay una antigua conspiración detrás del origen de los muros y los Titanes, así como oscuros
+          secretos
+          que podrían cambiarlo todo. Aclamada por su historia,
+          animación y elenco, Attack on Titan es considerada como una de las mejores series de anime de la década.</p>
+        <p>No obstante, no podemos dejar de mencionar el nivel de
+          violencia que caracteriza la serie, donde cualquier personaje puede morir repentina y brutalmente. Es por eso
+          que
+          también se consolida como uno de los mejores anime seinen.</p>
+      </div>
 
-    </p>
-    <br>
+      </p>
+      <br>
 
-    <h3>TRAILER</h3>
-    <iframe class="trailer" src="https://www.youtube-nocookie.com/embed/FRn6xXXF-7s?controls=0" title="Trailer"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      allowfullscreen></iframe>
+      <h3>TRAILER</h3>
+      <iframe class="trailer" src="https://www.youtube-nocookie.com/embed/FRn6xXXF-7s?controls=0" title="Trailer"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
   </div>
-</body>
-<script>
-  const btnSaberMas = document.getElementById("btn-knowmore");
-  const textoAdicional = document.getElementById("text-knowmore");
+  </details>
 
-  btnSaberMas.addEventListener("click", function () {
-    if (textoAdicional.style.display === "none") {
-      textoAdicional.style.display = "block";
-      btnSaberMas.innerHTML = "Ocultar";
-    } else {
-      textoAdicional.style.display = "none";
-      btnSaberMas.innerHTML = "Saber más";
-    }
-  });
-</script>
+</body>
 
 </html>
